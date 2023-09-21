@@ -1,85 +1,85 @@
-state,party,election,seats
-Johor,Barisan Nasional (BN),GE14,8
-Johor,Pakatan Harapan (PH),GE14,18
-Johor,Perikatan Nasional (PN),GE14,0
-Kedah,Barisan Nasional (BN),GE14,2
-Kedah,Pakatan Harapan (PH),GE14,10
-Kedah,Perikatan Nasional (PN),GE14,3
-Kelantan,Barisan Nasional (BN),GE14,5
-Kelantan,Pakatan Harapan (PH),GE14,0
-Kelantan,Perikatan Nasional (PN),GE14,9
-Melaka,Barisan Nasional (BN),GE14,2
-Melaka,Pakatan Harapan (PH),GE14,4
-Melaka,Perikatan Nasional (PN),GE14,0
-Negeri Sembilan,Barisan Nasional (BN),GE14,3
-Negeri Sembilan,Pakatan Harapan (PH),GE14,5
-Negeri Sembilan,Perikatan Nasional (PN),GE14,0
-Pahang,Barisan Nasional (BN),GE14,9
-Pahang,Pakatan Harapan (PH),GE14,5
-Pahang,Perikatan Nasional (PN),GE14,0
-Perak,Barisan Nasional (BN),GE14,11
-Perak,Pakatan Harapan (PH),GE14,13
-Perak,Perikatan Nasional (PN),GE14,0
-Perlis,Barisan Nasional (BN),GE14,2
-Perlis,Pakatan Harapan (PH),GE14,1
-Perlis,Perikatan Nasional (PN),GE14,0
-Pulau Pinang,Barisan Nasional (BN),GE14,2
-Pulau Pinang,Pakatan Harapan (PH),GE14,11
-Pulau Pinang,Perikatan Nasional (PN),GE14,0
-Sabah,Barisan Nasional (BN),GE14,10
-Sabah,Pakatan Harapan (PH),GE14,6
-Sabah,Perikatan Nasional (PN),GE14,0
-Sarawak,Barisan Nasional (BN),GE14,19
-Sarawak,Pakatan Harapan (PH),GE14,10
-Sarawak,Perikatan Nasional (PN),GE14,0
-Selangor,Barisan Nasional (BN),GE14,2
-Selangor,Pakatan Harapan (PH),GE14,20
-Selangor,Perikatan Nasional (PN),GE14,0
-Terengganu,Barisan Nasional (BN),GE14,2
-Terengganu,Pakatan Harapan (PH),GE14,0
-Terengganu,Perikatan Nasional (PN),GE14,6
-Wilayah Persekutuan,Barisan Nasional (BN),GE14,2
-Wilayah Persekutuan,Pakatan Harapan (PH),GE14,10
-Wilayah Persekutuan,Perikatan Nasional (PN),GE14,0
-Johor,Barisan Nasional (BN),GE15,9
-Johor,Pakatan Harapan (PH),GE15,15
-Johor,Perikatan Nasional (PN),GE15,2
-Kedah,Barisan Nasional (BN),GE15,0
-Kedah,Pakatan Harapan (PH),GE15,1
-Kedah,Perikatan Nasional (PN),GE15,14
-Kelantan,Barisan Nasional (BN),GE15,0
-Kelantan,Pakatan Harapan (PH),GE15,0
-Kelantan,Perikatan Nasional (PN),GE15,14
-Melaka,Barisan Nasional (BN),GE15,0
-Melaka,Pakatan Harapan (PH),GE15,3
-Melaka,Perikatan Nasional (PN),GE15,3
-Negeri Sembilan,Barisan Nasional (BN),GE15,5
-Negeri Sembilan,Pakatan Harapan (PH),GE15,3
-Negeri Sembilan,Perikatan Nasional (PN),GE15,0
-Pahang,Barisan Nasional (BN),GE15,5
-Pahang,Pakatan Harapan (PH),GE15,2
-Pahang,Perikatan Nasional (PN),GE15,7
-Perak,Barisan Nasional (BN),GE15,3
-Perak,Pakatan Harapan (PH),GE15,11
-Perak,Perikatan Nasional (PN),GE15,10
-Perlis,Barisan Nasional (BN),GE15,0
-Perlis,Pakatan Harapan (PH),GE15,0
-Perlis,Perikatan Nasional (PN),GE15,3
-Pulau Pinang,Barisan Nasional (BN),GE15,0
-Pulau Pinang,Pakatan Harapan (PH),GE15,10
-Pulau Pinang,Perikatan Nasional (PN),GE15,3
-Sabah,Barisan Nasional (BN),GE15,7
-Sabah,Pakatan Harapan (PH),GE15,5
-Sabah,Perikatan Nasional (PN),GE15,1
-Sarawak,Barisan Nasional (BN),GE15,0
-Sarawak,Pakatan Harapan (PH),GE15,6
-Sarawak,Perikatan Nasional (PN),GE15,1
-Selangor,Barisan Nasional (BN),GE15,0
-Selangor,Pakatan Harapan (PH),GE15,16
-Selangor,Perikatan Nasional (PN),GE15,6
-Terengganu,Barisan Nasional (BN),GE15,0
-Terengganu,Pakatan Harapan (PH),GE15,0
-Terengganu,Perikatan Nasional (PN),GE15,8
-Wilayah Persekutuan,Barisan Nasional (BN),GE15,1
-Wilayah Persekutuan,Pakatan Harapan (PH),GE15,10
-Wilayah Persekutuan,Perikatan Nasional (PN),GE15,2
+seats,state,election,party
+8,Johor,GE14,Barisan Nasional (BN)
+18,Johor,GE14,Pakatan Harapan (PH)
+0,Johor,GE14,Perikatan Nasional (PN)
+2,Kedah,GE14,Barisan Nasional (BN)
+10,Kedah,GE14,Pakatan Harapan (PH)
+3,Kedah,GE14,Perikatan Nasional (PN)
+5,Kelantan,GE14,Barisan Nasional (BN)
+0,Kelantan,GE14,Pakatan Harapan (PH)
+9,Kelantan,GE14,Perikatan Nasional (PN)
+2,Melaka,GE14,Barisan Nasional (BN)
+4,Melaka,GE14,Pakatan Harapan (PH)
+0,Melaka,GE14,Perikatan Nasional (PN)
+3,Negeri Sembilan,GE14,Barisan Nasional (BN)
+5,Negeri Sembilan,GE14,Pakatan Harapan (PH)
+0,Negeri Sembilan,GE14,Perikatan Nasional (PN)
+9,Pahang,GE14,Barisan Nasional (BN)
+5,Pahang,GE14,Pakatan Harapan (PH)
+0,Pahang,GE14,Perikatan Nasional (PN)
+11,Perak,GE14,Barisan Nasional (BN)
+13,Perak,GE14,Pakatan Harapan (PH)
+0,Perak,GE14,Perikatan Nasional (PN)
+2,Perlis,GE14,Barisan Nasional (BN)
+1,Perlis,GE14,Pakatan Harapan (PH)
+0,Perlis,GE14,Perikatan Nasional (PN)
+2,Pulau Pinang,GE14,Barisan Nasional (BN)
+11,Pulau Pinang,GE14,Pakatan Harapan (PH)
+0,Pulau Pinang,GE14,Perikatan Nasional (PN)
+10,Sabah,GE14,Barisan Nasional (BN)
+6,Sabah,GE14,Pakatan Harapan (PH)
+0,Sabah,GE14,Perikatan Nasional (PN)
+19,Sarawak,GE14,Barisan Nasional (BN)
+10,Sarawak,GE14,Pakatan Harapan (PH)
+0,Sarawak,GE14,Perikatan Nasional (PN)
+2,Selangor,GE14,Barisan Nasional (BN)
+20,Selangor,GE14,Pakatan Harapan (PH)
+0,Selangor,GE14,Perikatan Nasional (PN)
+2,Terengganu,GE14,Barisan Nasional (BN)
+0,Terengganu,GE14,Pakatan Harapan (PH)
+6,Terengganu,GE14,Perikatan Nasional (PN)
+2,Wilayah Persekutuan,GE14,Barisan Nasional (BN)
+10,Wilayah Persekutuan,GE14,Pakatan Harapan (PH)
+0,Wilayah Persekutuan,GE14,Perikatan Nasional (PN)
+9,Johor,GE15,Barisan Nasional (BN)
+15,Johor,GE15,Pakatan Harapan (PH)
+2,Johor,GE15,Perikatan Nasional (PN)
+0,Kedah,GE15,Barisan Nasional (BN)
+1,Kedah,GE15,Pakatan Harapan (PH)
+14,Kedah,GE15,Perikatan Nasional (PN)
+0,Kelantan,GE15,Barisan Nasional (BN)
+0,Kelantan,GE15,Pakatan Harapan (PH)
+14,Kelantan,GE15,Perikatan Nasional (PN)
+0,Melaka,GE15,Barisan Nasional (BN)
+3,Melaka,GE15,Pakatan Harapan (PH)
+3,Melaka,GE15,Perikatan Nasional (PN)
+5,Negeri Sembilan,GE15,Barisan Nasional (BN)
+3,Negeri Sembilan,GE15,Pakatan Harapan (PH)
+0,Negeri Sembilan,GE15,Perikatan Nasional (PN)
+5,Pahang,GE15,Barisan Nasional (BN)
+2,Pahang,GE15,Pakatan Harapan (PH)
+7,Pahang,GE15,Perikatan Nasional (PN)
+3,Perak,GE15,Barisan Nasional (BN)
+11,Perak,GE15,Pakatan Harapan (PH)
+10,Perak,GE15,Perikatan Nasional (PN)
+0,Perlis,GE15,Barisan Nasional (BN)
+0,Perlis,GE15,Pakatan Harapan (PH)
+3,Perlis,GE15,Perikatan Nasional (PN)
+0,Pulau Pinang,GE15,Barisan Nasional (BN)
+10,Pulau Pinang,GE15,Pakatan Harapan (PH)
+3,Pulau Pinang,GE15,Perikatan Nasional (PN)
+7,Sabah,GE15,Barisan Nasional (BN)
+5,Sabah,GE15,Pakatan Harapan (PH)
+1,Sabah,GE15,Perikatan Nasional (PN)
+0,Sarawak,GE15,Barisan Nasional (BN)
+6,Sarawak,GE15,Pakatan Harapan (PH)
+1,Sarawak,GE15,Perikatan Nasional (PN)
+0,Selangor,GE15,Barisan Nasional (BN)
+16,Selangor,GE15,Pakatan Harapan (PH)
+6,Selangor,GE15,Perikatan Nasional (PN)
+0,Terengganu,GE15,Barisan Nasional (BN)
+0,Terengganu,GE15,Pakatan Harapan (PH)
+8,Terengganu,GE15,Perikatan Nasional (PN)
+1,Wilayah Persekutuan,GE15,Barisan Nasional (BN)
+10,Wilayah Persekutuan,GE15,Pakatan Harapan (PH)
+2,Wilayah Persekutuan,GE15,Perikatan Nasional (PN)
