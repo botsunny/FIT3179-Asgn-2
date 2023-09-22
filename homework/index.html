@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+</head>
+
+<body>
+  <h1>15th Malaysian General Election</h1>
+  <div id="map" class="vis-container"></div>
+  <button id="change-win-map">Winning candidates</button>
+  <button id="change-demog-map">Constituency demographics</button>
+  <button id="change-turnout-map">Turnout</button>
+
+
+<script type="text/javascript">
+  var spec1 = "js/map_win.vg.json";
+  var spec2 = "js/map_demog.vg.json";
+  var spec3 = "js/map_turnout.vg.json";
+
+  let currentMap = null; // To keep track of the current map
+
+  // Function to embed the selected map
+  function embedMap(spec) {
+      if (currentMap !== spec) {
+          vegaEmbed("#map", spec).then(() => {
+              currentMap = spec;
+          }).catch(console.error);
+      }
+}
+
+  embedMap(spec1);
+
+  const button1 = document.getElementById("change-win-map");
+  const button2 = document.getElementById("change-demog-map");
+  const button3 = document.getElementById("change-turnout-map");
+
+  button1.addEventListener("click", () => {
+    embedMap(spec1);
+  });
+  button2.addEventListener("click", () => {
+    embedMap(spec2);
+  });
+  button3.addEventListener("click", () => {
+    embedMap(spec3);
+  });
+
+
+  // vegaEmbed('#map', spec1, { "actions": false }).then(function (result) {
+  //   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  // }).catch(console.error);
+</script>
+</body>
+
+</html>

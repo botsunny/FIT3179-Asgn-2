@@ -1,0 +1,93 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Map of population demographics in each constituency",
+    "fontSize": 26,
+    "align": "left",
+    "anchor": "start"
+  },
+  "width": 1600,
+  "height": 900,
+  "projection": {
+    "type": "albers",
+    "rotate": [-105, 0, 0],
+    "center": [102, 4.5],
+    "parallels": [5, 20]
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/parlimen.json",
+    "format": {"type": "topojson", "feature": "parlimen"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.parlimen",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
+        },
+        "key": "parlimen",
+        "fields": ["state", "population_total", "ethnicity_proportion_bumi",
+                   "ethnicity_proportion_chinese", "ethnicity_proportion_indian",
+                   "ethnicity_proportion_other"]
+      }
+    }
+  ],
+  "params": [
+    {
+      "name": "highlight",
+      "select": {"type": "point", "on": "mouseover"}
+    },
+    {"name": "select", "select": "point"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": { 
+      "field": "population_total",
+      "type": "quantitative",
+      "legend": {"title": "Population"},
+      "scale": {
+        "scheme": "magma",
+        "reverse": true
+      }
+    },
+    "tooltip": [
+      {"field": "properties.parlimen", "type": "nominal", "title": "Constituency"},
+      {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "population_total", "type": "quantitative", "title": "Total population", "format": ",.0f"},
+      {"field": "ethnicity_proportion_bumi", "type": "quantitative", "title": "Proportion of Bumiputera (%)", "format": ".2f"},
+      {"field": "ethnicity_proportion_chinese", "type": "quantitative", "title": "Proportion of Chinese (%)", "format": ".2f"},
+      {"field": "ethnicity_proportion_indian", "type": "quantitative", "title": "Proportion of Indians (%)", "format": ".2f"},
+      {"field": "ethnicity_proportion_other", "type": "quantitative", "title": "Proportion of others (%)", "format": ".2f"}
+    ],
+    "fillOpacity": {
+      "condition": {"param": "select", "value": 1},
+      "value": 0.3
+    },
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "select",
+          "empty": false,
+          "value": 7
+        },
+        {
+          "param": "highlight",
+          "empty": false,
+          "value": 7
+        }
+      ],
+      "value": 2
+    }
+  },
+  "config": {
+    "scale": {
+      "bandPaddingInner": 0.2
+    },
+    "legend": {
+      "titleFontSize": 16,
+      "labelFontSize": 14,
+      "orient": "right",
+      "labelLimit": 500
+    }
+  }
+}

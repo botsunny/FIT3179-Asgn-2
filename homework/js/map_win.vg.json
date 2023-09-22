@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Map of winning candidates in each constituency",
+    "fontSize": 26,
+    "align": "left",
+    "anchor": "start"
+  },
+  "width": 1600,
+  "height": 900,
+  "projection": {
+    "type": "albers",
+    "rotate": [-105, 0, 0],
+    "center": [102, 4.5],
+    "parallels": [5, 20]
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/parlimen.json",
+    "format": {"type": "topojson", "feature": "parlimen"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.parlimen",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
+        },
+        "key": "parlimen",
+        "fields": ["name", "party", "votes", "state", "majoriti"]
+      }
+    }
+  ],
+  "params": [
+    {
+      "name": "highlight",
+      "select": {"type": "point", "on": "mouseover"}
+    },
+    {"name": "select", "select": "point"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": { 
+      "field": "party",
+      "type": "nominal",
+      "legend": {"title": "Party/Coalition"},
+      "scale": {
+        "domain": [
+          "Barisan Nasional (BN)",
+          "Pakatan Harapan (PH)",
+          "Democratic Action Party (DAP)",
+          "Malaysian United Democratic Alliance (MUDA)",
+          "Perikatan Nasional (PN)",
+          "Parti Islam Se-Malaysia (PAS)",
+          "Gabungan Parti Sarawak (GPS)",
+          "Gabungan Rakyat Sabah (GRS)",
+          "Parti Warisan (WARISAN)",
+          "Parti Kesejahteraan Demokratik Masyarakat (KDM)",
+          "Parti Bangsa Malaysia (PBM)",
+          "Independent (BEBAS)"
+        ],
+        "range": [
+          "#000080",
+          "#d7282f",
+          "#ed1c24",
+          "#000000",
+          "#003152",
+          "#009000",
+          "#ff6060",
+          "#4682b4",
+          "#a4e5fc",
+          "#f6787f",
+          "#6129aa",
+          "#d0d0d0"
+        ]
+      }
+    },
+    "tooltip": [
+      {"field": "properties.parlimen", "type": "nominal", "title": "Constituency"},
+      {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "name", "type": "nominal", "title": "Winning candidate"},
+      {"field": "party", "type": "nominal", "title": "Party/Coalition"},
+      {"field": "votes", "type": "quantitative", "title": "Votes", "format": ",.0f"},
+      {"field": "majoriti", "type": "quantitative", "title": "Winning majority", "format": ",.0f"}
+    ],
+    "fillOpacity": {
+      "condition": {"param": "select", "value": 1},
+      "value": 0.3
+    },
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "select",
+          "empty": false,
+          "value": 7
+        },
+        {
+          "param": "highlight",
+          "empty": false,
+          "value": 7
+        }
+      ],
+      "value": 2
+    }
+  },
+  "config": {
+    "scale": {
+      "bandPaddingInner": 0.2
+    },
+    "legend": {
+      "titleFontSize": 16,
+      "labelFontSize": 14,
+      "orient": "right",
+      "labelLimit": 500
+    }
+  }
+}
