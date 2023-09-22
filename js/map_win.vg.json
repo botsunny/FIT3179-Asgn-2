@@ -1,9 +1,19 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "15th Malaysian General Election",
-  "width": 1000,
-  "height": 600,
-  "projection": {"type": "equalEarth"},
+  "title": {
+    "text": "Map of winning candidates in each constituency",
+    "fontSize": 26,
+    "align": "left",
+    "anchor": "start"
+  },
+  "width": 1600,
+  "height": 900,
+  "projection": {
+    "type": "albers",
+    "rotate": [-105, 0, 0],
+    "center": [102, 4.5],
+    "parallels": [5, 20]
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/parlimen.json",
     "format": {"type": "topojson", "feature": "parlimen"}
@@ -16,8 +26,7 @@
           "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
         },
         "key": "parlimen",
-        "fields": ["name", "party", "votes", "state", "undi_keluar_peti",
-                   "majoriti", "pengundi_jumlah", "peratus_keluar"]
+        "fields": ["name", "party", "votes", "state", "majoriti"]
       }
     }
   ],
@@ -33,6 +42,7 @@
     "color": { 
       "field": "party",
       "type": "nominal",
+      "legend": {"title": "Party/Coalition"},
       "scale": {
         "domain": [
           "Barisan Nasional (BN)",
@@ -69,11 +79,8 @@
       {"field": "state", "type": "nominal", "title": "State"},
       {"field": "name", "type": "nominal", "title": "Winning candidate"},
       {"field": "party", "type": "nominal", "title": "Party/Coalition"},
-      {"field": "votes", "type": "quantitative", "title": "Votes"},
-      {"field": "majoriti", "type": "quantitative", "title": "Winning majority"},
-      {"field": "undi_keluar_peti", "type": "quantitative", "title": "Total votes"},
-      {"field": "pengundi_jumlah", "type": "quantitative", "title": "Total registered voters"},
-      {"field": "peratus_keluar", "type": "quantitative", "title": "Turnout (%)", "format": ".2f"}
+      {"field": "votes", "type": "quantitative", "title": "Votes", "format": ",.0f"},
+      {"field": "majoriti", "type": "quantitative", "title": "Winning majority", "format": ",.0f"}
     ],
     "fillOpacity": {
       "condition": {"param": "select", "value": 1},
@@ -84,20 +91,26 @@
         {
           "param": "select",
           "empty": false,
-          "value": 2
+          "value": 7
         },
         {
           "param": "highlight",
           "empty": false,
-          "value": 1
+          "value": 7
         }
       ],
-      "value": 0
+      "value": 2
     }
   },
   "config": {
     "scale": {
       "bandPaddingInner": 0.2
+    },
+    "legend": {
+      "titleFontSize": 16,
+      "labelFontSize": 14,
+      "orient": "right",
+      "labelLimit": 500
     }
   }
 }

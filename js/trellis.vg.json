@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "name": "trellis_barley",
+    "title": "Change in seats by state among major coalitions from GE14 to GE15",
+    "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_ge14_15.csv"},
+    "mark": "point",
+    "height": {"step": 12},
+    "encoding": {
+      "facet": {
+        "field": "party",
+        "type": "ordinal",
+        "columns": 2,
+        "sort": {"op": "median", "field": "seats"}
+      },
+      "x": {
+        "aggregate": "median",
+        "field": "seats",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      "y": {
+        "field": "state",
+        "type": "ordinal",
+        "sort": "-x"
+      },
+      "color": {"field": "election", "type": "nominal"}
+    }
+  }

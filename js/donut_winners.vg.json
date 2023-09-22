@@ -1,0 +1,11 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple donut chart with embedded data.",
+    "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
+    },
+    "mark": {"type": "arc", "innerRadius": 50},
+    "encoding": {
+      "theta": {"aggregate": "count", "field": "name", "type": "quantitative"},
+      "color": {"field": "ethnicity", "type": "nominal"}
+    }
+  }
