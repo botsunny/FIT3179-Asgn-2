@@ -6,7 +6,7 @@
     "align": "left",
     "anchor": "start"
   },
-  "width": 1600,
+  "width": 1500,
   "height": 900,
   "projection": {
     "type": "albers",
@@ -39,7 +39,7 @@
     },
     {"name": "select", "select": "point"}
   ],
-  "mark": {"type": "geoshape"},
+  "mark": {"type": "geoshape", "stroke": "lightgray"},
   "encoding": {
     "color": { 
       "field": "population_total",
@@ -68,15 +68,15 @@
         {
           "param": "select",
           "empty": false,
-          "value": 7
+          "value": 1.5
         },
         {
           "param": "highlight",
           "empty": false,
-          "value": 7
+          "value": 1.5
         }
       ],
-      "value": 2
+      "value": 0
     }
   },
   "config": {
