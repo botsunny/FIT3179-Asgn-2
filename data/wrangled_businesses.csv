@@ -1,0 +1,1333 @@
+parlimen,variable,value
+P.001 Padang Besar,businesses_agriculture,46
+P.002 Kangar,businesses_agriculture,72
+P.003 Arau,businesses_agriculture,51
+P.004 Langkawi,businesses_agriculture,31
+P.005 Jerlun,businesses_agriculture,17
+P.006 Kubang Pasu,businesses_agriculture,71
+P.007 Padang Terap,businesses_agriculture,21
+P.008 Pokok Sena,businesses_agriculture,142
+P.009 Alor Setar,businesses_agriculture,98
+P.010 Kuala Kedah,businesses_agriculture,79
+P.011 Pendang,businesses_agriculture,43
+P.012 Jerai,businesses_agriculture,65
+P.013 Sik,businesses_agriculture,20
+P.014 Merbok,businesses_agriculture,259
+P.015 Sungai Petani,businesses_agriculture,94
+P.016 Baling,businesses_agriculture,48
+P.017 Padang Serai,businesses_agriculture,63
+P.018 Kulim-Bandar Baharu,businesses_agriculture,49
+P.019 Tumpat,businesses_agriculture,70
+P.020 Pengkalan Chepa,businesses_agriculture,78
+P.021 Kota Bharu,businesses_agriculture,348
+P.022 Pasir Mas,businesses_agriculture,33
+P.023 Rantau Panjang,businesses_agriculture,56
+P.024 Kubang Kerian,businesses_agriculture,76
+P.025 Bachok,businesses_agriculture,49
+P.026 Ketereh,businesses_agriculture,41
+P.027 Tanah Merah,businesses_agriculture,82
+P.028 Pasir Puteh,businesses_agriculture,68
+P.029 Machang,businesses_agriculture,56
+P.030 Jeli,businesses_agriculture,33
+P.031 Kuala Krai,businesses_agriculture,121
+P.032 Gua Musang,businesses_agriculture,129
+P.033 Besut,businesses_agriculture,40
+P.034 Setiu,businesses_agriculture,70
+P.035 Kuala Nerus,businesses_agriculture,43
+P.036 Kuala Terengganu,businesses_agriculture,140
+P.037 Marang,businesses_agriculture,59
+P.038 Hulu Terengganu,businesses_agriculture,77
+P.039 Dungun,businesses_agriculture,76
+P.040 Kemaman,businesses_agriculture,101
+P.041 Kepala Batas,businesses_agriculture,88
+P.042 Tasek Gelugor,businesses_agriculture,43
+P.043 Bagan,businesses_agriculture,63
+P.044 Permatang Pauh,businesses_agriculture,153
+P.045 Bukit Mertajam,businesses_agriculture,93
+P.046 Batu Kawan,businesses_agriculture,136
+P.047 Nibong Tebal,businesses_agriculture,227
+P.048 Bukit Bendera,businesses_agriculture,100
+P.049 Tanjong,businesses_agriculture,120
+P.050 Jelutong,businesses_agriculture,41
+P.051 Bukit Gelugor,businesses_agriculture,32
+P.052 Bayan Baru,businesses_agriculture,66
+P.053 Balik Pulau,businesses_agriculture,37
+P.054 Gerik,businesses_agriculture,39
+P.055 Lenggong,businesses_agriculture,22
+P.056 Larut,businesses_agriculture,57
+P.057 Parit Buntar,businesses_agriculture,81
+P.058 Bagan Serai,businesses_agriculture,111
+P.059 Bukit Gantang,businesses_agriculture,114
+P.060 Taiping,businesses_agriculture,132
+P.061 Padang Rengas,businesses_agriculture,30
+P.062 Sungai Siput,businesses_agriculture,112
+P.063 Tambun,businesses_agriculture,108
+P.064 Ipoh Timor,businesses_agriculture,262
+P.065 Ipoh Barat,businesses_agriculture,293
+P.066 Batu Gajah,businesses_agriculture,75
+P.067 Kuala Kangsar,businesses_agriculture,37
+P.068 Beruas,businesses_agriculture,398
+P.069 Parit,businesses_agriculture,46
+P.070 Kampar,businesses_agriculture,90
+P.071 Gopeng,businesses_agriculture,135
+P.072 Tapah,businesses_agriculture,66
+P.073 Pasir Salak,businesses_agriculture,104
+P.074 Lumut,businesses_agriculture,124
+P.075 Bagan Datuk,businesses_agriculture,86
+P.076 Teluk Intan,businesses_agriculture,196
+P.077 Tanjong Malim,businesses_agriculture,132
+P.078 Cameron Highlands,businesses_agriculture,512
+P.079 Lipis,businesses_agriculture,59
+P.080 Raub,businesses_agriculture,139
+P.081 Jerantut,businesses_agriculture,115
+P.082 Indera Mahkota,businesses_agriculture,197
+P.083 Kuantan,businesses_agriculture,371
+P.084 Paya Besar,businesses_agriculture,90
+P.085 Pekan,businesses_agriculture,96
+P.086 Maran,businesses_agriculture,59
+P.087 Kuala Krau,businesses_agriculture,72
+P.088 Temerloh,businesses_agriculture,298
+P.089 Bentong,businesses_agriculture,117
+P.090 Bera,businesses_agriculture,170
+P.091 Rompin,businesses_agriculture,163
+P.092 Sabak Bernam,businesses_agriculture,24
+P.093 Sungai Besar,businesses_agriculture,50
+P.094 Hulu Selangor,businesses_agriculture,60
+P.095 Tanjong Karang,businesses_agriculture,28
+P.096 Kuala Selangor,businesses_agriculture,53
+P.097 Selayang,businesses_agriculture,79
+P.098 Gombak,businesses_agriculture,138
+P.099 Ampang,businesses_agriculture,40
+P.100 Pandan,businesses_agriculture,87
+P.101 Hulu Langat,businesses_agriculture,83
+P.102 Bangi,businesses_agriculture,171
+P.103 Puchong,businesses_agriculture,104
+P.104 Subang,businesses_agriculture,246
+P.105 Petaling Jaya,businesses_agriculture,279
+P.106 Damansara,businesses_agriculture,234
+P.107 Sungai Buloh,businesses_agriculture,117
+P.108 Shah Alam,businesses_agriculture,160
+P.109 Kapar,businesses_agriculture,147
+P.110 Klang,businesses_agriculture,209
+P.111 Kota Raja,businesses_agriculture,201
+P.112 Kuala Langat,businesses_agriculture,178
+P.113 Sepang,businesses_agriculture,161
+P.126 Jelebu,businesses_agriculture,82
+P.127 Jempol,businesses_agriculture,196
+P.128 Seremban,businesses_agriculture,155
+P.129 Kuala Pilah,businesses_agriculture,59
+P.130 Rasah,businesses_agriculture,188
+P.131 Rembau,businesses_agriculture,153
+P.132 Port Dickson,businesses_agriculture,159
+P.133 Tampin,businesses_agriculture,115
+P.134 Masjid Tanah,businesses_agriculture,67
+P.135 Alor Gajah,businesses_agriculture,115
+P.136 Tangga Batu,businesses_agriculture,61
+P.137 Hang Tuah Jaya,businesses_agriculture,115
+P.138 Kota Melaka,businesses_agriculture,192
+P.139 Jasin,businesses_agriculture,87
+P.140 Segamat,businesses_agriculture,167
+P.141 Sekijang,businesses_agriculture,222
+P.142 Labis,businesses_agriculture,84
+P.143 Pagoh,businesses_agriculture,179
+P.144 Ledang,businesses_agriculture,221
+P.145 Bakri,businesses_agriculture,261
+P.146 Muar,businesses_agriculture,102
+P.147 Parit Sulong,businesses_agriculture,163
+P.148 Ayer Hitam,businesses_agriculture,149
+P.149 Sri Gading,businesses_agriculture,103
+P.150 Batu Pahat,businesses_agriculture,221
+P.151 Simpang Renggam,businesses_agriculture,114
+P.152 Kluang,businesses_agriculture,320
+P.153 Sembrong,businesses_agriculture,95
+P.154 Mersing,businesses_agriculture,85
+P.155 Tenggara,businesses_agriculture,148
+P.156 Kota Tinggi,businesses_agriculture,82
+P.157 Pengerang,businesses_agriculture,46
+P.158 Tebrau,businesses_agriculture,192
+P.159 Pasir Gudang,businesses_agriculture,121
+P.160 Johor Bahru,businesses_agriculture,143
+P.161 Pulai,businesses_agriculture,369
+P.162 Iskandar Puteri,businesses_agriculture,117
+P.163 Kulai,businesses_agriculture,174
+P.164 Pontian,businesses_agriculture,103
+P.165 Tanjung Piai,businesses_agriculture,79
+P.167 Kudat,businesses_agriculture,11
+P.168 Kota Marudu,businesses_agriculture,19
+P.169 Kota Belud,businesses_agriculture,8
+P.170 Tuaran,businesses_agriculture,20
+P.171 Sepanggar,businesses_agriculture,184
+P.172 Kota Kinabalu,businesses_agriculture,354
+P.173 Putatan,businesses_agriculture,17
+P.174 Penampang,businesses_agriculture,76
+P.175 Papar,businesses_agriculture,10
+P.176 Kimanis,businesses_agriculture,12
+P.177 Beaufort,businesses_agriculture,7
+P.178 Sipitang,businesses_agriculture,17
+P.179 Ranau,businesses_agriculture,13
+P.180 Keningau,businesses_agriculture,101
+P.181 Tenom,businesses_agriculture,6
+P.182 Pensiangan,businesses_agriculture,23
+P.183 Beluran,businesses_agriculture,37
+P.184 Libaran,businesses_agriculture,243
+P.185 Batu Sapi,businesses_agriculture,212
+P.186 Sandakan,businesses_agriculture,281
+P.187 Kinabatangan,businesses_agriculture,57
+P.188 Lahad Datu,businesses_agriculture,492
+P.189 Semporna,businesses_agriculture,25
+P.190 Tawau,businesses_agriculture,598
+P.191 Kalabakan,businesses_agriculture,135
+P.192 Mas Gading,businesses_agriculture,39
+P.193 Santubong,businesses_agriculture,55
+P.194 Petra Jaya,businesses_agriculture,116
+P.195 Bandar Kuching,businesses_agriculture,263
+P.196 Stampin,businesses_agriculture,123
+P.197 Kota Samarahan,businesses_agriculture,55
+P.198 Puncak Borneo,businesses_agriculture,48
+P.199 Serian,businesses_agriculture,52
+P.200 Batang Sadong,businesses_agriculture,13
+P.201 Batang Lupar,businesses_agriculture,16
+P.202 Sri Aman,businesses_agriculture,19
+P.203 Lubok Antu,businesses_agriculture,6
+P.204 Betong,businesses_agriculture,16
+P.205 Saratok,businesses_agriculture,11
+P.206 Tanjong Manis,businesses_agriculture,12
+P.207 Igan,businesses_agriculture,11
+P.208 Sarikei,businesses_agriculture,67
+P.209 Julau,businesses_agriculture,9
+P.210 Kanowit,businesses_agriculture,9
+P.211 Lanang,businesses_agriculture,383
+P.212 Sibu,businesses_agriculture,328
+P.213 Mukah,businesses_agriculture,30
+P.214 Selangau,businesses_agriculture,17
+P.215 Kapit,businesses_agriculture,7
+P.216 Hulu Rajang,businesses_agriculture,4
+P.217 Bintulu,businesses_agriculture,313
+P.218 Sibuti,businesses_agriculture,76
+P.219 Miri,businesses_agriculture,382
+P.220 Baram,businesses_agriculture,8
+P.221 Limbang,businesses_agriculture,22
+P.222 Lawas,businesses_agriculture,16
+P.114 Kepong,businesses_agriculture,59
+P.115 Batu,businesses_agriculture,155
+P.116 Wangsa Maju,businesses_agriculture,97
+P.117 Segambut,businesses_agriculture,223
+P.118 Setiawangsa,businesses_agriculture,48
+P.119 Titiwangsa,businesses_agriculture,149
+P.120 Bukit Bintang,businesses_agriculture,253
+P.121 Lembah Pantai,businesses_agriculture,85
+P.122 Seputeh,businesses_agriculture,147
+P.123 Cheras,businesses_agriculture,83
+P.124 Bandar Tun Razak,businesses_agriculture,51
+P.125 Putrajaya,businesses_agriculture,10
+P.166 Labuan,businesses_agriculture,15
+P.001 Padang Besar,businesses_forestry,0
+P.002 Kangar,businesses_forestry,4
+P.003 Arau,businesses_forestry,1
+P.004 Langkawi,businesses_forestry,2
+P.005 Jerlun,businesses_forestry,1
+P.006 Kubang Pasu,businesses_forestry,5
+P.007 Padang Terap,businesses_forestry,1
+P.008 Pokok Sena,businesses_forestry,8
+P.009 Alor Setar,businesses_forestry,13
+P.010 Kuala Kedah,businesses_forestry,7
+P.011 Pendang,businesses_forestry,0
+P.012 Jerai,businesses_forestry,4
+P.013 Sik,businesses_forestry,0
+P.014 Merbok,businesses_forestry,17
+P.015 Sungai Petani,businesses_forestry,17
+P.016 Baling,businesses_forestry,3
+P.017 Padang Serai,businesses_forestry,6
+P.018 Kulim-Bandar Baharu,businesses_forestry,2
+P.019 Tumpat,businesses_forestry,3
+P.020 Pengkalan Chepa,businesses_forestry,17
+P.021 Kota Bharu,businesses_forestry,173
+P.022 Pasir Mas,businesses_forestry,7
+P.023 Rantau Panjang,businesses_forestry,14
+P.024 Kubang Kerian,businesses_forestry,15
+P.025 Bachok,businesses_forestry,4
+P.026 Ketereh,businesses_forestry,5
+P.027 Tanah Merah,businesses_forestry,22
+P.028 Pasir Puteh,businesses_forestry,8
+P.029 Machang,businesses_forestry,12
+P.030 Jeli,businesses_forestry,5
+P.031 Kuala Krai,businesses_forestry,52
+P.032 Gua Musang,businesses_forestry,54
+P.033 Besut,businesses_forestry,3
+P.034 Setiu,businesses_forestry,1
+P.035 Kuala Nerus,businesses_forestry,6
+P.036 Kuala Terengganu,businesses_forestry,35
+P.037 Marang,businesses_forestry,7
+P.038 Hulu Terengganu,businesses_forestry,3
+P.039 Dungun,businesses_forestry,3
+P.040 Kemaman,businesses_forestry,6
+P.041 Kepala Batas,businesses_forestry,1
+P.042 Tasek Gelugor,businesses_forestry,0
+P.043 Bagan,businesses_forestry,2
+P.044 Permatang Pauh,businesses_forestry,7
+P.045 Bukit Mertajam,businesses_forestry,6
+P.046 Batu Kawan,businesses_forestry,6
+P.047 Nibong Tebal,businesses_forestry,3
+P.048 Bukit Bendera,businesses_forestry,2
+P.049 Tanjong,businesses_forestry,11
+P.050 Jelutong,businesses_forestry,2
+P.051 Bukit Gelugor,businesses_forestry,1
+P.052 Bayan Baru,businesses_forestry,3
+P.053 Balik Pulau,businesses_forestry,2
+P.054 Gerik,businesses_forestry,9
+P.055 Lenggong,businesses_forestry,2
+P.056 Larut,businesses_forestry,5
+P.057 Parit Buntar,businesses_forestry,0
+P.058 Bagan Serai,businesses_forestry,5
+P.059 Bukit Gantang,businesses_forestry,19
+P.060 Taiping,businesses_forestry,14
+P.061 Padang Rengas,businesses_forestry,3
+P.062 Sungai Siput,businesses_forestry,19
+P.063 Tambun,businesses_forestry,17
+P.064 Ipoh Timor,businesses_forestry,55
+P.065 Ipoh Barat,businesses_forestry,63
+P.066 Batu Gajah,businesses_forestry,8
+P.067 Kuala Kangsar,businesses_forestry,6
+P.068 Beruas,businesses_forestry,9
+P.069 Parit,businesses_forestry,2
+P.070 Kampar,businesses_forestry,3
+P.071 Gopeng,businesses_forestry,12
+P.072 Tapah,businesses_forestry,2
+P.073 Pasir Salak,businesses_forestry,5
+P.074 Lumut,businesses_forestry,1
+P.075 Bagan Datuk,businesses_forestry,3
+P.076 Teluk Intan,businesses_forestry,5
+P.077 Tanjong Malim,businesses_forestry,10
+P.078 Cameron Highlands,businesses_forestry,5
+P.079 Lipis,businesses_forestry,13
+P.080 Raub,businesses_forestry,17
+P.081 Jerantut,businesses_forestry,24
+P.082 Indera Mahkota,businesses_forestry,50
+P.083 Kuantan,businesses_forestry,78
+P.084 Paya Besar,businesses_forestry,8
+P.085 Pekan,businesses_forestry,4
+P.086 Maran,businesses_forestry,0
+P.087 Kuala Krau,businesses_forestry,9
+P.088 Temerloh,businesses_forestry,101
+P.089 Bentong,businesses_forestry,5
+P.090 Bera,businesses_forestry,18
+P.091 Rompin,businesses_forestry,11
+P.092 Sabak Bernam,businesses_forestry,0
+P.093 Sungai Besar,businesses_forestry,2
+P.094 Hulu Selangor,businesses_forestry,3
+P.095 Tanjong Karang,businesses_forestry,0
+P.096 Kuala Selangor,businesses_forestry,1
+P.097 Selayang,businesses_forestry,5
+P.098 Gombak,businesses_forestry,9
+P.099 Ampang,businesses_forestry,5
+P.100 Pandan,businesses_forestry,7
+P.101 Hulu Langat,businesses_forestry,7
+P.102 Bangi,businesses_forestry,23
+P.103 Puchong,businesses_forestry,11
+P.104 Subang,businesses_forestry,24
+P.105 Petaling Jaya,businesses_forestry,28
+P.106 Damansara,businesses_forestry,35
+P.107 Sungai Buloh,businesses_forestry,12
+P.108 Shah Alam,businesses_forestry,11
+P.109 Kapar,businesses_forestry,11
+P.110 Klang,businesses_forestry,12
+P.111 Kota Raja,businesses_forestry,28
+P.112 Kuala Langat,businesses_forestry,7
+P.113 Sepang,businesses_forestry,4
+P.126 Jelebu,businesses_forestry,3
+P.127 Jempol,businesses_forestry,20
+P.128 Seremban,businesses_forestry,7
+P.129 Kuala Pilah,businesses_forestry,6
+P.130 Rasah,businesses_forestry,23
+P.131 Rembau,businesses_forestry,9
+P.132 Port Dickson,businesses_forestry,8
+P.133 Tampin,businesses_forestry,11
+P.134 Masjid Tanah,businesses_forestry,4
+P.135 Alor Gajah,businesses_forestry,9
+P.136 Tangga Batu,businesses_forestry,7
+P.137 Hang Tuah Jaya,businesses_forestry,3
+P.138 Kota Melaka,businesses_forestry,15
+P.139 Jasin,businesses_forestry,3
+P.140 Segamat,businesses_forestry,23
+P.141 Sekijang,businesses_forestry,31
+P.142 Labis,businesses_forestry,18
+P.143 Pagoh,businesses_forestry,7
+P.144 Ledang,businesses_forestry,11
+P.145 Bakri,businesses_forestry,20
+P.146 Muar,businesses_forestry,3
+P.147 Parit Sulong,businesses_forestry,6
+P.148 Ayer Hitam,businesses_forestry,8
+P.149 Sri Gading,businesses_forestry,4
+P.150 Batu Pahat,businesses_forestry,9
+P.151 Simpang Renggam,businesses_forestry,3
+P.152 Kluang,businesses_forestry,30
+P.153 Sembrong,businesses_forestry,7
+P.154 Mersing,businesses_forestry,4
+P.155 Tenggara,businesses_forestry,16
+P.156 Kota Tinggi,businesses_forestry,2
+P.157 Pengerang,businesses_forestry,0
+P.158 Tebrau,businesses_forestry,9
+P.159 Pasir Gudang,businesses_forestry,9
+P.160 Johor Bahru,businesses_forestry,11
+P.161 Pulai,businesses_forestry,15
+P.162 Iskandar Puteri,businesses_forestry,6
+P.163 Kulai,businesses_forestry,16
+P.164 Pontian,businesses_forestry,2
+P.165 Tanjung Piai,businesses_forestry,2
+P.167 Kudat,businesses_forestry,2
+P.168 Kota Marudu,businesses_forestry,2
+P.169 Kota Belud,businesses_forestry,1
+P.170 Tuaran,businesses_forestry,0
+P.171 Sepanggar,businesses_forestry,31
+P.172 Kota Kinabalu,businesses_forestry,102
+P.173 Putatan,businesses_forestry,4
+P.174 Penampang,businesses_forestry,13
+P.175 Papar,businesses_forestry,0
+P.176 Kimanis,businesses_forestry,0
+P.177 Beaufort,businesses_forestry,0
+P.178 Sipitang,businesses_forestry,12
+P.179 Ranau,businesses_forestry,1
+P.180 Keningau,businesses_forestry,45
+P.181 Tenom,businesses_forestry,0
+P.182 Pensiangan,businesses_forestry,3
+P.183 Beluran,businesses_forestry,1
+P.184 Libaran,businesses_forestry,20
+P.185 Batu Sapi,businesses_forestry,32
+P.186 Sandakan,businesses_forestry,22
+P.187 Kinabatangan,businesses_forestry,1
+P.188 Lahad Datu,businesses_forestry,17
+P.189 Semporna,businesses_forestry,0
+P.190 Tawau,businesses_forestry,55
+P.191 Kalabakan,businesses_forestry,16
+P.192 Mas Gading,businesses_forestry,1
+P.193 Santubong,businesses_forestry,6
+P.194 Petra Jaya,businesses_forestry,14
+P.195 Bandar Kuching,businesses_forestry,52
+P.196 Stampin,businesses_forestry,21
+P.197 Kota Samarahan,businesses_forestry,4
+P.198 Puncak Borneo,businesses_forestry,2
+P.199 Serian,businesses_forestry,3
+P.200 Batang Sadong,businesses_forestry,0
+P.201 Batang Lupar,businesses_forestry,1
+P.202 Sri Aman,businesses_forestry,3
+P.203 Lubok Antu,businesses_forestry,2
+P.204 Betong,businesses_forestry,0
+P.205 Saratok,businesses_forestry,0
+P.206 Tanjong Manis,businesses_forestry,1
+P.207 Igan,businesses_forestry,0
+P.208 Sarikei,businesses_forestry,6
+P.209 Julau,businesses_forestry,1
+P.210 Kanowit,businesses_forestry,0
+P.211 Lanang,businesses_forestry,163
+P.212 Sibu,businesses_forestry,127
+P.213 Mukah,businesses_forestry,3
+P.214 Selangau,businesses_forestry,2
+P.215 Kapit,businesses_forestry,6
+P.216 Hulu Rajang,businesses_forestry,0
+P.217 Bintulu,businesses_forestry,73
+P.218 Sibuti,businesses_forestry,8
+P.219 Miri,businesses_forestry,79
+P.220 Baram,businesses_forestry,2
+P.221 Limbang,businesses_forestry,9
+P.222 Lawas,businesses_forestry,2
+P.114 Kepong,businesses_forestry,7
+P.115 Batu,businesses_forestry,17
+P.116 Wangsa Maju,businesses_forestry,19
+P.117 Segambut,businesses_forestry,21
+P.118 Setiawangsa,businesses_forestry,5
+P.119 Titiwangsa,businesses_forestry,13
+P.120 Bukit Bintang,businesses_forestry,20
+P.121 Lembah Pantai,businesses_forestry,14
+P.122 Seputeh,businesses_forestry,16
+P.123 Cheras,businesses_forestry,15
+P.124 Bandar Tun Razak,businesses_forestry,6
+P.125 Putrajaya,businesses_forestry,0
+P.166 Labuan,businesses_forestry,0
+P.001 Padang Besar,businesses_mining,3
+P.002 Kangar,businesses_mining,6
+P.003 Arau,businesses_mining,1
+P.004 Langkawi,businesses_mining,5
+P.005 Jerlun,businesses_mining,0
+P.006 Kubang Pasu,businesses_mining,6
+P.007 Padang Terap,businesses_mining,1
+P.008 Pokok Sena,businesses_mining,9
+P.009 Alor Setar,businesses_mining,38
+P.010 Kuala Kedah,businesses_mining,5
+P.011 Pendang,businesses_mining,3
+P.012 Jerai,businesses_mining,2
+P.013 Sik,businesses_mining,1
+P.014 Merbok,businesses_mining,19
+P.015 Sungai Petani,businesses_mining,20
+P.016 Baling,businesses_mining,3
+P.017 Padang Serai,businesses_mining,10
+P.018 Kulim-Bandar Baharu,businesses_mining,6
+P.019 Tumpat,businesses_mining,9
+P.020 Pengkalan Chepa,businesses_mining,12
+P.021 Kota Bharu,businesses_mining,147
+P.022 Pasir Mas,businesses_mining,15
+P.023 Rantau Panjang,businesses_mining,10
+P.024 Kubang Kerian,businesses_mining,23
+P.025 Bachok,businesses_mining,11
+P.026 Ketereh,businesses_mining,2
+P.027 Tanah Merah,businesses_mining,8
+P.028 Pasir Puteh,businesses_mining,6
+P.029 Machang,businesses_mining,11
+P.030 Jeli,businesses_mining,3
+P.031 Kuala Krai,businesses_mining,9
+P.032 Gua Musang,businesses_mining,15
+P.033 Besut,businesses_mining,16
+P.034 Setiu,businesses_mining,3
+P.035 Kuala Nerus,businesses_mining,6
+P.036 Kuala Terengganu,businesses_mining,95
+P.037 Marang,businesses_mining,6
+P.038 Hulu Terengganu,businesses_mining,9
+P.039 Dungun,businesses_mining,18
+P.040 Kemaman,businesses_mining,78
+P.041 Kepala Batas,businesses_mining,2
+P.042 Tasek Gelugor,businesses_mining,4
+P.043 Bagan,businesses_mining,15
+P.044 Permatang Pauh,businesses_mining,22
+P.045 Bukit Mertajam,businesses_mining,11
+P.046 Batu Kawan,businesses_mining,19
+P.047 Nibong Tebal,businesses_mining,8
+P.048 Bukit Bendera,businesses_mining,18
+P.049 Tanjong,businesses_mining,22
+P.050 Jelutong,businesses_mining,18
+P.051 Bukit Gelugor,businesses_mining,2
+P.052 Bayan Baru,businesses_mining,12
+P.053 Balik Pulau,businesses_mining,4
+P.054 Gerik,businesses_mining,4
+P.055 Lenggong,businesses_mining,0
+P.056 Larut,businesses_mining,0
+P.057 Parit Buntar,businesses_mining,0
+P.058 Bagan Serai,businesses_mining,0
+P.059 Bukit Gantang,businesses_mining,4
+P.060 Taiping,businesses_mining,14
+P.061 Padang Rengas,businesses_mining,4
+P.062 Sungai Siput,businesses_mining,5
+P.063 Tambun,businesses_mining,15
+P.064 Ipoh Timor,businesses_mining,91
+P.065 Ipoh Barat,businesses_mining,77
+P.066 Batu Gajah,businesses_mining,21
+P.067 Kuala Kangsar,businesses_mining,4
+P.068 Beruas,businesses_mining,15
+P.069 Parit,businesses_mining,0
+P.070 Kampar,businesses_mining,20
+P.071 Gopeng,businesses_mining,78
+P.072 Tapah,businesses_mining,6
+P.073 Pasir Salak,businesses_mining,1
+P.074 Lumut,businesses_mining,8
+P.075 Bagan Datuk,businesses_mining,0
+P.076 Teluk Intan,businesses_mining,6
+P.077 Tanjong Malim,businesses_mining,9
+P.078 Cameron Highlands,businesses_mining,3
+P.079 Lipis,businesses_mining,9
+P.080 Raub,businesses_mining,16
+P.081 Jerantut,businesses_mining,14
+P.082 Indera Mahkota,businesses_mining,159
+P.083 Kuantan,businesses_mining,289
+P.084 Paya Besar,businesses_mining,6
+P.085 Pekan,businesses_mining,21
+P.086 Maran,businesses_mining,0
+P.087 Kuala Krau,businesses_mining,1
+P.088 Temerloh,businesses_mining,38
+P.089 Bentong,businesses_mining,8
+P.090 Bera,businesses_mining,11
+P.091 Rompin,businesses_mining,5
+P.092 Sabak Bernam,businesses_mining,2
+P.093 Sungai Besar,businesses_mining,3
+P.094 Hulu Selangor,businesses_mining,7
+P.095 Tanjong Karang,businesses_mining,2
+P.096 Kuala Selangor,businesses_mining,8
+P.097 Selayang,businesses_mining,29
+P.098 Gombak,businesses_mining,42
+P.099 Ampang,businesses_mining,28
+P.100 Pandan,businesses_mining,33
+P.101 Hulu Langat,businesses_mining,34
+P.102 Bangi,businesses_mining,82
+P.103 Puchong,businesses_mining,49
+P.104 Subang,businesses_mining,122
+P.105 Petaling Jaya,businesses_mining,143
+P.106 Damansara,businesses_mining,97
+P.107 Sungai Buloh,businesses_mining,42
+P.108 Shah Alam,businesses_mining,69
+P.109 Kapar,businesses_mining,40
+P.110 Klang,businesses_mining,53
+P.111 Kota Raja,businesses_mining,37
+P.112 Kuala Langat,businesses_mining,18
+P.113 Sepang,businesses_mining,21
+P.126 Jelebu,businesses_mining,7
+P.127 Jempol,businesses_mining,3
+P.128 Seremban,businesses_mining,24
+P.129 Kuala Pilah,businesses_mining,7
+P.130 Rasah,businesses_mining,37
+P.131 Rembau,businesses_mining,7
+P.132 Port Dickson,businesses_mining,14
+P.133 Tampin,businesses_mining,6
+P.134 Masjid Tanah,businesses_mining,1
+P.135 Alor Gajah,businesses_mining,8
+P.136 Tangga Batu,businesses_mining,6
+P.137 Hang Tuah Jaya,businesses_mining,19
+P.138 Kota Melaka,businesses_mining,32
+P.139 Jasin,businesses_mining,3
+P.140 Segamat,businesses_mining,7
+P.141 Sekijang,businesses_mining,8
+P.142 Labis,businesses_mining,2
+P.143 Pagoh,businesses_mining,7
+P.144 Ledang,businesses_mining,10
+P.145 Bakri,businesses_mining,13
+P.146 Muar,businesses_mining,1
+P.147 Parit Sulong,businesses_mining,1
+P.148 Ayer Hitam,businesses_mining,8
+P.149 Sri Gading,businesses_mining,5
+P.150 Batu Pahat,businesses_mining,12
+P.151 Simpang Renggam,businesses_mining,4
+P.152 Kluang,businesses_mining,17
+P.153 Sembrong,businesses_mining,1
+P.154 Mersing,businesses_mining,4
+P.155 Tenggara,businesses_mining,19
+P.156 Kota Tinggi,businesses_mining,6
+P.157 Pengerang,businesses_mining,8
+P.158 Tebrau,businesses_mining,42
+P.159 Pasir Gudang,businesses_mining,31
+P.160 Johor Bahru,businesses_mining,28
+P.161 Pulai,businesses_mining,40
+P.162 Iskandar Puteri,businesses_mining,27
+P.163 Kulai,businesses_mining,22
+P.164 Pontian,businesses_mining,2
+P.165 Tanjung Piai,businesses_mining,1
+P.167 Kudat,businesses_mining,3
+P.168 Kota Marudu,businesses_mining,0
+P.169 Kota Belud,businesses_mining,0
+P.170 Tuaran,businesses_mining,2
+P.171 Sepanggar,businesses_mining,43
+P.172 Kota Kinabalu,businesses_mining,80
+P.173 Putatan,businesses_mining,9
+P.174 Penampang,businesses_mining,14
+P.175 Papar,businesses_mining,3
+P.176 Kimanis,businesses_mining,2
+P.177 Beaufort,businesses_mining,1
+P.178 Sipitang,businesses_mining,0
+P.179 Ranau,businesses_mining,2
+P.180 Keningau,businesses_mining,6
+P.181 Tenom,businesses_mining,1
+P.182 Pensiangan,businesses_mining,0
+P.183 Beluran,businesses_mining,0
+P.184 Libaran,businesses_mining,2
+P.185 Batu Sapi,businesses_mining,4
+P.186 Sandakan,businesses_mining,10
+P.187 Kinabatangan,businesses_mining,0
+P.188 Lahad Datu,businesses_mining,11
+P.189 Semporna,businesses_mining,0
+P.190 Tawau,businesses_mining,12
+P.191 Kalabakan,businesses_mining,3
+P.192 Mas Gading,businesses_mining,5
+P.193 Santubong,businesses_mining,13
+P.194 Petra Jaya,businesses_mining,49
+P.195 Bandar Kuching,businesses_mining,121
+P.196 Stampin,businesses_mining,43
+P.197 Kota Samarahan,businesses_mining,6
+P.198 Puncak Borneo,businesses_mining,1
+P.199 Serian,businesses_mining,0
+P.200 Batang Sadong,businesses_mining,0
+P.201 Batang Lupar,businesses_mining,2
+P.202 Sri Aman,businesses_mining,0
+P.203 Lubok Antu,businesses_mining,1
+P.204 Betong,businesses_mining,1
+P.205 Saratok,businesses_mining,0
+P.206 Tanjong Manis,businesses_mining,1
+P.207 Igan,businesses_mining,0
+P.208 Sarikei,businesses_mining,1
+P.209 Julau,businesses_mining,0
+P.210 Kanowit,businesses_mining,0
+P.211 Lanang,businesses_mining,19
+P.212 Sibu,businesses_mining,14
+P.213 Mukah,businesses_mining,4
+P.214 Selangau,businesses_mining,0
+P.215 Kapit,businesses_mining,2
+P.216 Hulu Rajang,businesses_mining,0
+P.217 Bintulu,businesses_mining,27
+P.218 Sibuti,businesses_mining,6
+P.219 Miri,businesses_mining,71
+P.220 Baram,businesses_mining,0
+P.221 Limbang,businesses_mining,6
+P.222 Lawas,businesses_mining,6
+P.114 Kepong,businesses_mining,25
+P.115 Batu,businesses_mining,84
+P.116 Wangsa Maju,businesses_mining,58
+P.117 Segambut,businesses_mining,166
+P.118 Setiawangsa,businesses_mining,37
+P.119 Titiwangsa,businesses_mining,99
+P.120 Bukit Bintang,businesses_mining,237
+P.121 Lembah Pantai,businesses_mining,71
+P.122 Seputeh,businesses_mining,70
+P.123 Cheras,businesses_mining,55
+P.124 Bandar Tun Razak,businesses_mining,22
+P.125 Putrajaya,businesses_mining,0
+P.166 Labuan,businesses_mining,11
+P.001 Padang Besar,businesses_manufacturing,102
+P.002 Kangar,businesses_manufacturing,301
+P.003 Arau,businesses_manufacturing,138
+P.004 Langkawi,businesses_manufacturing,162
+P.005 Jerlun,businesses_manufacturing,92
+P.006 Kubang Pasu,businesses_manufacturing,331
+P.007 Padang Terap,businesses_manufacturing,55
+P.008 Pokok Sena,businesses_manufacturing,318
+P.009 Alor Setar,businesses_manufacturing,500
+P.010 Kuala Kedah,businesses_manufacturing,371
+P.011 Pendang,businesses_manufacturing,159
+P.012 Jerai,businesses_manufacturing,236
+P.013 Sik,businesses_manufacturing,69
+P.014 Merbok,businesses_manufacturing,845
+P.015 Sungai Petani,businesses_manufacturing,495
+P.016 Baling,businesses_manufacturing,140
+P.017 Padang Serai,businesses_manufacturing,406
+P.018 Kulim-Bandar Baharu,businesses_manufacturing,165
+P.019 Tumpat,businesses_manufacturing,318
+P.020 Pengkalan Chepa,businesses_manufacturing,561
+P.021 Kota Bharu,businesses_manufacturing,572
+P.022 Pasir Mas,businesses_manufacturing,198
+P.023 Rantau Panjang,businesses_manufacturing,142
+P.024 Kubang Kerian,businesses_manufacturing,291
+P.025 Bachok,businesses_manufacturing,168
+P.026 Ketereh,businesses_manufacturing,150
+P.027 Tanah Merah,businesses_manufacturing,168
+P.028 Pasir Puteh,businesses_manufacturing,177
+P.029 Machang,businesses_manufacturing,162
+P.030 Jeli,businesses_manufacturing,77
+P.031 Kuala Krai,businesses_manufacturing,117
+P.032 Gua Musang,businesses_manufacturing,121
+P.033 Besut,businesses_manufacturing,369
+P.034 Setiu,businesses_manufacturing,221
+P.035 Kuala Nerus,businesses_manufacturing,268
+P.036 Kuala Terengganu,businesses_manufacturing,666
+P.037 Marang,businesses_manufacturing,342
+P.038 Hulu Terengganu,businesses_manufacturing,229
+P.039 Dungun,businesses_manufacturing,311
+P.040 Kemaman,businesses_manufacturing,428
+P.041 Kepala Batas,businesses_manufacturing,354
+P.042 Tasek Gelugor,businesses_manufacturing,260
+P.043 Bagan,businesses_manufacturing,626
+P.044 Permatang Pauh,businesses_manufacturing,788
+P.045 Bukit Mertajam,businesses_manufacturing,775
+P.046 Batu Kawan,businesses_manufacturing,1217
+P.047 Nibong Tebal,businesses_manufacturing,469
+P.048 Bukit Bendera,businesses_manufacturing,510
+P.049 Tanjong,businesses_manufacturing,516
+P.050 Jelutong,businesses_manufacturing,340
+P.051 Bukit Gelugor,businesses_manufacturing,232
+P.052 Bayan Baru,businesses_manufacturing,739
+P.053 Balik Pulau,businesses_manufacturing,190
+P.054 Gerik,businesses_manufacturing,70
+P.055 Lenggong,businesses_manufacturing,44
+P.056 Larut,businesses_manufacturing,41
+P.057 Parit Buntar,businesses_manufacturing,125
+P.058 Bagan Serai,businesses_manufacturing,85
+P.059 Bukit Gantang,businesses_manufacturing,170
+P.060 Taiping,businesses_manufacturing,320
+P.061 Padang Rengas,businesses_manufacturing,61
+P.062 Sungai Siput,businesses_manufacturing,149
+P.063 Tambun,businesses_manufacturing,510
+P.064 Ipoh Timor,businesses_manufacturing,701
+P.065 Ipoh Barat,businesses_manufacturing,588
+P.066 Batu Gajah,businesses_manufacturing,929
+P.067 Kuala Kangsar,businesses_manufacturing,99
+P.068 Beruas,businesses_manufacturing,316
+P.069 Parit,businesses_manufacturing,48
+P.070 Kampar,businesses_manufacturing,144
+P.071 Gopeng,businesses_manufacturing,455
+P.072 Tapah,businesses_manufacturing,59
+P.073 Pasir Salak,businesses_manufacturing,66
+P.074 Lumut,businesses_manufacturing,301
+P.075 Bagan Datuk,businesses_manufacturing,79
+P.076 Teluk Intan,businesses_manufacturing,229
+P.077 Tanjong Malim,businesses_manufacturing,161
+P.078 Cameron Highlands,businesses_manufacturing,62
+P.079 Lipis,businesses_manufacturing,67
+P.080 Raub,businesses_manufacturing,143
+P.081 Jerantut,businesses_manufacturing,138
+P.082 Indera Mahkota,businesses_manufacturing,550
+P.083 Kuantan,businesses_manufacturing,410
+P.084 Paya Besar,businesses_manufacturing,167
+P.085 Pekan,businesses_manufacturing,190
+P.086 Maran,businesses_manufacturing,57
+P.087 Kuala Krau,businesses_manufacturing,75
+P.088 Temerloh,businesses_manufacturing,292
+P.089 Bentong,businesses_manufacturing,190
+P.090 Bera,businesses_manufacturing,97
+P.091 Rompin,businesses_manufacturing,113
+P.092 Sabak Bernam,businesses_manufacturing,37
+P.093 Sungai Besar,businesses_manufacturing,67
+P.094 Hulu Selangor,businesses_manufacturing,338
+P.095 Tanjong Karang,businesses_manufacturing,77
+P.096 Kuala Selangor,businesses_manufacturing,219
+P.097 Selayang,businesses_manufacturing,579
+P.098 Gombak,businesses_manufacturing,800
+P.099 Ampang,businesses_manufacturing,292
+P.100 Pandan,businesses_manufacturing,497
+P.101 Hulu Langat,businesses_manufacturing,815
+P.102 Bangi,businesses_manufacturing,1726
+P.103 Puchong,businesses_manufacturing,1404
+P.104 Subang,businesses_manufacturing,1777
+P.105 Petaling Jaya,businesses_manufacturing,1399
+P.106 Damansara,businesses_manufacturing,1946
+P.107 Sungai Buloh,businesses_manufacturing,1122
+P.108 Shah Alam,businesses_manufacturing,1175
+P.109 Kapar,businesses_manufacturing,1362
+P.110 Klang,businesses_manufacturing,1178
+P.111 Kota Raja,businesses_manufacturing,1311
+P.112 Kuala Langat,businesses_manufacturing,410
+P.113 Sepang,businesses_manufacturing,441
+P.126 Jelebu,businesses_manufacturing,94
+P.127 Jempol,businesses_manufacturing,212
+P.128 Seremban,businesses_manufacturing,895
+P.129 Kuala Pilah,businesses_manufacturing,180
+P.130 Rasah,businesses_manufacturing,667
+P.131 Rembau,businesses_manufacturing,380
+P.132 Port Dickson,businesses_manufacturing,240
+P.133 Tampin,businesses_manufacturing,240
+P.134 Masjid Tanah,businesses_manufacturing,71
+P.135 Alor Gajah,businesses_manufacturing,189
+P.136 Tangga Batu,businesses_manufacturing,405
+P.137 Hang Tuah Jaya,businesses_manufacturing,384
+P.138 Kota Melaka,businesses_manufacturing,703
+P.139 Jasin,businesses_manufacturing,181
+P.140 Segamat,businesses_manufacturing,173
+P.141 Sekijang,businesses_manufacturing,273
+P.142 Labis,businesses_manufacturing,87
+P.143 Pagoh,businesses_manufacturing,347
+P.144 Ledang,businesses_manufacturing,375
+P.145 Bakri,businesses_manufacturing,860
+P.146 Muar,businesses_manufacturing,222
+P.147 Parit Sulong,businesses_manufacturing,324
+P.148 Ayer Hitam,businesses_manufacturing,252
+P.149 Sri Gading,businesses_manufacturing,394
+P.150 Batu Pahat,businesses_manufacturing,689
+P.151 Simpang Renggam,businesses_manufacturing,151
+P.152 Kluang,businesses_manufacturing,476
+P.153 Sembrong,businesses_manufacturing,119
+P.154 Mersing,businesses_manufacturing,94
+P.155 Tenggara,businesses_manufacturing,158
+P.156 Kota Tinggi,businesses_manufacturing,115
+P.157 Pengerang,businesses_manufacturing,96
+P.158 Tebrau,businesses_manufacturing,2129
+P.159 Pasir Gudang,businesses_manufacturing,1181
+P.160 Johor Bahru,businesses_manufacturing,510
+P.161 Pulai,businesses_manufacturing,1011
+P.162 Iskandar Puteri,businesses_manufacturing,1079
+P.163 Kulai,businesses_manufacturing,957
+P.164 Pontian,businesses_manufacturing,155
+P.165 Tanjung Piai,businesses_manufacturing,268
+P.167 Kudat,businesses_manufacturing,22
+P.168 Kota Marudu,businesses_manufacturing,26
+P.169 Kota Belud,businesses_manufacturing,32
+P.170 Tuaran,businesses_manufacturing,49
+P.171 Sepanggar,businesses_manufacturing,536
+P.172 Kota Kinabalu,businesses_manufacturing,294
+P.173 Putatan,businesses_manufacturing,87
+P.174 Penampang,businesses_manufacturing,167
+P.175 Papar,businesses_manufacturing,48
+P.176 Kimanis,businesses_manufacturing,29
+P.177 Beaufort,businesses_manufacturing,37
+P.178 Sipitang,businesses_manufacturing,36
+P.179 Ranau,businesses_manufacturing,17
+P.180 Keningau,businesses_manufacturing,119
+P.181 Tenom,businesses_manufacturing,41
+P.182 Pensiangan,businesses_manufacturing,16
+P.183 Beluran,businesses_manufacturing,21
+P.184 Libaran,businesses_manufacturing,105
+P.185 Batu Sapi,businesses_manufacturing,90
+P.186 Sandakan,businesses_manufacturing,151
+P.187 Kinabatangan,businesses_manufacturing,26
+P.188 Lahad Datu,businesses_manufacturing,182
+P.189 Semporna,businesses_manufacturing,25
+P.190 Tawau,businesses_manufacturing,234
+P.191 Kalabakan,businesses_manufacturing,78
+P.192 Mas Gading,businesses_manufacturing,27
+P.193 Santubong,businesses_manufacturing,300
+P.194 Petra Jaya,businesses_manufacturing,301
+P.195 Bandar Kuching,businesses_manufacturing,696
+P.196 Stampin,businesses_manufacturing,342
+P.197 Kota Samarahan,businesses_manufacturing,105
+P.198 Puncak Borneo,businesses_manufacturing,51
+P.199 Serian,businesses_manufacturing,55
+P.200 Batang Sadong,businesses_manufacturing,13
+P.201 Batang Lupar,businesses_manufacturing,15
+P.202 Sri Aman,businesses_manufacturing,34
+P.203 Lubok Antu,businesses_manufacturing,5
+P.204 Betong,businesses_manufacturing,24
+P.205 Saratok,businesses_manufacturing,18
+P.206 Tanjong Manis,businesses_manufacturing,36
+P.207 Igan,businesses_manufacturing,11
+P.208 Sarikei,businesses_manufacturing,93
+P.209 Julau,businesses_manufacturing,2
+P.210 Kanowit,businesses_manufacturing,9
+P.211 Lanang,businesses_manufacturing,371
+P.212 Sibu,businesses_manufacturing,391
+P.213 Mukah,businesses_manufacturing,27
+P.214 Selangau,businesses_manufacturing,22
+P.215 Kapit,businesses_manufacturing,22
+P.216 Hulu Rajang,businesses_manufacturing,2
+P.217 Bintulu,businesses_manufacturing,314
+P.218 Sibuti,businesses_manufacturing,54
+P.219 Miri,businesses_manufacturing,502
+P.220 Baram,businesses_manufacturing,13
+P.221 Limbang,businesses_manufacturing,44
+P.222 Lawas,businesses_manufacturing,36
+P.114 Kepong,businesses_manufacturing,394
+P.115 Batu,businesses_manufacturing,535
+P.116 Wangsa Maju,businesses_manufacturing,358
+P.117 Segambut,businesses_manufacturing,732
+P.118 Setiawangsa,businesses_manufacturing,187
+P.119 Titiwangsa,businesses_manufacturing,402
+P.120 Bukit Bintang,businesses_manufacturing,1061
+P.121 Lembah Pantai,businesses_manufacturing,278
+P.122 Seputeh,businesses_manufacturing,565
+P.123 Cheras,businesses_manufacturing,425
+P.124 Bandar Tun Razak,businesses_manufacturing,301
+P.125 Putrajaya,businesses_manufacturing,31
+P.166 Labuan,businesses_manufacturing,152
+P.001 Padang Besar,businesses_construction,269
+P.002 Kangar,businesses_construction,682
+P.003 Arau,businesses_construction,393
+P.004 Langkawi,businesses_construction,290
+P.005 Jerlun,businesses_construction,58
+P.006 Kubang Pasu,businesses_construction,292
+P.007 Padang Terap,businesses_construction,65
+P.008 Pokok Sena,businesses_construction,1058
+P.009 Alor Setar,businesses_construction,566
+P.010 Kuala Kedah,businesses_construction,300
+P.011 Pendang,businesses_construction,89
+P.012 Jerai,businesses_construction,176
+P.013 Sik,businesses_construction,76
+P.014 Merbok,businesses_construction,818
+P.015 Sungai Petani,businesses_construction,275
+P.016 Baling,businesses_construction,92
+P.017 Padang Serai,businesses_construction,216
+P.018 Kulim-Bandar Baharu,businesses_construction,107
+P.019 Tumpat,businesses_construction,191
+P.020 Pengkalan Chepa,businesses_construction,326
+P.021 Kota Bharu,businesses_construction,737
+P.022 Pasir Mas,businesses_construction,163
+P.023 Rantau Panjang,businesses_construction,90
+P.024 Kubang Kerian,businesses_construction,273
+P.025 Bachok,businesses_construction,145
+P.026 Ketereh,businesses_construction,105
+P.027 Tanah Merah,businesses_construction,134
+P.028 Pasir Puteh,businesses_construction,115
+P.029 Machang,businesses_construction,107
+P.030 Jeli,businesses_construction,86
+P.031 Kuala Krai,businesses_construction,110
+P.032 Gua Musang,businesses_construction,144
+P.033 Besut,businesses_construction,390
+P.034 Setiu,businesses_construction,292
+P.035 Kuala Nerus,businesses_construction,388
+P.036 Kuala Terengganu,businesses_construction,1071
+P.037 Marang,businesses_construction,469
+P.038 Hulu Terengganu,businesses_construction,345
+P.039 Dungun,businesses_construction,396
+P.040 Kemaman,businesses_construction,636
+P.041 Kepala Batas,businesses_construction,363
+P.042 Tasek Gelugor,businesses_construction,214
+P.043 Bagan,businesses_construction,527
+P.044 Permatang Pauh,businesses_construction,986
+P.045 Bukit Mertajam,businesses_construction,460
+P.046 Batu Kawan,businesses_construction,443
+P.047 Nibong Tebal,businesses_construction,338
+P.048 Bukit Bendera,businesses_construction,656
+P.049 Tanjong,businesses_construction,433
+P.050 Jelutong,businesses_construction,486
+P.051 Bukit Gelugor,businesses_construction,377
+P.052 Bayan Baru,businesses_construction,616
+P.053 Balik Pulau,businesses_construction,250
+P.054 Gerik,businesses_construction,155
+P.055 Lenggong,businesses_construction,91
+P.056 Larut,businesses_construction,87
+P.057 Parit Buntar,businesses_construction,141
+P.058 Bagan Serai,businesses_construction,132
+P.059 Bukit Gantang,businesses_construction,173
+P.060 Taiping,businesses_construction,413
+P.061 Padang Rengas,businesses_construction,73
+P.062 Sungai Siput,businesses_construction,146
+P.063 Tambun,businesses_construction,566
+P.064 Ipoh Timor,businesses_construction,786
+P.065 Ipoh Barat,businesses_construction,811
+P.066 Batu Gajah,businesses_construction,497
+P.067 Kuala Kangsar,businesses_construction,132
+P.068 Beruas,businesses_construction,472
+P.069 Parit,businesses_construction,107
+P.070 Kampar,businesses_construction,167
+P.071 Gopeng,businesses_construction,661
+P.072 Tapah,businesses_construction,137
+P.073 Pasir Salak,businesses_construction,150
+P.074 Lumut,businesses_construction,388
+P.075 Bagan Datuk,businesses_construction,76
+P.076 Teluk Intan,businesses_construction,288
+P.077 Tanjong Malim,businesses_construction,176
+P.078 Cameron Highlands,businesses_construction,77
+P.079 Lipis,businesses_construction,106
+P.080 Raub,businesses_construction,124
+P.081 Jerantut,businesses_construction,248
+P.082 Indera Mahkota,businesses_construction,942
+P.083 Kuantan,businesses_construction,857
+P.084 Paya Besar,businesses_construction,224
+P.085 Pekan,businesses_construction,252
+P.086 Maran,businesses_construction,113
+P.087 Kuala Krau,businesses_construction,199
+P.088 Temerloh,businesses_construction,444
+P.089 Bentong,businesses_construction,205
+P.090 Bera,businesses_construction,201
+P.091 Rompin,businesses_construction,212
+P.092 Sabak Bernam,businesses_construction,93
+P.093 Sungai Besar,businesses_construction,106
+P.094 Hulu Selangor,businesses_construction,273
+P.095 Tanjong Karang,businesses_construction,130
+P.096 Kuala Selangor,businesses_construction,183
+P.097 Selayang,businesses_construction,639
+P.098 Gombak,businesses_construction,1060
+P.099 Ampang,businesses_construction,469
+P.100 Pandan,businesses_construction,923
+P.101 Hulu Langat,businesses_construction,886
+P.102 Bangi,businesses_construction,2048
+P.103 Puchong,businesses_construction,1663
+P.104 Subang,businesses_construction,2678
+P.105 Petaling Jaya,businesses_construction,2151
+P.106 Damansara,businesses_construction,1934
+P.107 Sungai Buloh,businesses_construction,1032
+P.108 Shah Alam,businesses_construction,1555
+P.109 Kapar,businesses_construction,929
+P.110 Klang,businesses_construction,1130
+P.111 Kota Raja,businesses_construction,1422
+P.112 Kuala Langat,businesses_construction,592
+P.113 Sepang,businesses_construction,629
+P.126 Jelebu,businesses_construction,258
+P.127 Jempol,businesses_construction,423
+P.128 Seremban,businesses_construction,1049
+P.129 Kuala Pilah,businesses_construction,383
+P.130 Rasah,businesses_construction,1236
+P.131 Rembau,businesses_construction,745
+P.132 Port Dickson,businesses_construction,624
+P.133 Tampin,businesses_construction,393
+P.134 Masjid Tanah,businesses_construction,185
+P.135 Alor Gajah,businesses_construction,307
+P.136 Tangga Batu,businesses_construction,476
+P.137 Hang Tuah Jaya,businesses_construction,911
+P.138 Kota Melaka,businesses_construction,1115
+P.139 Jasin,businesses_construction,268
+P.140 Segamat,businesses_construction,246
+P.141 Sekijang,businesses_construction,352
+P.142 Labis,businesses_construction,89
+P.143 Pagoh,businesses_construction,213
+P.144 Ledang,businesses_construction,394
+P.145 Bakri,businesses_construction,539
+P.146 Muar,businesses_construction,182
+P.147 Parit Sulong,businesses_construction,220
+P.148 Ayer Hitam,businesses_construction,143
+P.149 Sri Gading,businesses_construction,314
+P.150 Batu Pahat,businesses_construction,518
+P.151 Simpang Renggam,businesses_construction,180
+P.152 Kluang,businesses_construction,634
+P.153 Sembrong,businesses_construction,117
+P.154 Mersing,businesses_construction,257
+P.155 Tenggara,businesses_construction,344
+P.156 Kota Tinggi,businesses_construction,141
+P.157 Pengerang,businesses_construction,108
+P.158 Tebrau,businesses_construction,1433
+P.159 Pasir Gudang,businesses_construction,997
+P.160 Johor Bahru,businesses_construction,655
+P.161 Pulai,businesses_construction,1763
+P.162 Iskandar Puteri,businesses_construction,1104
+P.163 Kulai,businesses_construction,654
+P.164 Pontian,businesses_construction,261
+P.165 Tanjung Piai,businesses_construction,151
+P.167 Kudat,businesses_construction,119
+P.168 Kota Marudu,businesses_construction,136
+P.169 Kota Belud,businesses_construction,261
+P.170 Tuaran,businesses_construction,193
+P.171 Sepanggar,businesses_construction,1187
+P.172 Kota Kinabalu,businesses_construction,1158
+P.173 Putatan,businesses_construction,167
+P.174 Penampang,businesses_construction,493
+P.175 Papar,businesses_construction,103
+P.176 Kimanis,businesses_construction,124
+P.177 Beaufort,businesses_construction,138
+P.178 Sipitang,businesses_construction,122
+P.179 Ranau,businesses_construction,216
+P.180 Keningau,businesses_construction,270
+P.181 Tenom,businesses_construction,112
+P.182 Pensiangan,businesses_construction,71
+P.183 Beluran,businesses_construction,120
+P.184 Libaran,businesses_construction,154
+P.185 Batu Sapi,businesses_construction,163
+P.186 Sandakan,businesses_construction,174
+P.187 Kinabatangan,businesses_construction,36
+P.188 Lahad Datu,businesses_construction,316
+P.189 Semporna,businesses_construction,136
+P.190 Tawau,businesses_construction,481
+P.191 Kalabakan,businesses_construction,194
+P.192 Mas Gading,businesses_construction,27
+P.193 Santubong,businesses_construction,258
+P.194 Petra Jaya,businesses_construction,758
+P.195 Bandar Kuching,businesses_construction,1752
+P.196 Stampin,businesses_construction,971
+P.197 Kota Samarahan,businesses_construction,156
+P.198 Puncak Borneo,businesses_construction,54
+P.199 Serian,businesses_construction,97
+P.200 Batang Sadong,businesses_construction,50
+P.201 Batang Lupar,businesses_construction,53
+P.202 Sri Aman,businesses_construction,133
+P.203 Lubok Antu,businesses_construction,43
+P.204 Betong,businesses_construction,112
+P.205 Saratok,businesses_construction,74
+P.206 Tanjong Manis,businesses_construction,109
+P.207 Igan,businesses_construction,99
+P.208 Sarikei,businesses_construction,180
+P.209 Julau,businesses_construction,44
+P.210 Kanowit,businesses_construction,23
+P.211 Lanang,businesses_construction,396
+P.212 Sibu,businesses_construction,506
+P.213 Mukah,businesses_construction,78
+P.214 Selangau,businesses_construction,38
+P.215 Kapit,businesses_construction,102
+P.216 Hulu Rajang,businesses_construction,13
+P.217 Bintulu,businesses_construction,755
+P.218 Sibuti,businesses_construction,86
+P.219 Miri,businesses_construction,894
+P.220 Baram,businesses_construction,31
+P.221 Limbang,businesses_construction,92
+P.222 Lawas,businesses_construction,89
+P.114 Kepong,businesses_construction,610
+P.115 Batu,businesses_construction,2654
+P.116 Wangsa Maju,businesses_construction,898
+P.117 Segambut,businesses_construction,1951
+P.118 Setiawangsa,businesses_construction,378
+P.119 Titiwangsa,businesses_construction,900
+P.120 Bukit Bintang,businesses_construction,1577
+P.121 Lembah Pantai,businesses_construction,453
+P.122 Seputeh,businesses_construction,1255
+P.123 Cheras,businesses_construction,928
+P.124 Bandar Tun Razak,businesses_construction,617
+P.125 Putrajaya,businesses_construction,63
+P.166 Labuan,businesses_construction,290
+P.001 Padang Besar,businesses_services,1957
+P.002 Kangar,businesses_services,3674
+P.003 Arau,businesses_services,1987
+P.004 Langkawi,businesses_services,3712
+P.005 Jerlun,businesses_services,1086
+P.006 Kubang Pasu,businesses_services,3986
+P.007 Padang Terap,businesses_services,992
+P.008 Pokok Sena,businesses_services,5582
+P.009 Alor Setar,businesses_services,6478
+P.010 Kuala Kedah,businesses_services,4083
+P.011 Pendang,businesses_services,1946
+P.012 Jerai,businesses_services,2642
+P.013 Sik,businesses_services,793
+P.014 Merbok,businesses_services,6765
+P.015 Sungai Petani,businesses_services,5264
+P.016 Baling,businesses_services,2397
+P.017 Padang Serai,businesses_services,3548
+P.018 Kulim-Bandar Baharu,businesses_services,2430
+P.019 Tumpat,businesses_services,4918
+P.020 Pengkalan Chepa,businesses_services,4758
+P.021 Kota Bharu,businesses_services,9742
+P.022 Pasir Mas,businesses_services,3043
+P.023 Rantau Panjang,businesses_services,3109
+P.024 Kubang Kerian,businesses_services,4405
+P.025 Bachok,businesses_services,3491
+P.026 Ketereh,businesses_services,2572
+P.027 Tanah Merah,businesses_services,3398
+P.028 Pasir Puteh,businesses_services,3430
+P.029 Machang,businesses_services,2989
+P.030 Jeli,businesses_services,1864
+P.031 Kuala Krai,businesses_services,3029
+P.032 Gua Musang,businesses_services,2528
+P.033 Besut,businesses_services,3949
+P.034 Setiu,businesses_services,2331
+P.035 Kuala Nerus,businesses_services,2955
+P.036 Kuala Terengganu,businesses_services,7461
+P.037 Marang,businesses_services,3340
+P.038 Hulu Terengganu,businesses_services,2756
+P.039 Dungun,businesses_services,3524
+P.040 Kemaman,businesses_services,5220
+P.041 Kepala Batas,businesses_services,3846
+P.042 Tasek Gelugor,businesses_services,2256
+P.043 Bagan,businesses_services,5857
+P.044 Permatang Pauh,businesses_services,8439
+P.045 Bukit Mertajam,businesses_services,6394
+P.046 Batu Kawan,businesses_services,5905
+P.047 Nibong Tebal,businesses_services,4171
+P.048 Bukit Bendera,businesses_services,10117
+P.049 Tanjong,businesses_services,9029
+P.050 Jelutong,businesses_services,5501
+P.051 Bukit Gelugor,businesses_services,4167
+P.052 Bayan Baru,businesses_services,7511
+P.053 Balik Pulau,businesses_services,2644
+P.054 Gerik,businesses_services,1175
+P.055 Lenggong,businesses_services,593
+P.056 Larut,businesses_services,837
+P.057 Parit Buntar,businesses_services,1804
+P.058 Bagan Serai,businesses_services,1411
+P.059 Bukit Gantang,businesses_services,1800
+P.060 Taiping,businesses_services,3971
+P.061 Padang Rengas,businesses_services,644
+P.062 Sungai Siput,businesses_services,1536
+P.063 Tambun,businesses_services,4996
+P.064 Ipoh Timor,businesses_services,8479
+P.065 Ipoh Barat,businesses_services,8592
+P.066 Batu Gajah,businesses_services,4415
+P.067 Kuala Kangsar,businesses_services,1436
+P.068 Beruas,businesses_services,4615
+P.069 Parit,businesses_services,1046
+P.070 Kampar,businesses_services,2724
+P.071 Gopeng,businesses_services,5052
+P.072 Tapah,businesses_services,1168
+P.073 Pasir Salak,businesses_services,1144
+P.074 Lumut,businesses_services,3535
+P.075 Bagan Datuk,businesses_services,1279
+P.076 Teluk Intan,businesses_services,3161
+P.077 Tanjong Malim,businesses_services,2840
+P.078 Cameron Highlands,businesses_services,1892
+P.079 Lipis,businesses_services,1403
+P.080 Raub,businesses_services,2193
+P.081 Jerantut,businesses_services,2218
+P.082 Indera Mahkota,businesses_services,6309
+P.083 Kuantan,businesses_services,6619
+P.084 Paya Besar,businesses_services,2053
+P.085 Pekan,businesses_services,2461
+P.086 Maran,businesses_services,1012
+P.087 Kuala Krau,businesses_services,1547
+P.088 Temerloh,businesses_services,4095
+P.089 Bentong,businesses_services,3103
+P.090 Bera,businesses_services,1927
+P.091 Rompin,businesses_services,2099
+P.092 Sabak Bernam,businesses_services,1231
+P.093 Sungai Besar,businesses_services,1569
+P.094 Hulu Selangor,businesses_services,3258
+P.095 Tanjong Karang,businesses_services,1771
+P.096 Kuala Selangor,businesses_services,2677
+P.097 Selayang,businesses_services,6514
+P.098 Gombak,businesses_services,11175
+P.099 Ampang,businesses_services,5232
+P.100 Pandan,businesses_services,8084
+P.101 Hulu Langat,businesses_services,7444
+P.102 Bangi,businesses_services,17046
+P.103 Puchong,businesses_services,11544
+P.104 Subang,businesses_services,25882
+P.105 Petaling Jaya,businesses_services,29763
+P.106 Damansara,businesses_services,27229
+P.107 Sungai Buloh,businesses_services,10607
+P.108 Shah Alam,businesses_services,15100
+P.109 Kapar,businesses_services,11298
+P.110 Klang,businesses_services,12807
+P.111 Kota Raja,businesses_services,14902
+P.112 Kuala Langat,businesses_services,5421
+P.113 Sepang,businesses_services,7126
+P.126 Jelebu,businesses_services,1481
+P.127 Jempol,businesses_services,3288
+P.128 Seremban,businesses_services,8663
+P.129 Kuala Pilah,businesses_services,2524
+P.130 Rasah,businesses_services,9892
+P.131 Rembau,businesses_services,4261
+P.132 Port Dickson,businesses_services,3824
+P.133 Tampin,businesses_services,2843
+P.134 Masjid Tanah,businesses_services,1454
+P.135 Alor Gajah,businesses_services,3168
+P.136 Tangga Batu,businesses_services,3434
+P.137 Hang Tuah Jaya,businesses_services,7158
+P.138 Kota Melaka,businesses_services,9995
+P.139 Jasin,businesses_services,2128
+P.140 Segamat,businesses_services,2304
+P.141 Sekijang,businesses_services,3146
+P.142 Labis,businesses_services,1359
+P.143 Pagoh,businesses_services,2289
+P.144 Ledang,businesses_services,3727
+P.145 Bakri,businesses_services,6190
+P.146 Muar,businesses_services,2231
+P.147 Parit Sulong,businesses_services,3026
+P.148 Ayer Hitam,businesses_services,2555
+P.149 Sri Gading,businesses_services,3503
+P.150 Batu Pahat,businesses_services,6314
+P.151 Simpang Renggam,businesses_services,1280
+P.152 Kluang,businesses_services,5038
+P.153 Sembrong,businesses_services,965
+P.154 Mersing,businesses_services,1392
+P.155 Tenggara,businesses_services,1922
+P.156 Kota Tinggi,businesses_services,1482
+P.157 Pengerang,businesses_services,1146
+P.158 Tebrau,businesses_services,11854
+P.159 Pasir Gudang,businesses_services,9314
+P.160 Johor Bahru,businesses_services,7739
+P.161 Pulai,businesses_services,14557
+P.162 Iskandar Puteri,businesses_services,9825
+P.163 Kulai,businesses_services,5916
+P.164 Pontian,businesses_services,2021
+P.165 Tanjung Piai,businesses_services,1530
+P.167 Kudat,businesses_services,1521
+P.168 Kota Marudu,businesses_services,1575
+P.169 Kota Belud,businesses_services,2091
+P.170 Tuaran,businesses_services,2088
+P.171 Sepanggar,businesses_services,8618
+P.172 Kota Kinabalu,businesses_services,12832
+P.173 Putatan,businesses_services,2958
+P.174 Penampang,businesses_services,4146
+P.175 Papar,businesses_services,1490
+P.176 Kimanis,businesses_services,778
+P.177 Beaufort,businesses_services,1645
+P.178 Sipitang,businesses_services,1238
+P.179 Ranau,businesses_services,1761
+P.180 Keningau,businesses_services,2888
+P.181 Tenom,businesses_services,718
+P.182 Pensiangan,businesses_services,525
+P.183 Beluran,businesses_services,908
+P.184 Libaran,businesses_services,2210
+P.185 Batu Sapi,businesses_services,2341
+P.186 Sandakan,businesses_services,3618
+P.187 Kinabatangan,businesses_services,869
+P.188 Lahad Datu,businesses_services,4873
+P.189 Semporna,businesses_services,1373
+P.190 Tawau,businesses_services,5507
+P.191 Kalabakan,businesses_services,2550
+P.192 Mas Gading,businesses_services,880
+P.193 Santubong,businesses_services,2735
+P.194 Petra Jaya,businesses_services,6173
+P.195 Bandar Kuching,businesses_services,14188
+P.196 Stampin,businesses_services,6774
+P.197 Kota Samarahan,businesses_services,2401
+P.198 Puncak Borneo,businesses_services,1655
+P.199 Serian,businesses_services,1290
+P.200 Batang Sadong,businesses_services,550
+P.201 Batang Lupar,businesses_services,381
+P.202 Sri Aman,businesses_services,893
+P.203 Lubok Antu,businesses_services,285
+P.204 Betong,businesses_services,537
+P.205 Saratok,businesses_services,621
+P.206 Tanjong Manis,businesses_services,933
+P.207 Igan,businesses_services,432
+P.208 Sarikei,businesses_services,1740
+P.209 Julau,businesses_services,177
+P.210 Kanowit,businesses_services,257
+P.211 Lanang,businesses_services,4674
+P.212 Sibu,businesses_services,5751
+P.213 Mukah,businesses_services,784
+P.214 Selangau,businesses_services,439
+P.215 Kapit,businesses_services,731
+P.216 Hulu Rajang,businesses_services,152
+P.217 Bintulu,businesses_services,6454
+P.218 Sibuti,businesses_services,1037
+P.219 Miri,businesses_services,8464
+P.220 Baram,businesses_services,601
+P.221 Limbang,businesses_services,1044
+P.222 Lawas,businesses_services,611
+P.114 Kepong,businesses_services,7333
+P.115 Batu,businesses_services,22933
+P.116 Wangsa Maju,businesses_services,10905
+P.117 Segambut,businesses_services,24272
+P.118 Setiawangsa,businesses_services,5436
+P.119 Titiwangsa,businesses_services,13525
+P.120 Bukit Bintang,businesses_services,28539
+P.121 Lembah Pantai,businesses_services,10570
+P.122 Seputeh,businesses_services,15005
+P.123 Cheras,businesses_services,13997
+P.124 Bandar Tun Razak,businesses_services,7741
+P.125 Putrajaya,businesses_services,1336
+P.166 Labuan,businesses_services,2640
