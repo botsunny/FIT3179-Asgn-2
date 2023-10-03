@@ -1,33 +1,34 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_ge14_15.csv"},
-    "title": "Change in seats by state among major coalitions from GE14 to GE15",
-    "transform": [
-      {"pivot": "election", "value": "seats", "groupby": ["state", "party"]},
-      {"fold": ["14", "15"], "as": ["election", "seats"]},
-      {"calculate": "toNumber(datum.election)", "as": "election"},
-      {"calculate": "datum['15'] - datum['14']", "as": "delta"}
-    ],
-    "mark": "trail",
-    "encoding": {
-      "x": {"field": "election", "title": null},
-      "y": {"field": "state", "title": "state"},
-      "size": {
-        "field": "seats",
-        "type": "quantitative",
-        "scale": {"range": [0, 15]},
-        "legend": {"values": [5, 15]},
-        "title": "Seats won"
-      },
-      "tooltip": [{"field": "election", "type": "quantitative"}, {"field": "seats"}],
-      "color": {
-        "field": "delta",
-        "type": "quantitative",
-        "scale": {"domainMid": 0},
-        "title": "Change in seats"
-      },
-      "column": {"field": "party", "title": "Coalation"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_ge14_15.csv"},
+  "width": 90,
+  "title": "Change in seats by state among major coalitions from GE14 to GE15",
+  "transform": [
+    {"pivot": "election", "value": "newSeats", "groupby": ["state", "party"]},
+    {"fold": ["14", "15"], "as": ["election", "newSeats"]},
+    {"calculate": "toNumber(datum.election)", "as": "election"},
+    {"calculate": "datum['15'] - datum['14']", "as": "delta"}
+  ],
+  "mark": "trail",
+  "encoding": {
+    "x": {"field": "election", "title": null},
+    "y": {"field": "state", "title": "state"},
+    "size": {
+      "field": "newSeats",
+      "type": "quantitative",
+      "scale": {"range": [0, 20]},
+      "legend": {"values": [5, 10, 15]},
+      "title": "Seats won"
     },
-    "view": {"stroke": null},
-    "config": {"legend": {"orient": "bottom", "direction": "horizontal"}}
-  }
+    "tooltip": [{"field": "election", "type": "quantitative"}, {"field": "newSeats"}],
+    "color": {
+      "field": "delta",
+      "type": "quantitative",
+      "scale": {"domainMid": 0},
+      "title": "Change in seats"
+    },
+    "column": {"field": "party", "title": "Coalition"}
+  },
+  "view": {"stroke": null},
+  "config": {"legend": {"orient": "bottom", "direction": "horizontal"}}
+}

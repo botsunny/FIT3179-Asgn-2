@@ -6,8 +6,8 @@
     "align": "left",
     "anchor": "start"
   },
-  "width": 1600,
-  "height": 900,
+  "width": 1500,
+  "height": 843.75,
   "projection": {
     "type": "albers",
     "rotate": [-105, 0, 0],
@@ -37,7 +37,7 @@
     },
     {"name": "select", "select": "point"}
   ],
-  "mark": {"type": "geoshape"},
+  "mark": {"type": "geoshape", "stroke": "lightgray"},
   "encoding": {
     "color": { 
       "field": "party",
@@ -91,15 +91,15 @@
         {
           "param": "select",
           "empty": false,
-          "value": 7
+          "value": 1.5
         },
         {
           "param": "highlight",
           "empty": false,
-          "value": 7
+          "value": 1.5
         }
       ],
-      "value": 2
+      "value": 0
     }
   },
   "config": {

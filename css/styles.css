@@ -1,10 +1,27 @@
-body *{
-    font-family: 'Open Sans', sans-serif;
+@font-face {
+	font-family: Rubik;
+	src: url(Rubik-Regular.ttf);
+}
+
+@font-face {
+	font-family: Inclusive;
+    src: url(InclusiveSans-Regular.ttf);
 }
 
 h1 {
+    font-family: 'Rubik';
     font-weight: 900;
     margin-top: 20px;
+    font-size: 56px;
+}
+
+#intro {
+    font-family: 'Inclusive';
+	font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 
 body {

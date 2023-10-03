@@ -6,22 +6,41 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
   
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+  integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 </head>
 
 <body>
   <h1>15th Malaysian General Election</h1>
+  <p id="intro">
+    The 15th Malaysian General Election (GE15) was held on 19 November 2022.
+    It was a rather unique one; a snap election held to resolve political
+    instability that resulted in the first hung parliament in Malaysian history.
+  </p>
+
   <div id="map" class="vis-container"></div>
   <button id="change-win-map">Winning candidates</button>
   <button id="change-demog-map">Constituency demographics</button>
   <button id="change-turnout-map">Turnout</button>
 
+  <div id="radar" class="vis-container"></div>
+  <button id="change-social-radar">Social factors</button>
+  <button id="change-econ-radar">Economic factors</button>
+
+  <div id="#pyramid" class="vis-container"></div>
 
 <script type="text/javascript">
   var spec1 = "js/map_win.vg.json";
   var spec2 = "js/map_demog.vg.json";
   var spec3 = "js/map_turnout.vg.json";
+  var spec4 = "js/radar1.vg.json";
+  var spec5 = "js/radar2.vg.json";
+  var spec6 = "js/pyramid.vg.json";
 
   let currentMap = null; // To keep track of the current map
 
@@ -32,7 +51,7 @@
               currentMap = spec;
           }).catch(console.error);
       }
-}
+  }
 
   embedMap(spec1);
 
@@ -50,6 +69,32 @@
     embedMap(spec3);
   });
 
+  let currentRadar = null;
+
+  // Function to embed the selected radar chart
+  function embedRadar(spec) {
+    if (currentRadar !== spec) {
+      vegaEmbed("#radar", spec).then(() => {
+        currentRadar = spec;
+      }).catch(console.error);
+    }
+  }
+
+  embedRadar(spec4)
+
+  const button4 = document.getElementById("change-social-radar");
+  const button5 = document.getElementById("change-econ-radar");
+
+  button4.addEventListener("click", () => {
+    embedRadar(spec4);
+  });
+  button5.addEventListener("click", () => {
+    embedRadar(spec5);
+  });
+
+  vegaEmbed('#pyramid', spec6, { "actions": false }).then(function (result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
 
   // vegaEmbed('#map', spec1, { "actions": false }).then(function (result) {
   //   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
