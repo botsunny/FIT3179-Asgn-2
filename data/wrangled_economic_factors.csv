@@ -1,0 +1,1333 @@
+parlimen,variable,value
+P.001 Padang Besar,labour_participation_rate,62.9
+P.002 Kangar,labour_participation_rate,62.8
+P.003 Arau,labour_participation_rate,63.3
+P.004 Langkawi,labour_participation_rate,68.5
+P.005 Jerlun,labour_participation_rate,61.3
+P.006 Kubang Pasu,labour_participation_rate,61.7
+P.007 Padang Terap,labour_participation_rate,65.4
+P.008 Pokok Sena,labour_participation_rate,65.8
+P.009 Alor Setar,labour_participation_rate,61.9
+P.010 Kuala Kedah,labour_participation_rate,61.2
+P.011 Pendang,labour_participation_rate,64.2
+P.012 Jerai,labour_participation_rate,60.3
+P.013 Sik,labour_participation_rate,61.1
+P.014 Merbok,labour_participation_rate,60.5
+P.015 Sungai Petani,labour_participation_rate,60.3
+P.016 Baling,labour_participation_rate,66.6
+P.017 Padang Serai,labour_participation_rate,64.9
+P.018 Kulim-Bandar Baharu,labour_participation_rate,65.7
+P.019 Tumpat,labour_participation_rate,54.8
+P.020 Pengkalan Chepa,labour_participation_rate,60.8
+P.021 Kota Bharu,labour_participation_rate,60.3
+P.022 Pasir Mas,labour_participation_rate,53.9
+P.023 Rantau Panjang,labour_participation_rate,54.2
+P.024 Kubang Kerian,labour_participation_rate,60.9
+P.025 Bachok,labour_participation_rate,54.4
+P.026 Ketereh,labour_participation_rate,60.9
+P.027 Tanah Merah,labour_participation_rate,58.4
+P.028 Pasir Puteh,labour_participation_rate,56.6
+P.029 Machang,labour_participation_rate,59.4
+P.030 Jeli,labour_participation_rate,57.3
+P.031 Kuala Krai,labour_participation_rate,61.4
+P.032 Gua Musang,labour_participation_rate,57.0
+P.033 Besut,labour_participation_rate,60.0
+P.034 Setiu,labour_participation_rate,64.6
+P.035 Kuala Nerus,labour_participation_rate,55.2
+P.036 Kuala Terengganu,labour_participation_rate,61.1
+P.037 Marang,labour_participation_rate,55.8
+P.038 Hulu Terengganu,labour_participation_rate,55.9
+P.039 Dungun,labour_participation_rate,55.7
+P.040 Kemaman,labour_participation_rate,65.6
+P.041 Kepala Batas,labour_participation_rate,63.1
+P.042 Tasek Gelugor,labour_participation_rate,63.2
+P.043 Bagan,labour_participation_rate,62.9
+P.044 Permatang Pauh,labour_participation_rate,63.0
+P.045 Bukit Mertajam,labour_participation_rate,69.1
+P.046 Batu Kawan,labour_participation_rate,75.6
+P.047 Nibong Tebal,labour_participation_rate,76.6
+P.048 Bukit Bendera,labour_participation_rate,66.0
+P.049 Tanjong,labour_participation_rate,66.6
+P.050 Jelutong,labour_participation_rate,67.6
+P.051 Bukit Gelugor,labour_participation_rate,66.4
+P.052 Bayan Baru,labour_participation_rate,69.6
+P.053 Balik Pulau,labour_participation_rate,69.2
+P.054 Gerik,labour_participation_rate,62.5
+P.055 Lenggong,labour_participation_rate,61.8
+P.056 Larut,labour_participation_rate,66.7
+P.057 Parit Buntar,labour_participation_rate,60.3
+P.058 Bagan Serai,labour_participation_rate,61.2
+P.059 Bukit Gantang,labour_participation_rate,67.7
+P.060 Taiping,labour_participation_rate,66.5
+P.061 Padang Rengas,labour_participation_rate,60.4
+P.062 Sungai Siput,labour_participation_rate,60.7
+P.063 Tambun,labour_participation_rate,64.7
+P.064 Ipoh Timor,labour_participation_rate,66.1
+P.065 Ipoh Barat,labour_participation_rate,64.5
+P.066 Batu Gajah,labour_participation_rate,64.9
+P.067 Kuala Kangsar,labour_participation_rate,59.9
+P.068 Beruas,labour_participation_rate,64.8
+P.069 Parit,labour_participation_rate,60.6
+P.070 Kampar,labour_participation_rate,65.8
+P.071 Gopeng,labour_participation_rate,61.3
+P.072 Tapah,labour_participation_rate,68.1
+P.073 Pasir Salak,labour_participation_rate,65.6
+P.074 Lumut,labour_participation_rate,64.9
+P.075 Bagan Datuk,labour_participation_rate,63.8
+P.076 Teluk Intan,labour_participation_rate,63.4
+P.077 Tanjong Malim,labour_participation_rate,68.5
+P.078 Cameron Highlands,labour_participation_rate,73.3
+P.079 Lipis,labour_participation_rate,58.5
+P.080 Raub,labour_participation_rate,64.5
+P.081 Jerantut,labour_participation_rate,64.9
+P.082 Indera Mahkota,labour_participation_rate,69.3
+P.083 Kuantan,labour_participation_rate,69.1
+P.084 Paya Besar,labour_participation_rate,68.9
+P.085 Pekan,labour_participation_rate,69.2
+P.086 Maran,labour_participation_rate,65.0
+P.087 Kuala Krau,labour_participation_rate,63.6
+P.088 Temerloh,labour_participation_rate,63.6
+P.089 Bentong,labour_participation_rate,63.8
+P.090 Bera,labour_participation_rate,57.6
+P.091 Rompin,labour_participation_rate,61.6
+P.092 Sabak Bernam,labour_participation_rate,72.4
+P.093 Sungai Besar,labour_participation_rate,73.9
+P.094 Hulu Selangor,labour_participation_rate,74.8
+P.095 Tanjong Karang,labour_participation_rate,75.4
+P.096 Kuala Selangor,labour_participation_rate,76.4
+P.097 Selayang,labour_participation_rate,76.5
+P.098 Gombak,labour_participation_rate,76.4
+P.099 Ampang,labour_participation_rate,74.9
+P.100 Pandan,labour_participation_rate,77.7
+P.101 Hulu Langat,labour_participation_rate,76.0
+P.102 Bangi,labour_participation_rate,76.1
+P.103 Puchong,labour_participation_rate,73.4
+P.104 Subang,labour_participation_rate,75.2
+P.105 Petaling Jaya,labour_participation_rate,75.0
+P.106 Damansara,labour_participation_rate,76.0
+P.107 Sungai Buloh,labour_participation_rate,74.1
+P.108 Shah Alam,labour_participation_rate,74.9
+P.109 Kapar,labour_participation_rate,75.7
+P.110 Klang,labour_participation_rate,76.9
+P.111 Kota Raja,labour_participation_rate,74.6
+P.112 Kuala Langat,labour_participation_rate,76.3
+P.113 Sepang,labour_participation_rate,74.7
+P.126 Jelebu,labour_participation_rate,64.7
+P.127 Jempol,labour_participation_rate,62.3
+P.128 Seremban,labour_participation_rate,64.3
+P.129 Kuala Pilah,labour_participation_rate,62.2
+P.130 Rasah,labour_participation_rate,64.3
+P.131 Rembau,labour_participation_rate,64.2
+P.132 Port Dickson,labour_participation_rate,64.2
+P.133 Tampin,labour_participation_rate,65.9
+P.134 Masjid Tanah,labour_participation_rate,69.6
+P.135 Alor Gajah,labour_participation_rate,69.3
+P.136 Tangga Batu,labour_participation_rate,66.0
+P.137 Hang Tuah Jaya,labour_participation_rate,65.4
+P.138 Kota Melaka,labour_participation_rate,66.1
+P.139 Jasin,labour_participation_rate,61.5
+P.140 Segamat,labour_participation_rate,70.9
+P.141 Sekijang,labour_participation_rate,70.3
+P.142 Labis,labour_participation_rate,70.1
+P.143 Pagoh,labour_participation_rate,67.0
+P.144 Ledang,labour_participation_rate,64.5
+P.145 Bakri,labour_participation_rate,68.0
+P.146 Muar,labour_participation_rate,67.1
+P.147 Parit Sulong,labour_participation_rate,69.6
+P.148 Ayer Hitam,labour_participation_rate,69.8
+P.149 Sri Gading,labour_participation_rate,70.1
+P.150 Batu Pahat,labour_participation_rate,70.6
+P.151 Simpang Renggam,labour_participation_rate,71.2
+P.152 Kluang,labour_participation_rate,71.5
+P.153 Sembrong,labour_participation_rate,71.0
+P.154 Mersing,labour_participation_rate,60.4
+P.155 Tenggara,labour_participation_rate,69.4
+P.156 Kota Tinggi,labour_participation_rate,69.6
+P.157 Pengerang,labour_participation_rate,70.1
+P.158 Tebrau,labour_participation_rate,72.8
+P.159 Pasir Gudang,labour_participation_rate,72.8
+P.160 Johor Bahru,labour_participation_rate,73.6
+P.161 Pulai,labour_participation_rate,72.8
+P.162 Iskandar Puteri,labour_participation_rate,73.3
+P.163 Kulai,labour_participation_rate,66.6
+P.164 Pontian,labour_participation_rate,66.3
+P.165 Tanjung Piai,labour_participation_rate,66.5
+P.167 Kudat,labour_participation_rate,72.1
+P.168 Kota Marudu,labour_participation_rate,72.7
+P.169 Kota Belud,labour_participation_rate,62.8
+P.170 Tuaran,labour_participation_rate,65.1
+P.171 Sepanggar,labour_participation_rate,72.9
+P.172 Kota Kinabalu,labour_participation_rate,73.1
+P.173 Putatan,labour_participation_rate,73.0
+P.174 Penampang,labour_participation_rate,67.2
+P.175 Papar,labour_participation_rate,66.6
+P.176 Kimanis,labour_participation_rate,66.8
+P.177 Beaufort,labour_participation_rate,66.2
+P.178 Sipitang,labour_participation_rate,66.0
+P.179 Ranau,labour_participation_rate,75.5
+P.180 Keningau,labour_participation_rate,61.9
+P.181 Tenom,labour_participation_rate,61.5
+P.182 Pensiangan,labour_participation_rate,68.8
+P.183 Beluran,labour_participation_rate,72.9
+P.184 Libaran,labour_participation_rate,74.4
+P.185 Batu Sapi,labour_participation_rate,74.3
+P.186 Sandakan,labour_participation_rate,74.4
+P.187 Kinabatangan,labour_participation_rate,68.3
+P.188 Lahad Datu,labour_participation_rate,71.4
+P.189 Semporna,labour_participation_rate,62.5
+P.190 Tawau,labour_participation_rate,75.1
+P.191 Kalabakan,labour_participation_rate,68.1
+P.192 Mas Gading,labour_participation_rate,66.7
+P.193 Santubong,labour_participation_rate,64.7
+P.194 Petra Jaya,labour_participation_rate,64.8
+P.195 Bandar Kuching,labour_participation_rate,64.6
+P.196 Stampin,labour_participation_rate,67.1
+P.197 Kota Samarahan,labour_participation_rate,64.6
+P.198 Puncak Borneo,labour_participation_rate,64.6
+P.199 Serian,labour_participation_rate,64.5
+P.200 Batang Sadong,labour_participation_rate,70.1
+P.201 Batang Lupar,labour_participation_rate,69.9
+P.202 Sri Aman,labour_participation_rate,70.1
+P.203 Lubok Antu,labour_participation_rate,68.2
+P.204 Betong,labour_participation_rate,61.3
+P.205 Saratok,labour_participation_rate,67.6
+P.206 Tanjong Manis,labour_participation_rate,65.9
+P.207 Igan,labour_participation_rate,66.3
+P.208 Sarikei,labour_participation_rate,66.3
+P.209 Julau,labour_participation_rate,72.0
+P.210 Kanowit,labour_participation_rate,68.8
+P.211 Lanang,labour_participation_rate,65.4
+P.212 Sibu,labour_participation_rate,68.3
+P.213 Mukah,labour_participation_rate,67.2
+P.214 Selangau,labour_participation_rate,67.1
+P.215 Kapit,labour_participation_rate,67.1
+P.216 Hulu Rajang,labour_participation_rate,68.8
+P.217 Bintulu,labour_participation_rate,70.1
+P.218 Sibuti,labour_participation_rate,64.0
+P.219 Miri,labour_participation_rate,67.4
+P.220 Baram,labour_participation_rate,65.2
+P.221 Limbang,labour_participation_rate,68.2
+P.222 Lawas,labour_participation_rate,74.3
+P.114 Kepong,labour_participation_rate,72.5
+P.115 Batu,labour_participation_rate,71.7
+P.116 Wangsa Maju,labour_participation_rate,71.5
+P.117 Segambut,labour_participation_rate,72.9
+P.118 Setiawangsa,labour_participation_rate,72.0
+P.119 Titiwangsa,labour_participation_rate,73.0
+P.120 Bukit Bintang,labour_participation_rate,72.6
+P.121 Lembah Pantai,labour_participation_rate,72.8
+P.122 Seputeh,labour_participation_rate,71.3
+P.123 Cheras,labour_participation_rate,72.6
+P.124 Bandar Tun Razak,labour_participation_rate,72.0
+P.125 Putrajaya,labour_participation_rate,72.5
+P.166 Labuan,labour_participation_rate,64.6
+P.001 Padang Besar,labour_unemployment_rate,4.1
+P.002 Kangar,labour_unemployment_rate,4.0
+P.003 Arau,labour_unemployment_rate,4.7
+P.004 Langkawi,labour_unemployment_rate,6.8
+P.005 Jerlun,labour_unemployment_rate,3.6
+P.006 Kubang Pasu,labour_unemployment_rate,4.0
+P.007 Padang Terap,labour_unemployment_rate,4.2
+P.008 Pokok Sena,labour_unemployment_rate,4.6
+P.009 Alor Setar,labour_unemployment_rate,5.5
+P.010 Kuala Kedah,labour_unemployment_rate,5.2
+P.011 Pendang,labour_unemployment_rate,4.9
+P.012 Jerai,labour_unemployment_rate,2.9
+P.013 Sik,labour_unemployment_rate,2.8
+P.014 Merbok,labour_unemployment_rate,4.2
+P.015 Sungai Petani,labour_unemployment_rate,3.6
+P.016 Baling,labour_unemployment_rate,3.6
+P.017 Padang Serai,labour_unemployment_rate,3.9
+P.018 Kulim-Bandar Baharu,labour_unemployment_rate,3.5
+P.019 Tumpat,labour_unemployment_rate,3.3
+P.020 Pengkalan Chepa,labour_unemployment_rate,5.0
+P.021 Kota Bharu,labour_unemployment_rate,5.7
+P.022 Pasir Mas,labour_unemployment_rate,4.6
+P.023 Rantau Panjang,labour_unemployment_rate,5.0
+P.024 Kubang Kerian,labour_unemployment_rate,5.2
+P.025 Bachok,labour_unemployment_rate,3.6
+P.026 Ketereh,labour_unemployment_rate,5.2
+P.027 Tanah Merah,labour_unemployment_rate,2.8
+P.028 Pasir Puteh,labour_unemployment_rate,3.2
+P.029 Machang,labour_unemployment_rate,5.3
+P.030 Jeli,labour_unemployment_rate,3.1
+P.031 Kuala Krai,labour_unemployment_rate,2.8
+P.032 Gua Musang,labour_unemployment_rate,4.2
+P.033 Besut,labour_unemployment_rate,4.1
+P.034 Setiu,labour_unemployment_rate,4.2
+P.035 Kuala Nerus,labour_unemployment_rate,5.0
+P.036 Kuala Terengganu,labour_unemployment_rate,5.0
+P.037 Marang,labour_unemployment_rate,3.2
+P.038 Hulu Terengganu,labour_unemployment_rate,4.2
+P.039 Dungun,labour_unemployment_rate,3.9
+P.040 Kemaman,labour_unemployment_rate,3.7
+P.041 Kepala Batas,labour_unemployment_rate,3.8
+P.042 Tasek Gelugor,labour_unemployment_rate,3.7
+P.043 Bagan,labour_unemployment_rate,3.6
+P.044 Permatang Pauh,labour_unemployment_rate,4.7
+P.045 Bukit Mertajam,labour_unemployment_rate,2.4
+P.046 Batu Kawan,labour_unemployment_rate,3.7
+P.047 Nibong Tebal,labour_unemployment_rate,3.3
+P.048 Bukit Bendera,labour_unemployment_rate,3.7
+P.049 Tanjong,labour_unemployment_rate,4.0
+P.050 Jelutong,labour_unemployment_rate,4.5
+P.051 Bukit Gelugor,labour_unemployment_rate,3.8
+P.052 Bayan Baru,labour_unemployment_rate,2.9
+P.053 Balik Pulau,labour_unemployment_rate,2.8
+P.054 Gerik,labour_unemployment_rate,4.2
+P.055 Lenggong,labour_unemployment_rate,3.8
+P.056 Larut,labour_unemployment_rate,5.8
+P.057 Parit Buntar,labour_unemployment_rate,5.6
+P.058 Bagan Serai,labour_unemployment_rate,4.5
+P.059 Bukit Gantang,labour_unemployment_rate,6.0
+P.060 Taiping,labour_unemployment_rate,4.7
+P.061 Padang Rengas,labour_unemployment_rate,5.1
+P.062 Sungai Siput,labour_unemployment_rate,5.5
+P.063 Tambun,labour_unemployment_rate,3.8
+P.064 Ipoh Timor,labour_unemployment_rate,4.8
+P.065 Ipoh Barat,labour_unemployment_rate,4.3
+P.066 Batu Gajah,labour_unemployment_rate,5.4
+P.067 Kuala Kangsar,labour_unemployment_rate,4.9
+P.068 Beruas,labour_unemployment_rate,5.1
+P.069 Parit,labour_unemployment_rate,6.3
+P.070 Kampar,labour_unemployment_rate,4.4
+P.071 Gopeng,labour_unemployment_rate,3.9
+P.072 Tapah,labour_unemployment_rate,4.4
+P.073 Pasir Salak,labour_unemployment_rate,5.6
+P.074 Lumut,labour_unemployment_rate,5.6
+P.075 Bagan Datuk,labour_unemployment_rate,5.3
+P.076 Teluk Intan,labour_unemployment_rate,5.4
+P.077 Tanjong Malim,labour_unemployment_rate,4.4
+P.078 Cameron Highlands,labour_unemployment_rate,1.5
+P.079 Lipis,labour_unemployment_rate,3.6
+P.080 Raub,labour_unemployment_rate,3.8
+P.081 Jerantut,labour_unemployment_rate,3.2
+P.082 Indera Mahkota,labour_unemployment_rate,2.6
+P.083 Kuantan,labour_unemployment_rate,2.9
+P.084 Paya Besar,labour_unemployment_rate,3.2
+P.085 Pekan,labour_unemployment_rate,2.7
+P.086 Maran,labour_unemployment_rate,2.6
+P.087 Kuala Krau,labour_unemployment_rate,4.2
+P.088 Temerloh,labour_unemployment_rate,4.2
+P.089 Bentong,labour_unemployment_rate,3.5
+P.090 Bera,labour_unemployment_rate,3.3
+P.091 Rompin,labour_unemployment_rate,3.4
+P.092 Sabak Bernam,labour_unemployment_rate,3.5
+P.093 Sungai Besar,labour_unemployment_rate,3.0
+P.094 Hulu Selangor,labour_unemployment_rate,2.6
+P.095 Tanjong Karang,labour_unemployment_rate,2.9
+P.096 Kuala Selangor,labour_unemployment_rate,4.2
+P.097 Selayang,labour_unemployment_rate,4.0
+P.098 Gombak,labour_unemployment_rate,3.9
+P.099 Ampang,labour_unemployment_rate,5.6
+P.100 Pandan,labour_unemployment_rate,5.0
+P.101 Hulu Langat,labour_unemployment_rate,5.5
+P.102 Bangi,labour_unemployment_rate,4.5
+P.103 Puchong,labour_unemployment_rate,4.9
+P.104 Subang,labour_unemployment_rate,4.9
+P.105 Petaling Jaya,labour_unemployment_rate,5.0
+P.106 Damansara,labour_unemployment_rate,5.1
+P.107 Sungai Buloh,labour_unemployment_rate,4.0
+P.108 Shah Alam,labour_unemployment_rate,3.8
+P.109 Kapar,labour_unemployment_rate,4.4
+P.110 Klang,labour_unemployment_rate,4.6
+P.111 Kota Raja,labour_unemployment_rate,3.6
+P.112 Kuala Langat,labour_unemployment_rate,3.4
+P.113 Sepang,labour_unemployment_rate,3.6
+P.126 Jelebu,labour_unemployment_rate,4.0
+P.127 Jempol,labour_unemployment_rate,3.9
+P.128 Seremban,labour_unemployment_rate,3.6
+P.129 Kuala Pilah,labour_unemployment_rate,4.1
+P.130 Rasah,labour_unemployment_rate,3.8
+P.131 Rembau,labour_unemployment_rate,3.6
+P.132 Port Dickson,labour_unemployment_rate,4.0
+P.133 Tampin,labour_unemployment_rate,4.1
+P.134 Masjid Tanah,labour_unemployment_rate,2.4
+P.135 Alor Gajah,labour_unemployment_rate,2.6
+P.136 Tangga Batu,labour_unemployment_rate,1.8
+P.137 Hang Tuah Jaya,labour_unemployment_rate,2.3
+P.138 Kota Melaka,labour_unemployment_rate,2.4
+P.139 Jasin,labour_unemployment_rate,1.7
+P.140 Segamat,labour_unemployment_rate,3.8
+P.141 Sekijang,labour_unemployment_rate,4.1
+P.142 Labis,labour_unemployment_rate,4.3
+P.143 Pagoh,labour_unemployment_rate,2.1
+P.144 Ledang,labour_unemployment_rate,2.9
+P.145 Bakri,labour_unemployment_rate,2.8
+P.146 Muar,labour_unemployment_rate,2.4
+P.147 Parit Sulong,labour_unemployment_rate,2.7
+P.148 Ayer Hitam,labour_unemployment_rate,2.5
+P.149 Sri Gading,labour_unemployment_rate,2.0
+P.150 Batu Pahat,labour_unemployment_rate,1.9
+P.151 Simpang Renggam,labour_unemployment_rate,4.8
+P.152 Kluang,labour_unemployment_rate,4.4
+P.153 Sembrong,labour_unemployment_rate,5.0
+P.154 Mersing,labour_unemployment_rate,3.5
+P.155 Tenggara,labour_unemployment_rate,3.2
+P.156 Kota Tinggi,labour_unemployment_rate,3.5
+P.157 Pengerang,labour_unemployment_rate,3.9
+P.158 Tebrau,labour_unemployment_rate,3.6
+P.159 Pasir Gudang,labour_unemployment_rate,4.3
+P.160 Johor Bahru,labour_unemployment_rate,3.5
+P.161 Pulai,labour_unemployment_rate,3.7
+P.162 Iskandar Puteri,labour_unemployment_rate,3.8
+P.163 Kulai,labour_unemployment_rate,3.7
+P.164 Pontian,labour_unemployment_rate,4.3
+P.165 Tanjung Piai,labour_unemployment_rate,3.9
+P.167 Kudat,labour_unemployment_rate,9.1
+P.168 Kota Marudu,labour_unemployment_rate,8.6
+P.169 Kota Belud,labour_unemployment_rate,9.7
+P.170 Tuaran,labour_unemployment_rate,5.9
+P.171 Sepanggar,labour_unemployment_rate,6.3
+P.172 Kota Kinabalu,labour_unemployment_rate,6.5
+P.173 Putatan,labour_unemployment_rate,7.5
+P.174 Penampang,labour_unemployment_rate,8.7
+P.175 Papar,labour_unemployment_rate,7.2
+P.176 Kimanis,labour_unemployment_rate,8.1
+P.177 Beaufort,labour_unemployment_rate,6.3
+P.178 Sipitang,labour_unemployment_rate,6.4
+P.179 Ranau,labour_unemployment_rate,8.8
+P.180 Keningau,labour_unemployment_rate,6.3
+P.181 Tenom,labour_unemployment_rate,6.1
+P.182 Pensiangan,labour_unemployment_rate,8.0
+P.183 Beluran,labour_unemployment_rate,8.2
+P.184 Libaran,labour_unemployment_rate,8.0
+P.185 Batu Sapi,labour_unemployment_rate,7.7
+P.186 Sandakan,labour_unemployment_rate,8.1
+P.187 Kinabatangan,labour_unemployment_rate,9.7
+P.188 Lahad Datu,labour_unemployment_rate,9.7
+P.189 Semporna,labour_unemployment_rate,10.1
+P.190 Tawau,labour_unemployment_rate,7.0
+P.191 Kalabakan,labour_unemployment_rate,10.0
+P.192 Mas Gading,labour_unemployment_rate,3.3
+P.193 Santubong,labour_unemployment_rate,4.5
+P.194 Petra Jaya,labour_unemployment_rate,4.5
+P.195 Bandar Kuching,labour_unemployment_rate,4.7
+P.196 Stampin,labour_unemployment_rate,4.8
+P.197 Kota Samarahan,labour_unemployment_rate,4.7
+P.198 Puncak Borneo,labour_unemployment_rate,5.0
+P.199 Serian,labour_unemployment_rate,4.9
+P.200 Batang Sadong,labour_unemployment_rate,4.4
+P.201 Batang Lupar,labour_unemployment_rate,4.1
+P.202 Sri Aman,labour_unemployment_rate,4.5
+P.203 Lubok Antu,labour_unemployment_rate,4.0
+P.204 Betong,labour_unemployment_rate,5.0
+P.205 Saratok,labour_unemployment_rate,4.4
+P.206 Tanjong Manis,labour_unemployment_rate,4.0
+P.207 Igan,labour_unemployment_rate,5.9
+P.208 Sarikei,labour_unemployment_rate,5.0
+P.209 Julau,labour_unemployment_rate,4.6
+P.210 Kanowit,labour_unemployment_rate,4.8
+P.211 Lanang,labour_unemployment_rate,5.3
+P.212 Sibu,labour_unemployment_rate,3.5
+P.213 Mukah,labour_unemployment_rate,3.4
+P.214 Selangau,labour_unemployment_rate,4.3
+P.215 Kapit,labour_unemployment_rate,5.8
+P.216 Hulu Rajang,labour_unemployment_rate,4.5
+P.217 Bintulu,labour_unemployment_rate,3.5
+P.218 Sibuti,labour_unemployment_rate,3.6
+P.219 Miri,labour_unemployment_rate,3.2
+P.220 Baram,labour_unemployment_rate,4.8
+P.221 Limbang,labour_unemployment_rate,5.6
+P.222 Lawas,labour_unemployment_rate,5.5
+P.114 Kepong,labour_unemployment_rate,4.7
+P.115 Batu,labour_unemployment_rate,4.8
+P.116 Wangsa Maju,labour_unemployment_rate,3.4
+P.117 Segambut,labour_unemployment_rate,4.5
+P.118 Setiawangsa,labour_unemployment_rate,4.6
+P.119 Titiwangsa,labour_unemployment_rate,3.6
+P.120 Bukit Bintang,labour_unemployment_rate,3.0
+P.121 Lembah Pantai,labour_unemployment_rate,3.3
+P.122 Seputeh,labour_unemployment_rate,3.5
+P.123 Cheras,labour_unemployment_rate,3.7
+P.124 Bandar Tun Razak,labour_unemployment_rate,4.4
+P.125 Putrajaya,labour_unemployment_rate,1.5
+P.166 Labuan,labour_unemployment_rate,7.2
+P.001 Padang Besar,poverty_incidence,5.7
+P.002 Kangar,poverty_incidence,4.2
+P.003 Arau,poverty_incidence,1.4
+P.004 Langkawi,poverty_incidence,0.9
+P.005 Jerlun,poverty_incidence,6.7
+P.006 Kubang Pasu,poverty_incidence,4.3
+P.007 Padang Terap,poverty_incidence,9.1
+P.008 Pokok Sena,poverty_incidence,6.8
+P.009 Alor Setar,poverty_incidence,4.9
+P.010 Kuala Kedah,poverty_incidence,7.3
+P.011 Pendang,poverty_incidence,8.1
+P.012 Jerai,poverty_incidence,14.9
+P.013 Sik,poverty_incidence,7.6
+P.014 Merbok,poverty_incidence,11.1
+P.015 Sungai Petani,poverty_incidence,9.2
+P.016 Baling,poverty_incidence,17.9
+P.017 Padang Serai,poverty_incidence,9.5
+P.018 Kulim-Bandar Baharu,poverty_incidence,9.8
+P.019 Tumpat,poverty_incidence,12.5
+P.020 Pengkalan Chepa,poverty_incidence,8.6
+P.021 Kota Bharu,poverty_incidence,7.4
+P.022 Pasir Mas,poverty_incidence,10.0
+P.023 Rantau Panjang,poverty_incidence,16.2
+P.024 Kubang Kerian,poverty_incidence,10.1
+P.025 Bachok,poverty_incidence,13.1
+P.026 Ketereh,poverty_incidence,11.2
+P.027 Tanah Merah,poverty_incidence,10.6
+P.028 Pasir Puteh,poverty_incidence,12.7
+P.029 Machang,poverty_incidence,7.1
+P.030 Jeli,poverty_incidence,18.9
+P.031 Kuala Krai,poverty_incidence,22.4
+P.032 Gua Musang,poverty_incidence,18.7
+P.033 Besut,poverty_incidence,9.5
+P.034 Setiu,poverty_incidence,9.3
+P.035 Kuala Nerus,poverty_incidence,3.8
+P.036 Kuala Terengganu,poverty_incidence,3.3
+P.037 Marang,poverty_incidence,7.5
+P.038 Hulu Terengganu,poverty_incidence,7.8
+P.039 Dungun,poverty_incidence,5.2
+P.040 Kemaman,poverty_incidence,4.6
+P.041 Kepala Batas,poverty_incidence,5.0
+P.042 Tasek Gelugor,poverty_incidence,4.1
+P.043 Bagan,poverty_incidence,3.4
+P.044 Permatang Pauh,poverty_incidence,6.1
+P.045 Bukit Mertajam,poverty_incidence,1.3
+P.046 Batu Kawan,poverty_incidence,0.6
+P.047 Nibong Tebal,poverty_incidence,2.5
+P.048 Bukit Bendera,poverty_incidence,0.0
+P.049 Tanjong,poverty_incidence,1.5
+P.050 Jelutong,poverty_incidence,1.3
+P.051 Bukit Gelugor,poverty_incidence,0.2
+P.052 Bayan Baru,poverty_incidence,0.8
+P.053 Balik Pulau,poverty_incidence,0.7
+P.054 Gerik,poverty_incidence,8.9
+P.055 Lenggong,poverty_incidence,17.5
+P.056 Larut,poverty_incidence,7.4
+P.057 Parit Buntar,poverty_incidence,8.0
+P.058 Bagan Serai,poverty_incidence,4.3
+P.059 Bukit Gantang,poverty_incidence,12.9
+P.060 Taiping,poverty_incidence,4.9
+P.061 Padang Rengas,poverty_incidence,5.9
+P.062 Sungai Siput,poverty_incidence,16.7
+P.063 Tambun,poverty_incidence,5.6
+P.064 Ipoh Timor,poverty_incidence,1.9
+P.065 Ipoh Barat,poverty_incidence,5.6
+P.066 Batu Gajah,poverty_incidence,7.3
+P.067 Kuala Kangsar,poverty_incidence,7.3
+P.068 Beruas,poverty_incidence,8.9
+P.069 Parit,poverty_incidence,6.2
+P.070 Kampar,poverty_incidence,7.6
+P.071 Gopeng,poverty_incidence,4.4
+P.072 Tapah,poverty_incidence,9.0
+P.073 Pasir Salak,poverty_incidence,18.9
+P.074 Lumut,poverty_incidence,4.7
+P.075 Bagan Datuk,poverty_incidence,6.3
+P.076 Teluk Intan,poverty_incidence,10.3
+P.077 Tanjong Malim,poverty_incidence,8.3
+P.078 Cameron Highlands,poverty_incidence,1.7
+P.079 Lipis,poverty_incidence,5.6
+P.080 Raub,poverty_incidence,4.4
+P.081 Jerantut,poverty_incidence,9.6
+P.082 Indera Mahkota,poverty_incidence,2.0
+P.083 Kuantan,poverty_incidence,1.1
+P.084 Paya Besar,poverty_incidence,1.2
+P.085 Pekan,poverty_incidence,6.5
+P.086 Maran,poverty_incidence,8.6
+P.087 Kuala Krau,poverty_incidence,4.9
+P.088 Temerloh,poverty_incidence,6.1
+P.089 Bentong,poverty_incidence,3.4
+P.090 Bera,poverty_incidence,2.8
+P.091 Rompin,poverty_incidence,6.7
+P.092 Sabak Bernam,poverty_incidence,7.7
+P.093 Sungai Besar,poverty_incidence,2.7
+P.094 Hulu Selangor,poverty_incidence,1.5
+P.095 Tanjong Karang,poverty_incidence,7.2
+P.096 Kuala Selangor,poverty_incidence,3.1
+P.097 Selayang,poverty_incidence,0.6
+P.098 Gombak,poverty_incidence,0.3
+P.099 Ampang,poverty_incidence,1.1
+P.100 Pandan,poverty_incidence,0.3
+P.101 Hulu Langat,poverty_incidence,0.9
+P.102 Bangi,poverty_incidence,0.4
+P.103 Puchong,poverty_incidence,2.1
+P.104 Subang,poverty_incidence,0.3
+P.105 Petaling Jaya,poverty_incidence,1.1
+P.106 Damansara,poverty_incidence,0.6
+P.107 Sungai Buloh,poverty_incidence,1.6
+P.108 Shah Alam,poverty_incidence,0.3
+P.109 Kapar,poverty_incidence,2.8
+P.110 Klang,poverty_incidence,1.4
+P.111 Kota Raja,poverty_incidence,1.7
+P.112 Kuala Langat,poverty_incidence,2.6
+P.113 Sepang,poverty_incidence,0.7
+P.126 Jelebu,poverty_incidence,6.2
+P.127 Jempol,poverty_incidence,5.8
+P.128 Seremban,poverty_incidence,4.5
+P.129 Kuala Pilah,poverty_incidence,8.3
+P.130 Rasah,poverty_incidence,1.8
+P.131 Rembau,poverty_incidence,4.2
+P.132 Port Dickson,poverty_incidence,4.3
+P.133 Tampin,poverty_incidence,4.8
+P.134 Masjid Tanah,poverty_incidence,5.2
+P.135 Alor Gajah,poverty_incidence,2.9
+P.136 Tangga Batu,poverty_incidence,5.9
+P.137 Hang Tuah Jaya,poverty_incidence,4.3
+P.138 Kota Melaka,poverty_incidence,2.9
+P.139 Jasin,poverty_incidence,2.7
+P.140 Segamat,poverty_incidence,2.6
+P.141 Sekijang,poverty_incidence,3.4
+P.142 Labis,poverty_incidence,2.4
+P.143 Pagoh,poverty_incidence,6.9
+P.144 Ledang,poverty_incidence,3.2
+P.145 Bakri,poverty_incidence,3.4
+P.146 Muar,poverty_incidence,4.2
+P.147 Parit Sulong,poverty_incidence,5.2
+P.148 Ayer Hitam,poverty_incidence,2.7
+P.149 Sri Gading,poverty_incidence,2.3
+P.150 Batu Pahat,poverty_incidence,2.5
+P.151 Simpang Renggam,poverty_incidence,9.9
+P.152 Kluang,poverty_incidence,3.6
+P.153 Sembrong,poverty_incidence,5.4
+P.154 Mersing,poverty_incidence,12.1
+P.155 Tenggara,poverty_incidence,5.1
+P.156 Kota Tinggi,poverty_incidence,9.7
+P.157 Pengerang,poverty_incidence,4.4
+P.158 Tebrau,poverty_incidence,3.7
+P.159 Pasir Gudang,poverty_incidence,4.9
+P.160 Johor Bahru,poverty_incidence,3.4
+P.161 Pulai,poverty_incidence,1.1
+P.162 Iskandar Puteri,poverty_incidence,2.4
+P.163 Kulai,poverty_incidence,4.2
+P.164 Pontian,poverty_incidence,4.9
+P.165 Tanjung Piai,poverty_incidence,6.6
+P.167 Kudat,poverty_incidence,47.0
+P.168 Kota Marudu,poverty_incidence,44.2
+P.169 Kota Belud,poverty_incidence,34.1
+P.170 Tuaran,poverty_incidence,16.3
+P.171 Sepanggar,poverty_incidence,9.8
+P.172 Kota Kinabalu,poverty_incidence,1.6
+P.173 Putatan,poverty_incidence,11.7
+P.174 Penampang,poverty_incidence,4.2
+P.175 Papar,poverty_incidence,12.1
+P.176 Kimanis,poverty_incidence,18.4
+P.177 Beaufort,poverty_incidence,28.0
+P.178 Sipitang,poverty_incidence,10.4
+P.179 Ranau,poverty_incidence,26.8
+P.180 Keningau,poverty_incidence,14.7
+P.181 Tenom,poverty_incidence,17.2
+P.182 Pensiangan,poverty_incidence,31.1
+P.183 Beluran,poverty_incidence,43.3
+P.184 Libaran,poverty_incidence,20.2
+P.185 Batu Sapi,poverty_incidence,13.7
+P.186 Sandakan,poverty_incidence,16.8
+P.187 Kinabatangan,poverty_incidence,41.7
+P.188 Lahad Datu,poverty_incidence,19.9
+P.189 Semporna,poverty_incidence,31.5
+P.190 Tawau,poverty_incidence,13.5
+P.191 Kalabakan,poverty_incidence,14.8
+P.192 Mas Gading,poverty_incidence,9.5
+P.193 Santubong,poverty_incidence,11.7
+P.194 Petra Jaya,poverty_incidence,6.1
+P.195 Bandar Kuching,poverty_incidence,4.3
+P.196 Stampin,poverty_incidence,3.0
+P.197 Kota Samarahan,poverty_incidence,7.7
+P.198 Puncak Borneo,poverty_incidence,11.0
+P.199 Serian,poverty_incidence,20.8
+P.200 Batang Sadong,poverty_incidence,18.4
+P.201 Batang Lupar,poverty_incidence,28.4
+P.202 Sri Aman,poverty_incidence,9.3
+P.203 Lubok Antu,poverty_incidence,8.8
+P.204 Betong,poverty_incidence,23.0
+P.205 Saratok,poverty_incidence,17.6
+P.206 Tanjong Manis,poverty_incidence,14.8
+P.207 Igan,poverty_incidence,21.8
+P.208 Sarikei,poverty_incidence,9.1
+P.209 Julau,poverty_incidence,18.1
+P.210 Kanowit,poverty_incidence,21.9
+P.211 Lanang,poverty_incidence,10.8
+P.212 Sibu,poverty_incidence,4.0
+P.213 Mukah,poverty_incidence,10.3
+P.214 Selangau,poverty_incidence,11.1
+P.215 Kapit,poverty_incidence,4.7
+P.216 Hulu Rajang,poverty_incidence,6.1
+P.217 Bintulu,poverty_incidence,2.4
+P.218 Sibuti,poverty_incidence,7.9
+P.219 Miri,poverty_incidence,4.0
+P.220 Baram,poverty_incidence,14.4
+P.221 Limbang,poverty_incidence,11.0
+P.222 Lawas,poverty_incidence,14.6
+P.114 Kepong,poverty_incidence,0.0
+P.115 Batu,poverty_incidence,0.3
+P.116 Wangsa Maju,poverty_incidence,0.0
+P.117 Segambut,poverty_incidence,0.0
+P.118 Setiawangsa,poverty_incidence,0.3
+P.119 Titiwangsa,poverty_incidence,0.5
+P.120 Bukit Bintang,poverty_incidence,0.0
+P.121 Lembah Pantai,poverty_incidence,0.0
+P.122 Seputeh,poverty_incidence,0.5
+P.123 Cheras,poverty_incidence,0.2
+P.124 Bandar Tun Razak,poverty_incidence,0.0
+P.125 Putrajaya,poverty_incidence,0.4
+P.166 Labuan,poverty_incidence,3.1
+P.001 Padang Besar,income_median_norm,13.304093567251464
+P.002 Kangar,income_median_norm,19.56755924899969
+P.003 Arau,income_median_norm,17.29763004001231
+P.004 Langkawi,income_median_norm,27.385349338257928
+P.005 Jerlun,income_median_norm,13.542628501077253
+P.006 Kubang Pasu,income_median_norm,20.883348722683902
+P.007 Padang Terap,income_median_norm,10.587873191751306
+P.008 Pokok Sena,income_median_norm,16.135734072022164
+P.009 Alor Setar,income_median_norm,16.905201600492457
+P.010 Kuala Kedah,income_median_norm,15.843336411203449
+P.011 Pendang,income_median_norm,10.918744228993535
+P.012 Jerai,income_median_norm,7.440751000307788
+P.013 Sik,income_median_norm,13.465681748230224
+P.014 Merbok,income_median_norm,15.42012927054478
+P.015 Sungai Petani,income_median_norm,15.597106802092949
+P.016 Baling,income_median_norm,9.518313327177594
+P.017 Padang Serai,income_median_norm,15.951061865189292
+P.018 Kulim-Bandar Baharu,income_median_norm,17.020621729763004
+P.019 Tumpat,income_median_norm,8.879655278547244
+P.020 Pengkalan Chepa,income_median_norm,14.127423822714679
+P.021 Kota Bharu,income_median_norm,13.665743305632503
+P.022 Pasir Mas,income_median_norm,12.34995383194829
+P.023 Rantau Panjang,income_median_norm,5.0400123114804565
+P.024 Kubang Kerian,income_median_norm,15.920283164050478
+P.025 Bachok,income_median_norm,9.810710987996305
+P.026 Ketereh,income_median_norm,12.94244382887042
+P.027 Tanah Merah,income_median_norm,7.425361649738381
+P.028 Pasir Puteh,income_median_norm,8.556478916589718
+P.029 Machang,income_median_norm,10.480147737765467
+P.030 Jeli,income_median_norm,3.3856571252693115
+P.031 Kuala Krai,income_median_norm,4.232071406586641
+P.032 Gua Musang,income_median_norm,4.616805170821792
+P.033 Besut,income_median_norm,17.413050169282858
+P.034 Setiu,income_median_norm,15.13542628501077
+P.035 Kuala Nerus,income_median_norm,33.694983071714375
+P.036 Kuala Terengganu,income_median_norm,25.661742074484454
+P.037 Marang,income_median_norm,22.1683594952293
+P.038 Hulu Terengganu,income_median_norm,16.68975069252078
+P.039 Dungun,income_median_norm,28.401046475838722
+P.040 Kemaman,income_median_norm,32.67159125884888
+P.041 Kepala Batas,income_median_norm,25.377039088950443
+P.042 Tasek Gelugor,income_median_norm,24.776854416743614
+P.043 Bagan,income_median_norm,25.400123114804554
+P.044 Permatang Pauh,income_median_norm,21.82979378270237
+P.045 Bukit Mertajam,income_median_norm,29.432132963988916
+P.046 Batu Kawan,income_median_norm,28.647276084949215
+P.047 Nibong Tebal,income_median_norm,24.469067405355492
+P.048 Bukit Bendera,income_median_norm,38.28870421668206
+P.049 Tanjong,income_median_norm,29.155124653739616
+P.050 Jelutong,income_median_norm,37.14989227454602
+P.051 Bukit Gelugor,income_median_norm,29.809172052939363
+P.052 Bayan Baru,income_median_norm,35.664819944598335
+P.053 Balik Pulau,income_median_norm,31.848261003385655
+P.054 Gerik,income_median_norm,13.573407202216067
+P.055 Lenggong,income_median_norm,5.063096337334564
+P.056 Larut,income_median_norm,13.611880578639582
+P.057 Parit Buntar,income_median_norm,16.582025238534936
+P.058 Bagan Serai,income_median_norm,16.905201600492457
+P.059 Bukit Gantang,income_median_norm,11.172668513388736
+P.060 Taiping,income_median_norm,18.50569405971068
+P.061 Padang Rengas,income_median_norm,15.143120960295473
+P.062 Sungai Siput,income_median_norm,7.9255155432440745
+P.063 Tambun,income_median_norm,20.144659895352415
+P.064 Ipoh Timor,income_median_norm,15.943367189904588
+P.065 Ipoh Barat,income_median_norm,17.320714065866422
+P.066 Batu Gajah,income_median_norm,11.72668513388735
+P.067 Kuala Kangsar,income_median_norm,11.965220067713144
+P.068 Beruas,income_median_norm,12.519236688211759
+P.069 Parit,income_median_norm,17.566943674976915
+P.070 Kampar,income_median_norm,10.056940597106802
+P.071 Gopeng,income_median_norm,16.897506925207754
+P.072 Tapah,income_median_norm,11.842105263157894
+P.073 Pasir Salak,income_median_norm,6.463527239150508
+P.074 Lumut,income_median_norm,25.369344413665747
+P.075 Bagan Datuk,income_median_norm,16.174207448445674
+P.076 Teluk Intan,income_median_norm,9.964604493690366
+P.077 Tanjong Malim,income_median_norm,13.157894736842106
+P.078 Cameron Highlands,income_median_norm,22.57617728531856
+P.079 Lipis,income_median_norm,9.864573714989227
+P.080 Raub,income_median_norm,11.272699292089875
+P.081 Jerantut,income_median_norm,10.480147737765467
+P.082 Indera Mahkota,income_median_norm,28.508771929824565
+P.083 Kuantan,income_median_norm,26.354262850107727
+P.084 Paya Besar,income_median_norm,19.621421975992615
+P.085 Pekan,income_median_norm,15.720221606648199
+P.086 Maran,income_median_norm,9.51061865189289
+P.087 Kuala Krau,income_median_norm,11.434287473068636
+P.088 Temerloh,income_median_norm,14.750692520775626
+P.089 Bentong,income_median_norm,14.450600184672208
+P.090 Bera,income_median_norm,10.180055401662049
+P.091 Rompin,income_median_norm,9.48753462603878
+P.092 Sabak Bernam,income_median_norm,7.894736842105264
+P.093 Sungai Besar,income_median_norm,21.398891966759006
+P.094 Hulu Selangor,income_median_norm,30.032317636195753
+P.095 Tanjong Karang,income_median_norm,16.381963681132657
+P.096 Kuala Selangor,income_median_norm,26.638965835641738
+P.097 Selayang,income_median_norm,41.85903354878424
+P.098 Gombak,income_median_norm,46.706678978147124
+P.099 Ampang,income_median_norm,53.07017543859649
+P.100 Pandan,income_median_norm,45.675592489996916
+P.101 Hulu Langat,income_median_norm,51.5389350569406
+P.102 Bangi,income_median_norm,46.083410280086184
+P.103 Puchong,income_median_norm,40.004616805170826
+P.104 Subang,income_median_norm,58.46414281317328
+P.105 Petaling Jaya,income_median_norm,50.754078177900894
+P.106 Damansara,income_median_norm,54.93228685749462
+P.107 Sungai Buloh,income_median_norm,37.41151123422591
+P.108 Shah Alam,income_median_norm,62.38073253308711
+P.109 Kapar,income_median_norm,32.240689442905506
+P.110 Klang,income_median_norm,45.437057556171126
+P.111 Kota Raja,income_median_norm,47.999384425977226
+P.112 Kuala Langat,income_median_norm,36.54970760233918
+P.113 Sepang,income_median_norm,46.568174823022474
+P.126 Jelebu,income_median_norm,12.965527854724531
+P.127 Jempol,income_median_norm,9.272083718067098
+P.128 Seremban,income_median_norm,24.522930132348417
+P.129 Kuala Pilah,income_median_norm,9.549092028316405
+P.130 Rasah,income_median_norm,26.26192674669129
+P.131 Rembau,income_median_norm,21.075715604801477
+P.132 Port Dickson,income_median_norm,20.106186518928904
+P.133 Tampin,income_median_norm,15.227762388427205
+P.134 Masjid Tanah,income_median_norm,20.883348722683902
+P.135 Alor Gajah,income_median_norm,28.03170206217298
+P.136 Tangga Batu,income_median_norm,28.89350569405971
+P.137 Hang Tuah Jaya,income_median_norm,32.11757463835026
+P.138 Kota Melaka,income_median_norm,28.885811018775005
+P.139 Jasin,income_median_norm,25.669436749769158
+P.140 Segamat,income_median_norm,25.384733764235147
+P.141 Sekijang,income_median_norm,23.807325330871034
+P.142 Labis,income_median_norm,25.315481686672822
+P.143 Pagoh,income_median_norm,18.76731301939058
+P.144 Ledang,income_median_norm,25.884887657740844
+P.145 Bakri,income_median_norm,29.378270236996
+P.146 Muar,income_median_norm,30.89412126808249
+P.147 Parit Sulong,income_median_norm,26.10033856571253
+P.148 Ayer Hitam,income_median_norm,28.83964296706679
+P.149 Sri Gading,income_median_norm,36.488150200061554
+P.150 Batu Pahat,income_median_norm,31.57894736842105
+P.151 Simpang Renggam,income_median_norm,14.365958756540476
+P.152 Kluang,income_median_norm,22.399199753770393
+P.153 Sembrong,income_median_norm,16.88981224992305
+P.154 Mersing,income_median_norm,11.926746691289626
+P.155 Tenggara,income_median_norm,24.676823638042475
+P.156 Kota Tinggi,income_median_norm,16.420437057556168
+P.157 Pengerang,income_median_norm,25.10772545398584
+P.158 Tebrau,income_median_norm,36.90366266543552
+P.159 Pasir Gudang,income_median_norm,34.14127423822714
+P.160 Johor Bahru,income_median_norm,32.925515543244074
+P.161 Pulai,income_median_norm,45.70637119113573
+P.162 Iskandar Puteri,income_median_norm,42.08217913204062
+P.163 Kulai,income_median_norm,34.533702677747
+P.164 Pontian,income_median_norm,25.746383502616187
+P.165 Tanjung Piai,income_median_norm,21.329639889196674
+P.167 Kudat,income_median_norm,0.0
+P.168 Kota Marudu,income_median_norm,0.6001846722068329
+P.169 Kota Belud,income_median_norm,5.224684518313328
+P.170 Tuaran,income_median_norm,10.780240073868882
+P.171 Sepanggar,income_median_norm,23.86118805786396
+P.172 Kota Kinabalu,income_median_norm,37.503847337642355
+P.173 Putatan,income_median_norm,20.483225607879344
+P.174 Penampang,income_median_norm,24.538319482917824
+P.175 Papar,income_median_norm,17.843951985226223
+P.176 Kimanis,income_median_norm,13.111726685133888
+P.177 Beaufort,income_median_norm,7.032933210218527
+P.178 Sipitang,income_median_norm,12.29609110495537
+P.179 Ranau,income_median_norm,9.025854108956601
+P.180 Keningau,income_median_norm,13.881194213604186
+P.181 Tenom,income_median_norm,9.072022160664819
+P.182 Pensiangan,income_median_norm,9.926131117266852
+P.183 Beluran,income_median_norm,3.862726992920898
+P.184 Libaran,income_median_norm,18.14404432132964
+P.185 Batu Sapi,income_median_norm,20.552477685441676
+P.186 Sandakan,income_median_norm,21.891351184979992
+P.187 Kinabatangan,income_median_norm,4.8245614035087705
+P.188 Lahad Datu,income_median_norm,13.304093567251464
+P.189 Semporna,income_median_norm,9.202831640504769
+P.190 Tawau,income_median_norm,16.52816251154201
+P.191 Kalabakan,income_median_norm,14.766081871345026
+P.192 Mas Gading,income_median_norm,11.518928901200368
+P.193 Santubong,income_median_norm,18.89042782394583
+P.194 Petra Jaya,income_median_norm,30.701754385964914
+P.195 Bandar Kuching,income_median_norm,24.061249615266238
+P.196 Stampin,income_median_norm,28.801169590643273
+P.197 Kota Samarahan,income_median_norm,22.583871960603265
+P.198 Puncak Borneo,income_median_norm,11.034164358264082
+P.199 Serian,income_median_norm,7.14065866420437
+P.200 Batang Sadong,income_median_norm,4.532163742690059
+P.201 Batang Lupar,income_median_norm,1.7928593413357952
+P.202 Sri Aman,income_median_norm,7.979378270236996
+P.203 Lubok Antu,income_median_norm,3.6472760849492154
+P.204 Betong,income_median_norm,3.216374269005847
+P.205 Saratok,income_median_norm,5.063096337334564
+P.206 Tanjong Manis,income_median_norm,4.963065558633424
+P.207 Igan,income_median_norm,4.878424130501692
+P.208 Sarikei,income_median_norm,8.871960603262544
+P.209 Julau,income_median_norm,2.1468144044321313
+P.210 Kanowit,income_median_norm,2.4930747922437675
+P.211 Lanang,income_median_norm,16.32810095413973
+P.212 Sibu,income_median_norm,21.18344105878732
+P.213 Mukah,income_median_norm,11.418898122499229
+P.214 Selangau,income_median_norm,8.456448137888582
+P.215 Kapit,income_median_norm,4.847645429362881
+P.216 Hulu Rajang,income_median_norm,9.449061249615266
+P.217 Bintulu,income_median_norm,30.947983995075408
+P.218 Sibuti,income_median_norm,18.14404432132964
+P.219 Miri,income_median_norm,29.470606340412434
+P.220 Baram,income_median_norm,7.086795937211448
+P.221 Limbang,income_median_norm,17.559248999692212
+P.222 Lawas,income_median_norm,12.773160972606956
+P.114 Kepong,income_median_norm,68.69806094182826
+P.115 Batu,income_median_norm,54.47830101569714
+P.116 Wangsa Maju,income_median_norm,56.70975684826101
+P.117 Segambut,income_median_norm,100.0
+P.118 Setiawangsa,income_median_norm,56.20960295475531
+P.119 Titiwangsa,income_median_norm,57.56386580486304
+P.120 Bukit Bintang,income_median_norm,67.05140043090182
+P.121 Lembah Pantai,income_median_norm,57.36380424746076
+P.122 Seputeh,income_median_norm,67.45921822099108
+P.123 Cheras,income_median_norm,60.92643890427824
+P.124 Bandar Tun Razak,income_median_norm,54.52446906740536
+P.125 Putrajaya,income_median_norm,58.7642351492767
+P.166 Labuan,income_median_norm,33.70267774699907
+P.001 Padang Besar,expenditure_avg_norm,16.331124171564337
+P.002 Kangar,expenditure_avg_norm,23.083656371139174
+P.003 Arau,expenditure_avg_norm,19.169688633237467
+P.004 Langkawi,expenditure_avg_norm,18.581968238089285
+P.005 Jerlun,expenditure_avg_norm,11.50431411779417
+P.006 Kubang Pasu,expenditure_avg_norm,31.411779417281483
+P.007 Padang Terap,expenditure_avg_norm,19.6448668250594
+P.008 Pokok Sena,expenditure_avg_norm,21.458046767537827
+P.009 Alor Setar,expenditure_avg_norm,28.735775915968485
+P.010 Kuala Kedah,expenditure_avg_norm,29.198449418531947
+P.011 Pendang,expenditure_avg_norm,11.87945479554833
+P.012 Jerai,expenditure_avg_norm,9.841190446417404
+P.013 Sik,expenditure_avg_norm,13.417531574340376
+P.014 Merbok,expenditure_avg_norm,19.3322495935976
+P.015 Sungai Petani,expenditure_avg_norm,17.59409778667
+P.016 Baling,expenditure_avg_norm,8.590721520570213
+P.017 Padang Serai,expenditure_avg_norm,14.880580217581592
+P.018 Kulim-Bandar Baharu,expenditure_avg_norm,17.01888208078029
+P.019 Tumpat,expenditure_avg_norm,19.119669876203577
+P.020 Pengkalan Chepa,expenditure_avg_norm,22.34587970488933
+P.021 Kota Bharu,expenditure_avg_norm,21.520570213830187
+P.022 Pasir Mas,expenditure_avg_norm,22.05827185194448
+P.023 Rantau Panjang,expenditure_avg_norm,10.841565587095157
+P.024 Kubang Kerian,expenditure_avg_norm,27.32274602976116
+P.025 Bachok,expenditure_avg_norm,11.179192197073899
+P.026 Ketereh,expenditure_avg_norm,23.283731399274725
+P.027 Tanah Merah,expenditure_avg_norm,14.205326997624109
+P.028 Pasir Puteh,expenditure_avg_norm,15.718394397899214
+P.029 Machang,expenditure_avg_norm,15.105664624234084
+P.030 Jeli,expenditure_avg_norm,5.739652369638613
+P.031 Kuala Krai,expenditure_avg_norm,8.215580842816056
+P.032 Gua Musang,expenditure_avg_norm,13.154933099912466
+P.033 Besut,expenditure_avg_norm,24.90934100287608
+P.034 Setiu,expenditure_avg_norm,22.17081405527073
+P.035 Kuala Nerus,expenditure_avg_norm,35.850944104039016
+P.036 Kuala Terengganu,expenditure_avg_norm,34.40040015005627
+P.037 Marang,expenditure_avg_norm,29.72364636738777
+P.038 Hulu Terengganu,expenditure_avg_norm,25.07190196323621
+P.039 Dungun,expenditure_avg_norm,35.513317494060274
+P.040 Kemaman,expenditure_avg_norm,35.06314868075529
+P.041 Kepala Batas,expenditure_avg_norm,24.021508065524575
+P.042 Tasek Gelugor,expenditure_avg_norm,21.370513942728525
+P.043 Bagan,expenditure_avg_norm,28.398149305989744
+P.044 Permatang Pauh,expenditure_avg_norm,22.095785919719898
+P.045 Bukit Mertajam,expenditure_avg_norm,33.43753907715393
+P.046 Batu Kawan,expenditure_avg_norm,35.413279979992495
+P.047 Nibong Tebal,expenditure_avg_norm,24.509190946604978
+P.048 Bukit Bendera,expenditure_avg_norm,53.53257471551832
+P.049 Tanjong,expenditure_avg_norm,35.013129923721394
+P.050 Jelutong,expenditure_avg_norm,36.326122295860955
+P.051 Bukit Gelugor,expenditure_avg_norm,35.75090658997124
+P.052 Bayan Baru,expenditure_avg_norm,46.44241590596474
+P.053 Balik Pulau,expenditure_avg_norm,41.49055895960986
+P.054 Gerik,expenditure_avg_norm,15.305739652369642
+P.055 Lenggong,expenditure_avg_norm,4.114042766037265
+P.056 Larut,expenditure_avg_norm,21.970739027135178
+P.057 Parit Buntar,expenditure_avg_norm,25.947230211329245
+P.058 Bagan Serai,expenditure_avg_norm,21.420532699762408
+P.059 Bukit Gantang,expenditure_avg_norm,18.944604226584968
+P.060 Taiping,expenditure_avg_norm,25.834688008003003
+P.061 Padang Rengas,expenditure_avg_norm,29.698636988870827
+P.062 Sungai Siput,expenditure_avg_norm,10.028760785294484
+P.063 Tambun,expenditure_avg_norm,25.38451919469801
+P.064 Ipoh Timor,expenditure_avg_norm,26.822558459422286
+P.065 Ipoh Barat,expenditure_avg_norm,39.57734150306365
+P.066 Batu Gajah,expenditure_avg_norm,13.667625359509817
+P.067 Kuala Kangsar,expenditure_avg_norm,17.931724396648743
+P.068 Beruas,expenditure_avg_norm,20.482681005377014
+P.069 Parit,expenditure_avg_norm,26.559959984994375
+P.070 Kampar,expenditure_avg_norm,9.553582593472552
+P.071 Gopeng,expenditure_avg_norm,21.020382643491306
+P.072 Tapah,expenditure_avg_norm,14.192822308365638
+P.073 Pasir Salak,expenditure_avg_norm,9.478554457921721
+P.074 Lumut,expenditure_avg_norm,27.147680380142557
+P.075 Bagan Datuk,expenditure_avg_norm,18.669501062898586
+P.076 Teluk Intan,expenditure_avg_norm,18.306865074402904
+P.077 Tanjong Malim,expenditure_avg_norm,16.7937976741278
+P.078 Cameron Highlands,expenditure_avg_norm,27.110166312367138
+P.079 Lipis,expenditure_avg_norm,18.044266599974993
+P.080 Raub,expenditure_avg_norm,28.185569588595722
+P.081 Jerantut,expenditure_avg_norm,11.69188445667125
+P.082 Indera Mahkota,expenditure_avg_norm,34.45041890709015
+P.083 Kuantan,expenditure_avg_norm,33.62510941603101
+P.084 Paya Besar,expenditure_avg_norm,23.633862698511944
+P.085 Pekan,expenditure_avg_norm,18.669501062898586
+P.086 Maran,expenditure_avg_norm,18.619482305864697
+P.087 Kuala Krau,expenditure_avg_norm,21.595598349381017
+P.088 Temerloh,expenditure_avg_norm,14.84306614980618
+P.089 Bentong,expenditure_avg_norm,22.25834688008003
+P.090 Bera,expenditure_avg_norm,12.167062648493182
+P.091 Rompin,expenditure_avg_norm,18.619482305864697
+P.092 Sabak Bernam,expenditure_avg_norm,14.180317619107168
+P.093 Sungai Besar,expenditure_avg_norm,34.55045642115793
+P.094 Hulu Selangor,expenditure_avg_norm,28.973365011879455
+P.095 Tanjong Karang,expenditure_avg_norm,24.034012754783046
+P.096 Kuala Selangor,expenditure_avg_norm,31.424284106539954
+P.097 Selayang,expenditure_avg_norm,37.88920845316994
+P.098 Gombak,expenditure_avg_norm,42.52844816806302
+P.099 Ampang,expenditure_avg_norm,55.08315618356883
+P.100 Pandan,expenditure_avg_norm,40.277604101538074
+P.101 Hulu Langat,expenditure_avg_norm,42.96611229210954
+P.102 Bangi,expenditure_avg_norm,42.853570088783286
+P.103 Puchong,expenditure_avg_norm,48.35563336251094
+P.104 Subang,expenditure_avg_norm,63.51131674377892
+P.105 Petaling Jaya,expenditure_avg_norm,55.570839064649235
+P.106 Damansara,expenditure_avg_norm,66.16231086657497
+P.107 Sungai Buloh,expenditure_avg_norm,63.7864199074653
+P.108 Shah Alam,expenditure_avg_norm,67.23771414280355
+P.109 Kapar,expenditure_avg_norm,41.26547455295736
+P.110 Klang,expenditure_avg_norm,45.892209578591974
+P.111 Kota Raja,expenditure_avg_norm,50.38139302238339
+P.112 Kuala Langat,expenditure_avg_norm,39.002125797173946
+P.113 Sepang,expenditure_avg_norm,47.13017381518068
+P.126 Jelebu,expenditure_avg_norm,23.633862698511944
+P.127 Jempol,expenditure_avg_norm,19.382268350631488
+P.128 Seremban,expenditure_avg_norm,38.63948980867825
+P.129 Kuala Pilah,expenditure_avg_norm,25.772164561710643
+P.130 Rasah,expenditure_avg_norm,41.54057771664374
+P.131 Rembau,expenditure_avg_norm,25.859697386519944
+P.132 Port Dickson,expenditure_avg_norm,27.94798049268476
+P.133 Tampin,expenditure_avg_norm,23.083656371139174
+P.134 Masjid Tanah,expenditure_avg_norm,31.086657496561212
+P.135 Alor Gajah,expenditure_avg_norm,37.40152557208954
+P.136 Tangga Batu,expenditure_avg_norm,44.016506189821186
+P.137 Hang Tuah Jaya,expenditure_avg_norm,44.81680630236339
+P.138 Kota Melaka,expenditure_avg_norm,36.81380517694136
+P.139 Jasin,expenditure_avg_norm,37.28898336876328
+P.140 Segamat,expenditure_avg_norm,28.798299362260845
+P.141 Sekijang,expenditure_avg_norm,29.336001000375138
+P.142 Labis,expenditure_avg_norm,27.32274602976116
+P.143 Pagoh,expenditure_avg_norm,23.133675128173063
+P.144 Ledang,expenditure_avg_norm,30.011254220332628
+P.145 Bakri,expenditure_avg_norm,41.70313867700388
+P.146 Muar,expenditure_avg_norm,43.90396398649493
+P.147 Parit Sulong,expenditure_avg_norm,32.97486557459047
+P.148 Ayer Hitam,expenditure_avg_norm,28.448168063023633
+P.149 Sri Gading,expenditure_avg_norm,34.33787670376391
+P.150 Batu Pahat,expenditure_avg_norm,34.05026885081905
+P.151 Simpang Renggam,expenditure_avg_norm,18.244341628110543
+P.152 Kluang,expenditure_avg_norm,24.70926597474053
+P.153 Sembrong,expenditure_avg_norm,19.35725897211454
+P.154 Mersing,expenditure_avg_norm,17.21895710891584
+P.155 Tenggara,expenditure_avg_norm,28.898336876328624
+P.156 Kota Tinggi,expenditure_avg_norm,19.957484056521192
+P.157 Pengerang,expenditure_avg_norm,27.285231961985748
+P.158 Tebrau,expenditure_avg_norm,40.865324496686256
+P.159 Pasir Gudang,expenditure_avg_norm,33.299987495310745
+P.160 Johor Bahru,expenditure_avg_norm,47.717894210328865
+P.161 Pulai,expenditure_avg_norm,49.75615855945979
+P.162 Iskandar Puteri,expenditure_avg_norm,55.35825934725521
+P.163 Kulai,expenditure_avg_norm,36.93885206952608
+P.164 Pontian,expenditure_avg_norm,24.85932224584219
+P.165 Tanjung Piai,expenditure_avg_norm,23.796423658872076
+P.167 Kudat,expenditure_avg_norm,8.215580842816056
+P.168 Kota Marudu,expenditure_avg_norm,6.602475928473176
+P.169 Kota Belud,expenditure_avg_norm,6.539952482180816
+P.170 Tuaran,expenditure_avg_norm,13.555083156183567
+P.171 Sepanggar,expenditure_avg_norm,15.943478804551706
+P.172 Kota Kinabalu,expenditure_avg_norm,30.536451169188442
+P.173 Putatan,expenditure_avg_norm,16.55620857821683
+P.174 Penampang,expenditure_avg_norm,17.2814805552082
+P.175 Papar,expenditure_avg_norm,13.142428410653995
+P.176 Kimanis,expenditure_avg_norm,9.128423158684509
+P.177 Beaufort,expenditure_avg_norm,8.740777791671878
+P.178 Sipitang,expenditure_avg_norm,6.790046267350256
+P.179 Ranau,expenditure_avg_norm,10.003751406777543
+P.180 Keningau,expenditure_avg_norm,12.954858071776915
+P.181 Tenom,expenditure_avg_norm,9.478554457921721
+P.182 Pensiangan,expenditure_avg_norm,7.090158809553582
+P.183 Beluran,expenditure_avg_norm,0.0
+P.184 Libaran,expenditure_avg_norm,12.967362761035385
+P.185 Batu Sapi,expenditure_avg_norm,21.545579592347128
+P.186 Sandakan,expenditure_avg_norm,23.896461172939855
+P.187 Kinabatangan,expenditure_avg_norm,0.850318869576089
+P.188 Lahad Datu,expenditure_avg_norm,11.44179067150181
+P.189 Semporna,expenditure_avg_norm,9.39102163311242
+P.190 Tawau,expenditure_avg_norm,8.828310616481179
+P.191 Kalabakan,expenditure_avg_norm,13.667625359509817
+P.192 Mas Gading,expenditure_avg_norm,13.655120670251346
+P.193 Santubong,expenditure_avg_norm,19.132174565462048
+P.194 Petra Jaya,expenditure_avg_norm,30.16131049143429
+P.195 Bandar Kuching,expenditure_avg_norm,32.62473427535326
+P.196 Stampin,expenditure_avg_norm,32.72477178942103
+P.197 Kota Samarahan,expenditure_avg_norm,23.446292359634864
+P.198 Puncak Borneo,expenditure_avg_norm,13.90521445542078
+P.199 Serian,expenditure_avg_norm,9.941227960485183
+P.200 Batang Sadong,expenditure_avg_norm,5.9522320870326375
+P.201 Batang Lupar,expenditure_avg_norm,5.9522320870326375
+P.202 Sri Aman,expenditure_avg_norm,12.19207202701013
+P.203 Lubok Antu,expenditure_avg_norm,11.716893835188198
+P.204 Betong,expenditure_avg_norm,12.754783043641364
+P.205 Saratok,expenditure_avg_norm,11.241715643366259
+P.206 Tanjong Manis,expenditure_avg_norm,11.841940727772911
+P.207 Igan,expenditure_avg_norm,8.228085532074527
+P.208 Sarikei,expenditure_avg_norm,15.193197449043392
+P.209 Julau,expenditure_avg_norm,8.453169938727022
+P.210 Kanowit,expenditure_avg_norm,8.11554332874828
+P.211 Lanang,expenditure_avg_norm,21.007877954232836
+P.212 Sibu,expenditure_avg_norm,23.671376766287356
+P.213 Mukah,expenditure_avg_norm,14.117794172814808
+P.214 Selangau,expenditure_avg_norm,10.603976491184195
+P.215 Kapit,expenditure_avg_norm,16.63123671376766
+P.216 Hulu Rajang,expenditure_avg_norm,6.990121295485807
+P.217 Bintulu,expenditure_avg_norm,22.57096411154183
+P.218 Sibuti,expenditure_avg_norm,11.016631236713767
+P.219 Miri,expenditure_avg_norm,28.660747780417655
+P.220 Baram,expenditure_avg_norm,6.639989996248591
+P.221 Limbang,expenditure_avg_norm,19.3322495935976
+P.222 Lawas,expenditure_avg_norm,18.144304114042765
+P.114 Kepong,expenditure_avg_norm,58.1718144304114
+P.115 Batu,expenditure_avg_norm,49.63111166687507
+P.116 Wangsa Maju,expenditure_avg_norm,49.01838189320995
+P.117 Segambut,expenditure_avg_norm,100.0
+P.118 Setiawangsa,expenditure_avg_norm,58.596973865199445
+P.119 Titiwangsa,expenditure_avg_norm,62.21082906089784
+P.120 Bukit Bintang,expenditure_avg_norm,69.4385394522946
+P.121 Lembah Pantai,expenditure_avg_norm,54.24534200325121
+P.122 Seputeh,expenditure_avg_norm,73.97774165311992
+P.123 Cheras,expenditure_avg_norm,51.65687132674752
+P.124 Bandar Tun Razak,expenditure_avg_norm,51.94447917969238
+P.125 Putrajaya,expenditure_avg_norm,76.67875453294985
+P.166 Labuan,expenditure_avg_norm,28.123046142303362
+P.001 Padang Besar,gini,31.0
+P.002 Kangar,gini,35.0
+P.003 Arau,gini,31.0
+P.004 Langkawi,gini,28.000000000000004
+P.005 Jerlun,gini,28.999999999999996
+P.006 Kubang Pasu,gini,37.0
+P.007 Padang Terap,gini,31.0
+P.008 Pokok Sena,gini,33.0
+P.009 Alor Setar,gini,32.0
+P.010 Kuala Kedah,gini,38.0
+P.011 Pendang,gini,31.0
+P.012 Jerai,gini,38.0
+P.013 Sik,gini,32.0
+P.014 Merbok,gini,40.0
+P.015 Sungai Petani,gini,36.0
+P.016 Baling,gini,34.0
+P.017 Padang Serai,gini,32.0
+P.018 Kulim-Bandar Baharu,gini,35.0
+P.019 Tumpat,gini,37.4
+P.020 Pengkalan Chepa,gini,34.699999999999996
+P.021 Kota Bharu,gini,34.599999999999994
+P.022 Pasir Mas,gini,40.1
+P.023 Rantau Panjang,gini,32.4
+P.024 Kubang Kerian,gini,42.9
+P.025 Bachok,gini,36.1
+P.026 Ketereh,gini,39.6
+P.027 Tanah Merah,gini,33.900000000000006
+P.028 Pasir Puteh,gini,38.6
+P.029 Machang,gini,35.199999999999996
+P.030 Jeli,gini,34.2
+P.031 Kuala Krai,gini,38.2
+P.032 Gua Musang,gini,36.0
+P.033 Besut,gini,33.900000000000006
+P.034 Setiu,gini,33.900000000000006
+P.035 Kuala Nerus,gini,29.799999999999997
+P.036 Kuala Terengganu,gini,28.299999999999997
+P.037 Marang,gini,31.8
+P.038 Hulu Terengganu,gini,33.7
+P.039 Dungun,gini,34.2
+P.040 Kemaman,gini,34.599999999999994
+P.041 Kepala Batas,gini,34.0
+P.042 Tasek Gelugor,gini,34.0
+P.043 Bagan,gini,38.0
+P.044 Permatang Pauh,gini,37.0
+P.045 Bukit Mertajam,gini,37.0
+P.046 Batu Kawan,gini,35.0
+P.047 Nibong Tebal,gini,32.0
+P.048 Bukit Bendera,gini,41.0
+P.049 Tanjong,gini,35.0
+P.050 Jelutong,gini,28.000000000000004
+P.051 Bukit Gelugor,gini,35.0
+P.052 Bayan Baru,gini,36.0
+P.053 Balik Pulau,gini,33.0
+P.054 Gerik,gini,34.9
+P.055 Lenggong,gini,34.0
+P.056 Larut,gini,33.0
+P.057 Parit Buntar,gini,30.8
+P.058 Bagan Serai,gini,30.5
+P.059 Bukit Gantang,gini,31.0
+P.060 Taiping,gini,32.0
+P.061 Padang Rengas,gini,46.0
+P.062 Sungai Siput,gini,33.7
+P.063 Tambun,gini,34.5
+P.064 Ipoh Timor,gini,41.5
+P.065 Ipoh Barat,gini,53.900000000000006
+P.066 Batu Gajah,gini,31.8
+P.067 Kuala Kangsar,gini,34.2
+P.068 Beruas,gini,41.099999999999994
+P.069 Parit,gini,36.4
+P.070 Kampar,gini,36.199999999999996
+P.071 Gopeng,gini,36.3
+P.072 Tapah,gini,38.9
+P.073 Pasir Salak,gini,30.7
+P.074 Lumut,gini,34.300000000000004
+P.075 Bagan Datuk,gini,37.1
+P.076 Teluk Intan,gini,37.8
+P.077 Tanjong Malim,gini,39.900000000000006
+P.078 Cameron Highlands,gini,27.6
+P.079 Lipis,gini,29.599999999999998
+P.080 Raub,gini,30.7
+P.081 Jerantut,gini,29.299999999999997
+P.082 Indera Mahkota,gini,33.900000000000006
+P.083 Kuantan,gini,32.2
+P.084 Paya Besar,gini,30.7
+P.085 Pekan,gini,31.5
+P.086 Maran,gini,30.3
+P.087 Kuala Krau,gini,30.099999999999998
+P.088 Temerloh,gini,32.300000000000004
+P.089 Bentong,gini,28.4
+P.090 Bera,gini,28.9
+P.091 Rompin,gini,29.5
+P.092 Sabak Bernam,gini,33.0
+P.093 Sungai Besar,gini,39.7
+P.094 Hulu Selangor,gini,33.900000000000006
+P.095 Tanjong Karang,gini,39.2
+P.096 Kuala Selangor,gini,36.6
+P.097 Selayang,gini,35.4
+P.098 Gombak,gini,39.5
+P.099 Ampang,gini,45.4
+P.100 Pandan,gini,28.4
+P.101 Hulu Langat,gini,31.2
+P.102 Bangi,gini,33.900000000000006
+P.103 Puchong,gini,40.300000000000004
+P.104 Subang,gini,37.4
+P.105 Petaling Jaya,gini,44.1
+P.106 Damansara,gini,39.900000000000006
+P.107 Sungai Buloh,gini,46.0
+P.108 Shah Alam,gini,39.5
+P.109 Kapar,gini,35.3
+P.110 Klang,gini,37.5
+P.111 Kota Raja,gini,38.3
+P.112 Kuala Langat,gini,33.900000000000006
+P.113 Sepang,gini,40.0
+P.126 Jelebu,gini,36.3
+P.127 Jempol,gini,35.0
+P.128 Seremban,gini,39.300000000000004
+P.129 Kuala Pilah,gini,36.6
+P.130 Rasah,gini,39.800000000000004
+P.131 Rembau,gini,35.099999999999994
+P.132 Port Dickson,gini,37.8
+P.133 Tampin,gini,38.6
+P.134 Masjid Tanah,gini,37.5
+P.135 Alor Gajah,gini,34.1
+P.136 Tangga Batu,gini,37.4
+P.137 Hang Tuah Jaya,gini,40.8
+P.138 Kota Melaka,gini,38.1
+P.139 Jasin,gini,38.6
+P.140 Segamat,gini,31.900000000000002
+P.141 Sekijang,gini,33.4
+P.142 Labis,gini,27.400000000000002
+P.143 Pagoh,gini,31.0
+P.144 Ledang,gini,32.300000000000004
+P.145 Bakri,gini,36.1
+P.146 Muar,gini,33.800000000000004
+P.147 Parit Sulong,gini,28.999999999999996
+P.148 Ayer Hitam,gini,24.4
+P.149 Sri Gading,gini,31.6
+P.150 Batu Pahat,gini,28.599999999999998
+P.151 Simpang Renggam,gini,35.4
+P.152 Kluang,gini,32.7
+P.153 Sembrong,gini,30.599999999999998
+P.154 Mersing,gini,37.7
+P.155 Tenggara,gini,35.9
+P.156 Kota Tinggi,gini,35.5
+P.157 Pengerang,gini,35.699999999999996
+P.158 Tebrau,gini,35.6
+P.159 Pasir Gudang,gini,38.2
+P.160 Johor Bahru,gini,45.4
+P.161 Pulai,gini,33.4
+P.162 Iskandar Puteri,gini,39.2
+P.163 Kulai,gini,33.1
+P.164 Pontian,gini,33.5
+P.165 Tanjung Piai,gini,36.9
+P.167 Kudat,gini,43.9
+P.168 Kota Marudu,gini,43.1
+P.169 Kota Belud,gini,41.199999999999996
+P.170 Tuaran,gini,38.3
+P.171 Sepanggar,gini,38.6
+P.172 Kota Kinabalu,gini,35.199999999999996
+P.173 Putatan,gini,37.9
+P.174 Penampang,gini,32.4
+P.175 Papar,gini,35.199999999999996
+P.176 Kimanis,gini,39.1
+P.177 Beaufort,gini,36.8
+P.178 Sipitang,gini,34.1
+P.179 Ranau,gini,39.300000000000004
+P.180 Keningau,gini,38.0
+P.181 Tenom,gini,34.699999999999996
+P.182 Pensiangan,gini,30.2
+P.183 Beluran,gini,40.699999999999996
+P.184 Libaran,gini,36.3
+P.185 Batu Sapi,gini,38.7
+P.186 Sandakan,gini,41.6
+P.187 Kinabatangan,gini,40.8
+P.188 Lahad Datu,gini,37.3
+P.189 Semporna,gini,47.4
+P.190 Tawau,gini,38.800000000000004
+P.191 Kalabakan,gini,38.5
+P.192 Mas Gading,gini,34.2
+P.193 Santubong,gini,34.5
+P.194 Petra Jaya,gini,36.3
+P.195 Bandar Kuching,gini,41.8
+P.196 Stampin,gini,36.4
+P.197 Kota Samarahan,gini,34.300000000000004
+P.198 Puncak Borneo,gini,34.8
+P.199 Serian,gini,38.7
+P.200 Batang Sadong,gini,37.7
+P.201 Batang Lupar,gini,32.5
+P.202 Sri Aman,gini,36.7
+P.203 Lubok Antu,gini,36.1
+P.204 Betong,gini,37.2
+P.205 Saratok,gini,34.5
+P.206 Tanjong Manis,gini,33.7
+P.207 Igan,gini,37.0
+P.208 Sarikei,gini,38.1
+P.209 Julau,gini,34.300000000000004
+P.210 Kanowit,gini,38.7
+P.211 Lanang,gini,35.4
+P.212 Sibu,gini,37.0
+P.213 Mukah,gini,37.9
+P.214 Selangau,gini,34.9
+P.215 Kapit,gini,35.6
+P.216 Hulu Rajang,gini,31.6
+P.217 Bintulu,gini,34.0
+P.218 Sibuti,gini,33.5
+P.219 Miri,gini,35.5
+P.220 Baram,gini,36.6
+P.221 Limbang,gini,38.2
+P.222 Lawas,gini,38.2
+P.114 Kepong,gini,30.3
+P.115 Batu,gini,30.5
+P.116 Wangsa Maju,gini,28.9
+P.117 Segambut,gini,39.6
+P.118 Setiawangsa,gini,33.0
+P.119 Titiwangsa,gini,33.5
+P.120 Bukit Bintang,gini,36.3
+P.121 Lembah Pantai,gini,37.6
+P.122 Seputeh,gini,32.9
+P.123 Cheras,gini,31.900000000000002
+P.124 Bandar Tun Razak,gini,30.5
+P.125 Putrajaya,gini,36.1
+P.166 Labuan,gini,33.300000000000004
