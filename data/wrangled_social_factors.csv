@@ -1,4 +1,448 @@
 parlimen,variable,value
+P.001 Padang Besar,population_density_norm,1.4221094917686912
+P.002 Kangar,population_density_norm,5.29401542532121
+P.003 Arau,population_density_norm,3.2445302178307993
+P.004 Langkawi,population_density_norm,1.4802688862087996
+P.005 Jerlun,population_density_norm,1.5427032020871287
+P.006 Kubang Pasu,population_density_norm,1.9967324468467578
+P.007 Padang Terap,population_density_norm,0.3514475590166628
+P.008 Pokok Sena,population_density_norm,3.0574109738690787
+P.009 Alor Setar,population_density_norm,7.947978222616305
+P.010 Kuala Kedah,population_density_norm,5.472494995551089
+P.011 Pendang,population_density_norm,1.1629781326856572
+P.012 Jerai,population_density_norm,2.035610187700268
+P.013 Sik,population_density_norm,0.29572547961667794
+P.014 Merbok,population_density_norm,3.5510143940987113
+P.015 Sungai Petani,population_density_norm,7.8229918439082144
+P.016 Baling,population_density_norm,0.67745659348397
+P.017 Padang Serai,population_density_norm,5.658356012251192
+P.018 Kulim-Bandar Baharu,population_density_norm,1.2835653936648246
+P.019 Tumpat,population_density_norm,7.410092343847723
+P.020 Pengkalan Chepa,population_density_norm,13.932628963559965
+P.021 Kota Bharu,population_density_norm,29.408295538548607
+P.022 Pasir Mas,population_density_norm,4.775788585560727
+P.023 Rantau Panjang,population_density_norm,2.2047607402516767
+P.024 Kubang Kerian,population_density_norm,8.234963597393804
+P.025 Bachok,population_density_norm,4.174744964131868
+P.026 Ketereh,population_density_norm,5.698953753781879
+P.027 Tanah Merah,population_density_norm,1.3568402668071529
+P.028 Pasir Puteh,population_density_norm,2.373665961928057
+P.029 Machang,population_density_norm,1.5444296651197564
+P.030 Jeli,population_density_norm,0.38119645500485266
+P.031 Kuala Krai,population_density_norm,0.33117318391119577
+P.032 Gua Musang,population_density_norm,0.09269329796045862
+P.033 Besut,population_density_norm,0.9143065181202322
+P.034 Setiu,population_density_norm,0.5338275314242464
+P.035 Kuala Nerus,population_density_norm,3.224324504117359
+P.036 Kuala Terengganu,population_density_norm,16.79140824452501
+P.037 Marang,population_density_norm,1.6777424536810914
+P.038 Hulu Terengganu,population_density_norm,0.16214155942226183
+P.039 Dungun,population_density_norm,0.4220640111958715
+P.040 Kemaman,population_density_norm,0.6204779633528443
+P.041 Kepala Batas,population_density_norm,6.28530177118199
+P.042 Tasek Gelugor,population_density_norm,7.269343472608975
+P.043 Bagan,population_density_norm,41.8171366136782
+P.044 Permatang Pauh,population_density_norm,12.107025430292445
+P.045 Bukit Mertajam,population_density_norm,15.495273509971415
+P.046 Batu Kawan,population_density_norm,9.4530078165718
+P.047 Nibong Tebal,population_density_norm,5.078854474949964
+P.048 Bukit Bendera,population_density_norm,14.129405421614813
+P.049 Tanjong,population_density_norm,43.048421793129535
+P.050 Jelutong,population_density_norm,84.39555702352966
+P.051 Bukit Gelugor,population_density_norm,46.61021475968207
+P.052 Bayan Baru,population_density_norm,34.13161016520152
+P.053 Balik Pulau,population_density_norm,6.672437711539165
+P.054 Gerik,population_density_norm,0.08381130294128937
+P.055 Lenggong,population_density_norm,0.14547730039884743
+P.056 Larut,population_density_norm,0.424553882117548
+P.057 Parit Buntar,population_density_norm,3.745801936153967
+P.058 Bagan Serai,population_density_norm,0.8868202798140423
+P.059 Bukit Gantang,population_density_norm,0.9511405096887695
+P.060 Taiping,population_density_norm,8.211948630983004
+P.061 Padang Rengas,population_density_norm,0.7100747954731597
+P.062 Sungai Siput,population_density_norm,0.338835200647184
+P.063 Tambun,population_density_norm,3.5858611538939424
+P.064 Ipoh Timor,population_density_norm,23.239931391634858
+P.065 Ipoh Barat,population_density_norm,27.065865566530373
+P.066 Batu Gajah,population_density_norm,4.705727680929947
+P.067 Kuala Kangsar,population_density_norm,0.6578592706568216
+P.068 Beruas,population_density_norm,1.1693445441703318
+P.069 Parit,population_density_norm,0.7988424221197495
+P.070 Kampar,population_density_norm,1.4091410460985452
+P.071 Gopeng,population_density_norm,2.7719561850152945
+P.072 Tapah,population_density_norm,0.6479030828757926
+P.073 Pasir Salak,population_density_norm,0.5519668055909869
+P.074 Lumut,population_density_norm,2.680592307245116
+P.075 Bagan Datuk,population_density_norm,0.8846199083914589
+P.076 Teluk Intan,population_density_norm,0.9788354738428422
+P.077 Tanjong Malim,population_density_norm,0.4754033239335083
+P.078 Cameron Highlands,population_density_norm,0.15262213069045455
+P.079 Lipis,population_density_norm,0.15819121378189782
+P.080 Raub,population_density_norm,0.3005769325560362
+P.081 Jerantut,population_density_norm,0.09746504781704447
+P.082 Indera Mahkota,population_density_norm,4.703917798185784
+P.083 Kuantan,population_density_norm,5.7592176574601694
+P.084 Paya Besar,population_density_norm,0.41899940959636284
+P.085 Pekan,population_density_norm,0.3014454600871198
+P.086 Maran,population_density_norm,0.27622417236776964
+P.087 Kuala Krau,population_density_norm,0.3536229086349627
+P.088 Temerloh,population_density_norm,0.8815553087066721
+P.089 Bentong,population_density_norm,0.45909293194806056
+P.090 Bera,population_density_norm,0.3202853021429661
+P.091 Rompin,population_density_norm,0.12948159966927525
+P.092 Sabak Bernam,population_density_norm,1.0284007850697103
+P.093 Sungai Besar,population_density_norm,0.6752997870896975
+P.094 Hulu Selangor,population_density_norm,1.0309008811877962
+P.095 Tanjong Karang,population_density_norm,0.5608795265578173
+P.096 Kuala Selangor,population_density_norm,2.919376579300651
+P.097 Selayang,population_density_norm,9.451170976434328
+P.098 Gombak,population_density_norm,9.770785731058274
+P.099 Ampang,population_density_norm,29.746208075830218
+P.100 Pandan,population_density_norm,84.38182659808069
+P.101 Hulu Langat,population_density_norm,4.15120386173708
+P.102 Bangi,population_density_norm,27.72604951338271
+P.103 Puchong,population_density_norm,35.689751089581804
+P.104 Subang,population_density_norm,51.422260307939055
+P.105 Petaling Jaya,population_density_norm,48.87896093402969
+P.106 Damansara,population_density_norm,53.53509845734613
+P.107 Sungai Buloh,population_density_norm,19.359461901722128
+P.108 Shah Alam,population_density_norm,23.249837467641193
+P.109 Kapar,population_density_norm,6.428965023428329
+P.110 Klang,population_density_norm,13.635623925946682
+P.111 Kota Raja,population_density_norm,27.52477698826808
+P.112 Kuala Langat,population_density_norm,3.1415593509323894
+P.113 Sepang,population_density_norm,3.3815152208387675
+P.126 Jelebu,population_density_norm,0.26805872332426073
+P.127 Jempol,population_density_norm,0.7055478626679688
+P.128 Seremban,population_density_norm,4.093192765045332
+P.129 Kuala Pilah,population_density_norm,0.504176622723387
+P.130 Rasah,population_density_norm,8.128736912426582
+P.131 Rembau,population_density_norm,2.4474631588568814
+P.132 Port Dickson,population_density_norm,1.6666924155883645
+P.133 Tampin,population_density_norm,0.7501732639402687
+P.134 Masjid Tanah,population_density_norm,2.175748407786596
+P.135 Alor Gajah,population_density_norm,2.257832659137532
+P.136 Tangga Batu,population_density_norm,12.137421974622399
+P.137 Hang Tuah Jaya,population_density_norm,11.743499639821145
+P.138 Kota Melaka,population_density_norm,24.213786588798353
+P.139 Jasin,population_density_norm,2.0750364442025866
+P.140 Segamat,population_density_norm,0.5900634382250759
+P.141 Sekijang,population_density_norm,1.0612800583618553
+P.142 Labis,population_density_norm,0.21960085836251692
+P.143 Pagoh,population_density_norm,0.5522152038927652
+P.144 Ledang,population_density_norm,1.6678995963320258
+P.145 Bakri,population_density_norm,5.243316663658098
+P.146 Muar,population_density_norm,2.7672361511854446
+P.147 Parit Sulong,population_density_norm,1.2972872692290203
+P.148 Ayer Hitam,population_density_norm,0.7037728180650439
+P.149 Sri Gading,population_density_norm,4.323773083978343
+P.150 Batu Pahat,population_density_norm,2.752942964497537
+P.151 Simpang Renggam,population_density_norm,0.7444557233030316
+P.152 Kluang,population_density_norm,5.320801820390294
+P.153 Sembrong,population_density_norm,0.2437324085145623
+P.154 Mersing,population_density_norm,0.1942534155807002
+P.155 Tenggara,population_density_norm,0.5972732529568583
+P.156 Kota Tinggi,population_density_norm,0.2850474044049019
+P.157 Pengerang,population_density_norm,0.5845578722889208
+P.158 Tebrau,population_density_norm,7.017165590113593
+P.159 Pasir Gudang,population_density_norm,18.07484398445516
+P.160 Johor Bahru,population_density_norm,37.69843308479105
+P.161 Pulai,population_density_norm,29.66534916567554
+P.162 Iskandar Puteri,population_density_norm,11.29238886247037
+P.163 Kulai,population_density_norm,2.8848100627503324
+P.164 Pontian,population_density_norm,1.3575411659279482
+P.165 Tanjung Piai,population_density_norm,1.3884845335097975
+P.167 Kudat,population_density_norm,0.28921153223124574
+P.168 Kota Marudu,population_density_norm,0.31577777893621745
+P.169 Kota Belud,population_density_norm,0.5706821540491909
+P.170 Tuaran,population_density_norm,0.8802228082757242
+P.171 Sepanggar,population_density_norm,7.863167637971607
+P.172 Kota Kinabalu,population_density_norm,32.590176529634725
+P.173 Putatan,population_density_norm,14.732266480445437
+P.174 Penampang,population_density_norm,2.683218647710885
+P.175 Papar,population_density_norm,1.2895563038075553
+P.176 Kimanis,population_density_norm,0.38477600334035794
+P.177 Beaufort,population_density_norm,0.434557142301534
+P.178 Sipitang,population_density_norm,0.123569728495791
+P.179 Ranau,population_density_norm,0.15474989176833387
+P.180 Keningau,population_density_norm,0.42262728206333544
+P.181 Tenom,population_density_norm,0.14227936149909293
+P.182 Pensiangan,population_density_norm,0.05937019681275239
+P.183 Beluran,population_density_norm,0.09126094823046176
+P.184 Libaran,population_density_norm,1.3588199848207427
+P.185 Batu Sapi,population_density_norm,1.947335655993521
+P.186 Sandakan,population_density_norm,39.25279008117725
+P.187 Kinabatangan,population_density_norm,0.07931253571159472
+P.188 Lahad Datu,population_density_norm,0.24924370153355074
+P.189 Semporna,population_density_norm,1.0885817343318673
+P.190 Tawau,population_density_norm,1.2750594323344175
+P.191 Kalabakan,population_density_norm,0.29821332431872916
+P.192 Mas Gading,population_density_norm,0.24830501330635513
+P.193 Santubong,population_density_norm,0.5727819135741259
+P.194 Petra Jaya,population_density_norm,8.873975996112925
+P.195 Bandar Kuching,population_density_norm,24.648061294732766
+P.196 Stampin,population_density_norm,8.109328531810851
+P.197 Kota Samarahan,population_density_norm,1.5697703562613237
+P.198 Puncak Borneo,population_density_norm,0.44200848398272535
+P.199 Serian,population_density_norm,0.30377930196569747
+P.200 Batang Sadong,population_density_norm,0.2331025031930708
+P.201 Batang Lupar,population_density_norm,0.13353789505879737
+P.202 Sri Aman,population_density_norm,0.16476928365487742
+P.203 Lubok Antu,population_density_norm,0.05088892807124429
+P.204 Betong,population_density_norm,0.17439721000379121
+P.205 Saratok,population_density_norm,0.1747105884579459
+P.206 Tanjong Manis,population_density_norm,0.1107074941338491
+P.207 Igan,population_density_norm,0.08269377368364854
+P.208 Sarikei,population_density_norm,0.4400200215438387
+P.209 Julau,population_density_norm,0.08176739069923315
+P.210 Kanowit,population_density_norm,0.07437223686583883
+P.211 Lanang,population_density_norm,1.0691853489217267
+P.212 Sibu,population_density_norm,0.7416156870826875
+P.213 Mukah,population_density_norm,0.14173425478400836
+P.214 Selangau,population_density_norm,0.03199442945459394
+P.215 Kapit,population_density_norm,0.042108837584292645
+P.216 Hulu Rajang,population_density_norm,0.0
+P.217 Bintulu,population_density_norm,0.20077505800273815
+P.218 Sibuti,population_density_norm,0.32483448702347456
+P.219 Miri,population_density_norm,1.9747639853764902
+P.220 Baram,population_density_norm,0.01189881466862875
+P.221 Limbang,population_density_norm,0.06996939858115377
+P.222 Lawas,population_density_norm,0.060405634470777236
+P.114 Kepong,population_density_norm,65.67331788992944
+P.115 Batu,population_density_norm,81.30880894556819
+P.116 Wangsa Maju,population_density_norm,100.0
+P.117 Segambut,population_density_norm,36.91280618563655
+P.118 Setiawangsa,population_density_norm,68.22287853439059
+P.119 Titiwangsa,population_density_norm,60.40244258536838
+P.120 Bukit Bintang,population_density_norm,42.588090283546784
+P.121 Lembah Pantai,population_density_norm,54.94713426869541
+P.122 Seputeh,population_density_norm,77.2043813653232
+P.123 Cheras,population_density_norm,62.99418408638899
+P.124 Bandar Tun Razak,population_density_norm,56.78790190104936
+P.125 Putrajaya,population_density_norm,16.53097911259735
+P.166 Labuan,population_density_norm,7.344367724731608
+P.001 Padang Besar,household_size_avg_norm,24.13793103448276
+P.002 Kangar,household_size_avg_norm,24.13793103448276
+P.003 Arau,household_size_avg_norm,27.58620689655173
+P.004 Langkawi,household_size_avg_norm,27.58620689655173
+P.005 Jerlun,household_size_avg_norm,41.37931034482759
+P.006 Kubang Pasu,household_size_avg_norm,37.931034482758605
+P.007 Padang Terap,household_size_avg_norm,44.82758620689654
+P.008 Pokok Sena,household_size_avg_norm,31.034482758620697
+P.009 Alor Setar,household_size_avg_norm,34.48275862068965
+P.010 Kuala Kedah,household_size_avg_norm,37.931034482758605
+P.011 Pendang,household_size_avg_norm,44.82758620689654
+P.012 Jerai,household_size_avg_norm,48.27586206896552
+P.013 Sik,household_size_avg_norm,34.48275862068965
+P.014 Merbok,household_size_avg_norm,37.931034482758605
+P.015 Sungai Petani,household_size_avg_norm,41.37931034482759
+P.016 Baling,household_size_avg_norm,34.48275862068965
+P.017 Padang Serai,household_size_avg_norm,44.82758620689654
+P.018 Kulim-Bandar Baharu,household_size_avg_norm,41.37931034482759
+P.019 Tumpat,household_size_avg_norm,82.75862068965517
+P.020 Pengkalan Chepa,household_size_avg_norm,58.62068965517241
+P.021 Kota Bharu,household_size_avg_norm,51.72413793103448
+P.022 Pasir Mas,household_size_avg_norm,75.86206896551724
+P.023 Rantau Panjang,household_size_avg_norm,82.75862068965517
+P.024 Kubang Kerian,household_size_avg_norm,65.51724137931035
+P.025 Bachok,household_size_avg_norm,72.41379310344828
+P.026 Ketereh,household_size_avg_norm,68.9655172413793
+P.027 Tanah Merah,household_size_avg_norm,75.86206896551724
+P.028 Pasir Puteh,household_size_avg_norm,79.31034482758619
+P.029 Machang,household_size_avg_norm,72.41379310344828
+P.030 Jeli,household_size_avg_norm,65.51724137931035
+P.031 Kuala Krai,household_size_avg_norm,55.17241379310346
+P.032 Gua Musang,household_size_avg_norm,75.86206896551724
+P.033 Besut,household_size_avg_norm,48.27586206896552
+P.034 Setiu,household_size_avg_norm,51.72413793103448
+P.035 Kuala Nerus,household_size_avg_norm,44.82758620689654
+P.036 Kuala Terengganu,household_size_avg_norm,27.58620689655173
+P.037 Marang,household_size_avg_norm,48.27586206896552
+P.038 Hulu Terengganu,household_size_avg_norm,44.82758620689654
+P.039 Dungun,household_size_avg_norm,44.82758620689654
+P.040 Kemaman,household_size_avg_norm,41.37931034482759
+P.041 Kepala Batas,household_size_avg_norm,37.931034482758605
+P.042 Tasek Gelugor,household_size_avg_norm,34.48275862068965
+P.043 Bagan,household_size_avg_norm,27.58620689655173
+P.044 Permatang Pauh,household_size_avg_norm,37.931034482758605
+P.045 Bukit Mertajam,household_size_avg_norm,34.48275862068965
+P.046 Batu Kawan,household_size_avg_norm,34.48275862068965
+P.047 Nibong Tebal,household_size_avg_norm,13.793103448275872
+P.048 Bukit Bendera,household_size_avg_norm,0.0
+P.049 Tanjong,household_size_avg_norm,0.0
+P.050 Jelutong,household_size_avg_norm,17.241379310344826
+P.051 Bukit Gelugor,household_size_avg_norm,13.793103448275872
+P.052 Bayan Baru,household_size_avg_norm,13.793103448275872
+P.053 Balik Pulau,household_size_avg_norm,17.241379310344826
+P.054 Gerik,household_size_avg_norm,34.48275862068965
+P.055 Lenggong,household_size_avg_norm,31.034482758620697
+P.056 Larut,household_size_avg_norm,31.034482758620697
+P.057 Parit Buntar,household_size_avg_norm,44.82758620689654
+P.058 Bagan Serai,household_size_avg_norm,44.82758620689654
+P.059 Bukit Gantang,household_size_avg_norm,31.034482758620697
+P.060 Taiping,household_size_avg_norm,27.58620689655173
+P.061 Padang Rengas,household_size_avg_norm,31.034482758620697
+P.062 Sungai Siput,household_size_avg_norm,24.13793103448276
+P.063 Tambun,household_size_avg_norm,27.58620689655173
+P.064 Ipoh Timor,household_size_avg_norm,17.241379310344826
+P.065 Ipoh Barat,household_size_avg_norm,24.13793103448276
+P.066 Batu Gajah,household_size_avg_norm,24.13793103448276
+P.067 Kuala Kangsar,household_size_avg_norm,27.58620689655173
+P.068 Beruas,household_size_avg_norm,31.034482758620697
+P.069 Parit,household_size_avg_norm,20.689655172413794
+P.070 Kampar,household_size_avg_norm,20.689655172413794
+P.071 Gopeng,household_size_avg_norm,27.58620689655173
+P.072 Tapah,household_size_avg_norm,27.58620689655173
+P.073 Pasir Salak,household_size_avg_norm,34.48275862068965
+P.074 Lumut,household_size_avg_norm,34.48275862068965
+P.075 Bagan Datuk,household_size_avg_norm,24.13793103448276
+P.076 Teluk Intan,household_size_avg_norm,31.034482758620697
+P.077 Tanjong Malim,household_size_avg_norm,24.13793103448276
+P.078 Cameron Highlands,household_size_avg_norm,51.72413793103448
+P.079 Lipis,household_size_avg_norm,55.17241379310346
+P.080 Raub,household_size_avg_norm,44.82758620689654
+P.081 Jerantut,household_size_avg_norm,51.72413793103448
+P.082 Indera Mahkota,household_size_avg_norm,34.48275862068965
+P.083 Kuantan,household_size_avg_norm,31.034482758620697
+P.084 Paya Besar,household_size_avg_norm,31.034482758620697
+P.085 Pekan,household_size_avg_norm,27.58620689655173
+P.086 Maran,household_size_avg_norm,51.72413793103448
+P.087 Kuala Krau,household_size_avg_norm,44.82758620689654
+P.088 Temerloh,household_size_avg_norm,41.37931034482759
+P.089 Bentong,household_size_avg_norm,34.48275862068965
+P.090 Bera,household_size_avg_norm,48.27586206896552
+P.091 Rompin,household_size_avg_norm,24.13793103448276
+P.092 Sabak Bernam,household_size_avg_norm,27.58620689655173
+P.093 Sungai Besar,household_size_avg_norm,34.48275862068965
+P.094 Hulu Selangor,household_size_avg_norm,41.37931034482759
+P.095 Tanjong Karang,household_size_avg_norm,31.034482758620697
+P.096 Kuala Selangor,household_size_avg_norm,37.931034482758605
+P.097 Selayang,household_size_avg_norm,48.27586206896552
+P.098 Gombak,household_size_avg_norm,48.27586206896552
+P.099 Ampang,household_size_avg_norm,31.034482758620697
+P.100 Pandan,household_size_avg_norm,17.241379310344826
+P.101 Hulu Langat,household_size_avg_norm,31.034482758620697
+P.102 Bangi,household_size_avg_norm,34.48275862068965
+P.103 Puchong,household_size_avg_norm,37.931034482758605
+P.104 Subang,household_size_avg_norm,31.034482758620697
+P.105 Petaling Jaya,household_size_avg_norm,31.034482758620697
+P.106 Damansara,household_size_avg_norm,34.48275862068965
+P.107 Sungai Buloh,household_size_avg_norm,41.37931034482759
+P.108 Shah Alam,household_size_avg_norm,37.931034482758605
+P.109 Kapar,household_size_avg_norm,44.82758620689654
+P.110 Klang,household_size_avg_norm,44.82758620689654
+P.111 Kota Raja,household_size_avg_norm,41.37931034482759
+P.112 Kuala Langat,household_size_avg_norm,31.034482758620697
+P.113 Sepang,household_size_avg_norm,13.793103448275872
+P.126 Jelebu,household_size_avg_norm,41.37931034482759
+P.127 Jempol,household_size_avg_norm,37.931034482758605
+P.128 Seremban,household_size_avg_norm,31.034482758620697
+P.129 Kuala Pilah,household_size_avg_norm,24.13793103448276
+P.130 Rasah,household_size_avg_norm,31.034482758620697
+P.131 Rembau,household_size_avg_norm,31.034482758620697
+P.132 Port Dickson,household_size_avg_norm,34.48275862068965
+P.133 Tampin,household_size_avg_norm,37.931034482758605
+P.134 Masjid Tanah,household_size_avg_norm,27.58620689655173
+P.135 Alor Gajah,household_size_avg_norm,27.58620689655173
+P.136 Tangga Batu,household_size_avg_norm,27.58620689655173
+P.137 Hang Tuah Jaya,household_size_avg_norm,27.58620689655173
+P.138 Kota Melaka,household_size_avg_norm,24.13793103448276
+P.139 Jasin,household_size_avg_norm,31.034482758620697
+P.140 Segamat,household_size_avg_norm,27.58620689655173
+P.141 Sekijang,household_size_avg_norm,31.034482758620697
+P.142 Labis,household_size_avg_norm,20.689655172413794
+P.143 Pagoh,household_size_avg_norm,34.48275862068965
+P.144 Ledang,household_size_avg_norm,48.27586206896552
+P.145 Bakri,household_size_avg_norm,55.17241379310346
+P.146 Muar,household_size_avg_norm,48.27586206896552
+P.147 Parit Sulong,household_size_avg_norm,48.27586206896552
+P.148 Ayer Hitam,household_size_avg_norm,41.37931034482759
+P.149 Sri Gading,household_size_avg_norm,44.82758620689654
+P.150 Batu Pahat,household_size_avg_norm,37.931034482758605
+P.151 Simpang Renggam,household_size_avg_norm,34.48275862068965
+P.152 Kluang,household_size_avg_norm,31.034482758620697
+P.153 Sembrong,household_size_avg_norm,31.034482758620697
+P.154 Mersing,household_size_avg_norm,27.58620689655173
+P.155 Tenggara,household_size_avg_norm,34.48275862068965
+P.156 Kota Tinggi,household_size_avg_norm,34.48275862068965
+P.157 Pengerang,household_size_avg_norm,31.034482758620697
+P.158 Tebrau,household_size_avg_norm,27.58620689655173
+P.159 Pasir Gudang,household_size_avg_norm,24.13793103448276
+P.160 Johor Bahru,household_size_avg_norm,13.793103448275872
+P.161 Pulai,household_size_avg_norm,27.58620689655173
+P.162 Iskandar Puteri,household_size_avg_norm,31.034482758620697
+P.163 Kulai,household_size_avg_norm,31.034482758620697
+P.164 Pontian,household_size_avg_norm,41.37931034482759
+P.165 Tanjung Piai,household_size_avg_norm,37.931034482758605
+P.167 Kudat,household_size_avg_norm,58.62068965517241
+P.168 Kota Marudu,household_size_avg_norm,55.17241379310346
+P.169 Kota Belud,household_size_avg_norm,79.31034482758619
+P.170 Tuaran,household_size_avg_norm,62.06896551724137
+P.171 Sepanggar,household_size_avg_norm,55.17241379310346
+P.172 Kota Kinabalu,household_size_avg_norm,48.27586206896552
+P.173 Putatan,household_size_avg_norm,58.62068965517241
+P.174 Penampang,household_size_avg_norm,34.48275862068965
+P.175 Papar,household_size_avg_norm,62.06896551724137
+P.176 Kimanis,household_size_avg_norm,68.9655172413793
+P.177 Beaufort,household_size_avg_norm,65.51724137931035
+P.178 Sipitang,household_size_avg_norm,58.62068965517241
+P.179 Ranau,household_size_avg_norm,79.31034482758619
+P.180 Keningau,household_size_avg_norm,51.72413793103448
+P.181 Tenom,household_size_avg_norm,65.51724137931035
+P.182 Pensiangan,household_size_avg_norm,68.9655172413793
+P.183 Beluran,household_size_avg_norm,34.48275862068965
+P.184 Libaran,household_size_avg_norm,79.31034482758619
+P.185 Batu Sapi,household_size_avg_norm,93.10344827586206
+P.186 Sandakan,household_size_avg_norm,86.20689655172413
+P.187 Kinabatangan,household_size_avg_norm,58.62068965517241
+P.188 Lahad Datu,household_size_avg_norm,68.9655172413793
+P.189 Semporna,household_size_avg_norm,100.0
+P.190 Tawau,household_size_avg_norm,75.86206896551724
+P.191 Kalabakan,household_size_avg_norm,62.06896551724137
+P.192 Mas Gading,household_size_avg_norm,51.72413793103448
+P.193 Santubong,household_size_avg_norm,55.17241379310346
+P.194 Petra Jaya,household_size_avg_norm,55.17241379310346
+P.195 Bandar Kuching,household_size_avg_norm,37.931034482758605
+P.196 Stampin,household_size_avg_norm,48.27586206896552
+P.197 Kota Samarahan,household_size_avg_norm,34.48275862068965
+P.198 Puncak Borneo,household_size_avg_norm,51.72413793103448
+P.199 Serian,household_size_avg_norm,48.27586206896552
+P.200 Batang Sadong,household_size_avg_norm,44.82758620689654
+P.201 Batang Lupar,household_size_avg_norm,55.17241379310346
+P.202 Sri Aman,household_size_avg_norm,51.72413793103448
+P.203 Lubok Antu,household_size_avg_norm,34.48275862068965
+P.204 Betong,household_size_avg_norm,48.27586206896552
+P.205 Saratok,household_size_avg_norm,51.72413793103448
+P.206 Tanjong Manis,household_size_avg_norm,27.58620689655173
+P.207 Igan,household_size_avg_norm,13.793103448275872
+P.208 Sarikei,household_size_avg_norm,34.48275862068965
+P.209 Julau,household_size_avg_norm,48.27586206896552
+P.210 Kanowit,household_size_avg_norm,31.034482758620697
+P.211 Lanang,household_size_avg_norm,37.931034482758605
+P.212 Sibu,household_size_avg_norm,27.58620689655173
+P.213 Mukah,household_size_avg_norm,31.034482758620697
+P.214 Selangau,household_size_avg_norm,34.48275862068965
+P.215 Kapit,household_size_avg_norm,37.931034482758605
+P.216 Hulu Rajang,household_size_avg_norm,13.793103448275872
+P.217 Bintulu,household_size_avg_norm,37.931034482758605
+P.218 Sibuti,household_size_avg_norm,41.37931034482759
+P.219 Miri,household_size_avg_norm,37.931034482758605
+P.220 Baram,household_size_avg_norm,37.931034482758605
+P.221 Limbang,household_size_avg_norm,44.82758620689654
+P.222 Lawas,household_size_avg_norm,48.27586206896552
+P.114 Kepong,household_size_avg_norm,17.241379310344826
+P.115 Batu,household_size_avg_norm,6.896551724137936
+P.116 Wangsa Maju,household_size_avg_norm,27.58620689655173
+P.117 Segambut,household_size_avg_norm,17.241379310344826
+P.118 Setiawangsa,household_size_avg_norm,10.344827586206904
+P.119 Titiwangsa,household_size_avg_norm,17.241379310344826
+P.120 Bukit Bintang,household_size_avg_norm,13.793103448275872
+P.121 Lembah Pantai,household_size_avg_norm,20.689655172413794
+P.122 Seputeh,household_size_avg_norm,24.13793103448276
+P.123 Cheras,household_size_avg_norm,20.689655172413794
+P.124 Bandar Tun Razak,household_size_avg_norm,17.241379310344826
+P.125 Putrajaya,household_size_avg_norm,31.034482758620697
+P.166 Labuan,household_size_avg_norm,37.931034482758605
 P.001 Padang Besar,housing_per_hundred,26.528261019839167
 P.002 Kangar,housing_per_hundred,28.396605627512283
 P.003 Arau,housing_per_hundred,22.055439115604322
