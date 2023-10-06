@@ -20,7 +20,7 @@
       "legend": {"values": [5, 10, 15]},
       "title": "Seats won"
     },
-    "tooltip": [{"field": "election", "type": "quantitative"}, {"field": "newSeats"}],
+    "tooltip": [{"field": "election", "type": "quantitative"}, {"field": "newSeats", "title": "Seats won", "format": ".0f"}],
     "color": {
       "field": "delta",
       "type": "quantitative",

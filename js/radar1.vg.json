@@ -307,12 +307,10 @@
             "fill": {"value": "black"},
             "fontWeight":{"value": "bold"},
             "fontSize":{"value": 12},
-            "font":{"value": "Roboto"},
             "dx":{"value": -20}
           }
         }
       }
     ],
-    "opacity": { "value": 0.6},
-    "config": {"text":{"font": "Roboto"}}
+    "opacity": { "value": 0.6}
   }

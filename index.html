@@ -23,16 +23,23 @@
     instability that resulted in the first hung parliament in Malaysian history.
   </p>
 
-  <div id="map" class="vis-container"></div>
+  <div id="map" class="map-container"></div>
   <button id="change-win-map">Winning candidates</button>
   <button id="change-demog-map">Constituency demographics</button>
   <button id="change-turnout-map">Turnout</button>
 
-  <div id="radar" class="vis-container"></div>
-  <button id="change-social-radar">Social factors</button>
-  <button id="change-econ-radar">Economic factors</button>
-
-  <div id="#pyramid" class="vis-container"></div>
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+      <div id="radar" class="vis-container"></div>
+      <button id="change-social-radar">Social factors</button>
+      <button id="change-econ-radar">Economic factors</button>
+    </div>
+    <div class="pure-u-1-2">
+      <div id="pyramid" class="vis-container"></div>
+    </div>
+  </div>
+  <!-- end pure grid group -->
 
 <script type="text/javascript">
   var spec1 = "js/map_win.vg.json";
