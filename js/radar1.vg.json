@@ -4,10 +4,10 @@
   "width": 400,
   "height": 400,
   "padding": 50,
-  "autosize": "none",
+  "autosize": {"type": "none", "contains": "padding"},
   "title": {
     "text": "Radar chart of social factors",
-    "fontSize": 22,
+    "fontSize": 18,
     "align": "left",
     "anchor": "start",
     "offset": 30,

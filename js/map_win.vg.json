@@ -2,12 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Map of winning candidates in each constituency",
-    "fontSize": 22,
+    "fontSize": 18,
     "align": "left",
     "anchor": "start"
   },
   "width": 1500,
-  "height": 843.75,
+  "height": 700,
   "projection": {
     "type": "albers",
     "rotate": [-105, 0, 0],
@@ -52,7 +52,7 @@
         "color": { 
           "field": "party",
           "type": "nominal",
-          "legend": {"title": "Party/Coalition", "orient": "right"},
+          "legend": {"title": "Party/Coalition"},
           "scale": {
             "domain": [
               "Barisan Nasional (BN)",
@@ -123,7 +123,7 @@
         "align": "left",
         "dx": -800,
         "dy": 140,
-        "fontSize": 14,
+        "fontSize": 12,
         "fontStyle":"italic",
         "fontWeight":"lighter"
       },
@@ -138,7 +138,7 @@
         "align": "left",
         "dx": -440,
         "dy": -100,
-        "fontSize": 14,
+        "fontSize": 12,
         "fontStyle":"italic",
         "fontWeight":"lighter"
       },
@@ -153,7 +153,7 @@
         "align": "left",
         "dx": 480,
         "dy": 140,
-        "fontSize": 14,
+        "fontSize": 12,
         "fontStyle":"italic",
         "fontWeight":"lighter"
       },
@@ -165,16 +165,17 @@
   ],
   "config": {
     "text": {
-      "font": "Open Sans", 
-      "fontSize": 16
+      "fontSize": 14
     },
     "scale": {
       "bandPaddingInner": 0.2
     },
     "legend": {
-      "titleFontSize": 16,
-      "labelFontSize": 14,
-      "orient": "right",
+      "titleFontSize": 14,
+      "labelFontSize": 12,
+      "orient": "none",
+      "legendX": 700,
+      "legendY": 30,
       "labelLimit": 1000
     }
   }

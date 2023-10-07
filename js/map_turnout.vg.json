@@ -2,12 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Map of voter turnout in each constituency",
-    "fontSize": 22,
+    "fontSize": 18,
     "align": "left",
     "anchor": "start"
   },
   "width": 1500,
-  "height": 843.75,
+  "height": 700,
   "projection": {
     "type": "albers",
     "rotate": [-105, 0, 0],
@@ -42,13 +42,13 @@
     "color": { 
       "field": "peratus_keluar",
       "type": "quantitative",
-      "legend": {"title": "Voter turnout (%)", "orient": "right"},
+      "legend": {"title": "Voter turnout (%)"},
       "condition": {
         "test": "isNaN(datum.undi_keluar_peti)",
         "value": "gray"
       },
       "scale": {
-        "scheme": "viridis",
+        "scheme": {"name": "viridis"},
         "reverse": true
       }
     },
@@ -81,17 +81,18 @@
   },
   "config": {
     "text": {
-      "font": "Inter", 
-      "fontSize": 16
+      "fontSize": 14
     },
     "scale": {
       "bandPaddingInner": 0.2
     },
     "legend": {
-      "titleFontSize": 16,
-      "labelFontSize": 14,
-      "orient": "right",
-      "labelLimit": 500
+      "titleFontSize": 14,
+      "labelFontSize": 12,
+      "orient": "top-right",
+      "direction": "horizontal",
+      "labelLimit": 500,
+      "gradientLength": 400
     }
   }
 }
