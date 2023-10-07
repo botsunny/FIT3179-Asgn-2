@@ -23,6 +23,20 @@
     instability that resulted in the first hung parliament in Malaysian history.
   </p>
 
+  <p id="paragraph-text">
+    The following map shows the final results of GE15. Note that the Democratic
+    Action Party (DAP) is a member of the Pakatan Harapan (PH) coalition, but
+    contests under its own name and logo in the state of Sarawak. Similarly,
+    Parti Islam Se-Malaysia (PAS) is a member of the Perikatan Nasional (PN) coalition,
+    but contests under its own name and logo in the states of Kelantan and
+    Terengganu.
+    <br><br>
+    In any election, understanding the demographics of the electorate as well as
+    the turnout during election day are keys to interpreting the results.
+    <br><br>
+    Use the buttons to switch between maps for demographics and turnout!
+  </p>
+
   <div id="map" class="map-container"></div>
   <button id="change-win-map">Winning candidates</button>
   <button id="change-demog-map">Constituency demographics</button>
@@ -31,11 +45,47 @@
   <!-- pure grid group -->
   <div class="pure-g">
     <div class="pure-u-1-2">
-      <div id="radar" class="vis-container"></div>
-      <button id="change-social-radar">Social factors</button>
-      <button id="change-econ-radar">Economic factors</button>
+      <p id="left-column-text">
+        In recent years, Malaysia has seen a shift from a single-coalition dominance
+        (Barisan Nasional) to a two-coalition battle, and in GE15, a three-cornered
+        fight. High-income, densely populated urban constituencies tend to prefer
+        PH whereas the opposite has strong support for PN.
+        <br><br>
+        Use the radar charts to discover the social and economic factors of each
+        constituency!
+      </p>
+      <div class="pure-g">
+        <div class="pure-u-2-3">
+          <div id="radar" class="vis-container"></div>
+          <button id="change-social-radar">Social factors</button>
+          <button id="change-econ-radar">Economic factors</button>
+        </div>
+        <div class="pure-u-1-3">
+          <p id="inner-column-text">
+            Population density: <b>Normalised population density</b>
+            <br><br>
+            Average household size: <b>Normalised average of household sizes</b>
+            <br><br>
+            Unemployment rate: <b>Estimated based on 2020 Labour Force Survey data</b>
+            <br><br>
+            Poverty incidence: <b>Poverty is defined as household income below the 2019 Poverty Line</b>
+            <br><br>
+            Median income: <b>Normalised median household income, estimated based on the 2020 Household Income, Expenditure and Basic Amenities (HIES/BA) Survey</b>
+            <br><br>
+            Average expenditure: <b>Normalised average household expenditure</b>
+            <br><br>
+            Gini coefficient: <b>Measures income inequality (0% is perfect equality, 100% is perfect inequality)</b>
+          </p>
+        </div>
+      </div>
     </div>
     <div class="pure-u-1-2">
+      <p id="right-column-text">
+        GE15 is the first election since the nation's voting age was lowered to
+        18. The following pyramid chart shows the age distribution of the
+        electorate based on gender. For both genders, millenials and working adults
+        aged 21-39 make up the majority of voters.
+      </p>
       <div id="pyramid" class="vis-container"></div>
     </div>
   </div>
@@ -53,11 +103,11 @@
 
   // Function to embed the selected map
   function embedMap(spec) {
-      if (currentMap !== spec) {
-          vegaEmbed("#map", spec).then(() => {
-              currentMap = spec;
-          }).catch(console.error);
-      }
+    if (currentMap !== spec) {
+        vegaEmbed("#map", spec).then(() => {
+          currentMap = spec;
+        }).catch(console.error);
+    }
   }
 
   embedMap(spec1);

@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Map of voter turnout in each constituency",
-    "fontSize": 26,
+    "fontSize": 22,
     "align": "left",
     "anchor": "start"
   },
@@ -37,12 +37,12 @@
     },
     {"name": "select", "select": "point"}
   ],
-  "mark": {"type": "geoshape", "stroke": "lightgray"},
+  "mark": {"type": "geoshape", "stroke": "darkgray"},
   "encoding": {
     "color": { 
       "field": "peratus_keluar",
       "type": "quantitative",
-      "legend": {"title": "Voter turnout (%)"},
+      "legend": {"title": "Voter turnout (%)", "orient": "right"},
       "condition": {
         "test": "isNaN(datum.undi_keluar_peti)",
         "value": "gray"
@@ -76,10 +76,14 @@
           "value": 1.5
         }
       ],
-      "value": 0
+      "value": 0.5
     }
   },
   "config": {
+    "text": {
+      "font": "Inter", 
+      "fontSize": 16
+    },
     "scale": {
       "bandPaddingInner": 0.2
     },

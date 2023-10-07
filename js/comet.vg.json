@@ -7,7 +7,71 @@
     {"pivot": "election", "value": "newSeats", "groupby": ["state", "party"]},
     {"fold": ["14", "15"], "as": ["election", "newSeats"]},
     {"calculate": "toNumber(datum.election)", "as": "election"},
-    {"calculate": "datum['15'] - datum['14']", "as": "delta"}
+    {"calculate": "datum['15'] - datum['14']", "as": "delta"},
+    {"filter": "party_selection == null || datum.party == party_selection"},
+    {"filter": "state_selection == null || datum.state == state_selection"}
+  ],
+  "params": [
+    {
+      "name": "party_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Barisan Nasional (BN)",
+          "Pakatan Harapan (PH)",
+          "Perikatan Nasional (PN)"
+        ],
+        "labels":[
+          "Show All",
+          "Barisan Nasional (BN)",
+          "Pakatan Harapan (PH)",
+          "Perikatan Nasional (PN)"
+        ],
+        "name": "Coalition selection: "
+      }
+    },
+    {
+      "name": "state_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Johor",
+          "Kedah",
+          "Kelantan",
+          "Melaka",
+          "Negeri Sembilan",
+          "Pahang",
+          "Perak",
+          "Perlis",
+          "Pulau Pinang",
+          "Sabah",
+          "Sarawak",
+          "Selangor",
+          "Terengganu",
+          "Wilayah Persekutuan"
+        ],
+        "labels":[
+          "Show All",
+          "Johor",
+          "Kedah",
+          "Kelantan",
+          "Melaka",
+          "Negeri Sembilan",
+          "Pahang",
+          "Perak",
+          "Perlis",
+          "Pulau Pinang",
+          "Sabah",
+          "Sarawak",
+          "Selangor",
+          "Terengganu",
+          "Wilayah Persekutuan"
+        ],
+        "name": "State selection: "
+      }
+    }
   ],
   "mark": "trail",
   "encoding": {
@@ -20,7 +84,10 @@
       "legend": {"values": [5, 10, 15]},
       "title": "Seats won"
     },
-    "tooltip": [{"field": "election", "type": "quantitative"}, {"field": "newSeats", "title": "Seats won", "format": ".0f"}],
+    "tooltip": [
+      {"field": "election", "type": "quantitative"},
+      {"field": "newSeats", "title": "Seats won", "format": ".0f"}
+    ],
     "color": {
       "field": "delta",
       "type": "quantitative",

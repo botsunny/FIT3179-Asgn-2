@@ -1,66 +1,95 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Population pyramid of voters",
-  "data": { "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_voters_age_ge15.csv"},
+  "title": {
+    "text": "Population pyramid of voters",
+    "fontSize": 22,
+    "align": "left",
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_voters_age_ge15.csv"
+  },
   "spacing": 0,
-  "hconcat": [{
-    "transform": [{
-      "filter": {"field": "gender", "equal": "female"}
-    }],
-    "title": "Female",
-    "mark": "bar",
-    "encoding": {
-      "y": {
-        "field": "age_group", "type": "ordinal", "axis": null, "sort": "descending"
-      },
-      "x": {
-        "field": "population",
-        "title": "population",
-        "type": "quantitative",
-        "axis": {"format": "s"},
-        "sort": "descending"
-      },
-      "color": {
-        "field": "gender",
-        "scale": {"range": ["#675193", "#ca8861"]},
-        "legend": null
+  "hconcat": [
+    {
+      "width": 400,
+      "height": 500,
+      "transform": [
+        {
+          "filter": {"field": "gender", "equal": "female"}
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "age_group", "type": "ordinal", "axis": null, "sort": "descending"},
+        "x": {
+          "field": "population",
+          "title": "Number of female voters",
+          "type": "quantitative",
+          "axis": {"format": "s", "titleFontSize": 14, "labelFontSize": 12},
+          "sort": "descending"
+        },
+        "color": {
+          "field": "gender",
+          "scale": {"range": ["#675193", "#ca8861"]},
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "age_group", "type": "ordinal", "title": "Age group"},
+          {"field": "gender", "type": "nominal", "title": "Gender"},
+          {"field": "population", "type": "quantitative", "title": "Number of voters", "format": ",.0f"}
+        ]
       }
-    }
-  }, {
-    "width": 20,
-    "view": {"stroke": null},
-    "mark": {
-      "type": "text",
-      "align": "center"
     },
-    "encoding": {
-      "y": {"field": "age_group", "type": "ordinal", "axis": null, "sort": ["90+", "80-89", "70-79", "60-69", "50-59", "40-49", "30-39",
-      "21-29", "18-20"]},
-      "text": {"field": "age_group", "type": "ordinal"}
-    }
-  }, {
-    "transform": [{
-      "filter": {"field": "gender", "equal": "male"}
-    }],
-    "title": "Male",
-    "mark": "bar",
-    "encoding": {
-      "y": {
-        "field": "age_group", "type": "ordinal", "axis": null, "sort": "descending"
+    {
+      "title": {"text": "Age group (years)"},
+      "width": 20,
+      "height": 500,
+      "view": {"stroke": null},
+      "mark": {
+        "type": "text",
+        "align": "center"
       },
-      "x": {
-        "field": "population",
-        "title": "population",
-        "type": "quantitative",
-        "axis": {"format": "s"}
-      },
-      "color": {
-        "field": "gender",
-        "legend": null
+      "encoding": {
+        "y": {"field": "age_group", "type": "ordinal", "axis": null, "sort": ["90+", "80-89", "70-79", "60-69", "50-59", "40-49", "30-39", "21-29", "18-20"]},
+        "text": {"field": "age_group", "type": "ordinal"}
+      }
+    },
+    {
+      "width": 400,
+      "height": 500,
+      "transform": [
+        {
+          "filter": {"field": "gender", "equal": "male"}
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "age_group", "type": "ordinal", "axis": null, "sort": "descending"
+        },
+        "x": {
+          "field": "population",
+          "title": "Number of male voters",
+          "type": "quantitative",
+          "axis": {"format": "s", "titleFontSize": 14, "labelFontSize": 12}
+        },
+        "color": {
+          "field": "gender",
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "age_group", "type": "ordinal", "title": "Age group"},
+          {"field": "gender", "type": "nominal", "title": "Gender"},
+          {"field": "population", "type": "quantitative", "title": "Number of voters", "format": ",.0f"}
+        ]
       }
     }
-  }],
+  ],
   "config": {
+    "text": {
+      "fontSize": 16
+    },
     "view": {"stroke": null},
     "axis": {"grid": false}
   }

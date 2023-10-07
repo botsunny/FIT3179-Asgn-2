@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Map of population demographics in each constituency",
-    "fontSize": 26,
+    "fontSize": 22,
     "align": "left",
     "anchor": "start"
   },
@@ -28,8 +28,13 @@
         "key": "parlimen",
         "fields": ["state", "population_total", "ethnicity_proportion_bumi",
                    "ethnicity_proportion_chinese", "ethnicity_proportion_indian",
-                   "ethnicity_proportion_other"]
+                   "ethnicity_proportion_other", "area_km2"]
       }
+    },
+    {"calculate": "datum.population_total / datum.area_km2", "as": "population_density"},
+    {
+      "fold": ["ethnicity_proportion_bumi", "ethnicity_proportion_chinese", "ethnicity_proportion_indian", "ethnicity_proportion_other"],
+      "as": ["ethnicity_proportion", "value"]
     }
   ],
   "params": [
@@ -39,20 +44,22 @@
     },
     {"name": "select", "select": "point"}
   ],
-  "mark": {"type": "geoshape", "stroke": "lightgray"},
+  "mark": {"type": "geoshape", "stroke": "darkgray"},
   "encoding": {
     "color": { 
-      "field": "population_total",
+      "field": "population_density",
       "type": "quantitative",
-      "legend": {"title": "Population"},
+      "legend": {"title": ["Population density", "(people/km²)"], "orient": "right"},
       "scale": {
-        "scheme": "magma",
-        "reverse": true
+        "type": "threshold",
+        "domain": [50, 100, 150, 200, 250, 300, 350, 400],
+        "range": ["#ffffcd", "#ffeea1", "#ffda76", "#ffb34c", "#fe8e3c", "#fd4e2a", "#e41a1c", "#be0026", "#800026"]
       }
     },
     "tooltip": [
       {"field": "properties.parlimen", "type": "nominal", "title": "Constituency"},
       {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "population_density", "type": "quantitative", "title": "Population density", "format": ",.2f"},
       {"field": "population_total", "type": "quantitative", "title": "Total population", "format": ",.0f"},
       {"field": "ethnicity_proportion_bumi", "type": "quantitative", "title": "Proportion of Bumiputera (%)", "format": ".2f"},
       {"field": "ethnicity_proportion_chinese", "type": "quantitative", "title": "Proportion of Chinese (%)", "format": ".2f"},
@@ -76,10 +83,14 @@
           "value": 1.5
         }
       ],
-      "value": 0
+      "value": 0.5
     }
   },
   "config": {
+    "text": {
+      "font": "Inter", 
+      "fontSize": 16
+    },
     "scale": {
       "bandPaddingInner": 0.2
     },

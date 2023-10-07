@@ -1,11 +1,38 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A simple donut chart with embedded data.",
-    "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
-    },
-    "mark": {"type": "arc", "innerRadius": 50},
-    "encoding": {
-      "theta": {"aggregate": "count", "field": "name", "type": "quantitative"},
-      "color": {"field": "ethnicity", "type": "nominal"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Donut chart of winner ethnicities",
+    "fontSize": 22,
+    "align": "left",
+    "anchor": "start"
+  },
+  "description": "A simple donut chart with embedded data.",
+  "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
+  },
+  "selection": {
+    "ethnicity_highlight": {
+      "type": "multi",
+      "fields": ["ethnicity"],
+      "bind": "legend"
     }
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "transform": [
+    {
+      "aggregate": [{"op": "count", "as": "ethnicity_count"}],
+      "groupby": ["ethnicity"]
+    }
+  ],
+  "encoding": {
+    "theta": {"field": "ethnicity_count", "type": "quantitative"},
+    "color": {"field": "ethnicity", "type": "nominal", "title": "Ethnicity"},
+    "opacity": {
+      "condition": {"selection": "ethnicity_highlight", "value": 1},
+      "value": 0.8
+    },
+    "tooltip": [
+      {"field": "ethnicity", "type": "nominal", "title": "Ethnicity"},
+      {"field": "ethnicity_count", "type": "quantitative", "title": "Number of candidates"}
+    ]
   }
+}

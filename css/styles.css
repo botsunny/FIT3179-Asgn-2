@@ -1,6 +1,6 @@
 @font-face {
-	font-family: Rubik;
-	src: url(Rubik-Regular.ttf);
+    font-family: Rubik;
+    src: url(Rubik-Regular.ttf);
 }
 
 @font-face {
@@ -8,20 +8,65 @@
     src: url(InclusiveSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
 h1 {
-    font-family: 'Rubik';
+    font-family: 'Inclusive';
     font-weight: 900;
     margin-top: 20px;
     font-size: 56px;
 }
 
 #intro {
-    font-family: 'Inclusive';
+    font-family: 'Inter';
 	font-weight: bold;
     font-size: 24px;
     text-align: left;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+
+#paragraph-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+
+#left-column-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 235px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+#right-column-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 50px;
+    margin-right: 235px;
+    padding-top: 50px;
+}
+
+#inner-column-text {
+    font-family: 'Inter';
+    font-size: 16px;
+    text-align: right;
+    line-height: 1.4;
+    color: #333;
 }
 
 body {
@@ -40,18 +85,18 @@ body {
 }
 
 .map-container {
+    font-family: 'Inter';
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5px;
 }
 
 .vis-container {
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    justify-content: left;
+    align-items: left;
     padding-bottom: 20px;
+    font-size: 18px;
 }
 
 .description h2,

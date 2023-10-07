@@ -1,16 +1,19 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/candidates_ge15.csv"
-    },
-    "encoding": {
-      "y": {"field": "party", "type": "nominal"},
-      "x": {"aggregate": "sum", "field": "votes", "type": "quantitative", "scale": {"domain": [0, 6000000]}}
-    },
-    "layer": [{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+  "width": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/candidates_ge15.csv"
+  },
+  "encoding": {
+    "y": {"field": "party", "type": "nominal"},
+    "x": {"aggregate": "sum", "field": "votes", "type": "quantitative",  "scale": {"domain": [0, 6000000]}}
+  },
+  "layer": [
+    {
       "mark": "bar"
-    }, {
+    },
+    {
       "mark": {
         "type": "text",
         "align": "left",
@@ -20,5 +23,6 @@
       "encoding": {
         "text": {"aggregate": "sum", "field": "votes", "type": "quantitative"}
       }
-    }]
-  }
+    }
+  ]
+}
