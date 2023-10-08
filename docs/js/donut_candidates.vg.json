@@ -44,6 +44,66 @@
       "mark": {
         "type": "text",
         "align": "left",
+        "dx": 35,
+        "dy": 60,
+        "fontSize": 12,
+        "fontStyle":"regular",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "76%"},
+        "color": {"value": "white"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -80,
+        "dy": -40,
+        "fontSize": 12,
+        "fontStyle":"regular",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "17.97%"},
+        "color": {"value": "white"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -28,
+        "dy": -80,
+        "fontSize": 12,
+        "fontStyle":"regular",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "5.5%"},
+        "color": {"value": "white"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -10,
+        "dy": -35,
+        "fontSize": 12,
+        "fontStyle":"regular",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "0.42%"},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
         "dx": 0,
         "dy": 120,
         "fontSize": 12,
