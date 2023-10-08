@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Donut chart of candidate ethnicities",
+    "fontSize": 22,
+    "align": "left",
+    "anchor": "start"
+  },
+  "description": "A simple donut chart with embedded data.",
+  "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/candidates_ge15.csv"
+  },
+  "layer": [
+    {
+      "selection": {
+        "ethnicity_highlight": {
+        "type": "multi",
+        "fields": ["ethnicity"],
+        "bind": "legend"
+        }
+      },
+      "mark": {"type": "arc", "innerRadius": 50},
+      "transform": [
+        {
+          "aggregate": [{"op": "count", "as": "ethnicity_count"}],
+          "groupby": ["ethnicity"]
+        },
+        {"calculate": "datum.ethnicity_count / 946 * 100", "as": "percentage"}
+      ],
+      "encoding": {
+        "theta": {"field": "ethnicity_count", "type": "quantitative"},
+        "color": {"field": "ethnicity", "type": "nominal", "title": "Ethnicity"},
+        "opacity": {
+          "condition": {"selection": "ethnicity_highlight", "value": 1},
+          "value": 0.4
+        },
+        "tooltip": [
+          {"field": "ethnicity", "type": "nominal", "title": "Ethnicity"},
+          {"field": "ethnicity_count", "type": "quantitative", "title": "Number of candidates"},
+          {"field": "percentage", "type": "quantitative", "title": "Proportion (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 0,
+        "dy": 120,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["Candidate ethnicities reflect the population's ethnic", "proportions well, with a slight overrepresentation of Bumiputera"]},
+        "color": {"value": "#4a4a4a"}
+      }
+    }
+  ]
+}

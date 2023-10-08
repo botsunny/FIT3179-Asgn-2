@@ -29,6 +29,20 @@ body {
     margin-bottom: 10px;
 }
 
+.right-vis-container {
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.left-vis-container {
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+    margin-bottom: 10px;
+}
+
 .description h2,
 h1 {
     margin-top: 0px;
