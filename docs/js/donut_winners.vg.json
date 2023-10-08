@@ -44,10 +44,9 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": 40,
+        "dx": 37,
         "dy": 45,
-        "fontSize": 12,
-        "fontStyle":"regular",
+        "fontSize": 14,
         "fontWeight":"lighter"
       },
       "encoding": {
@@ -59,10 +58,9 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": -80,
+        "dx": -85,
         "dy": -40,
-        "fontSize": 12,
-        "fontStyle":"regular",
+        "fontSize": 14,
         "fontWeight":"lighter"
       },
       "encoding": {
@@ -76,8 +74,7 @@
         "align": "left",
         "dx": -28,
         "dy": -80,
-        "fontSize": 12,
-        "fontStyle":"regular",
+        "fontSize": 14,
         "fontWeight":"lighter"
       },
       "encoding": {
@@ -91,8 +88,7 @@
         "align": "left",
         "dx": -10,
         "dy": -35,
-        "fontSize": 12,
-        "fontStyle":"regular",
+        "fontSize": 14,
         "fontWeight":"lighter"
       },
       "encoding": {
