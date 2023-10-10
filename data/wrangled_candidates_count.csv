@@ -1,40 +1,157 @@
-sex,party,bumiputera,chinese,indian,other
-female,Barisan Nasional (BN),14,7,1,0
-female,Democratic Action Party (DAP),0,1,0,0
-female,Gabungan Parti Sarawak (GPS),5,0,0,0
-female,Gabungan Rakyat Sabah (GRS),0,1,0,0
-female,Independent (BEBAS),6,3,1,0
-female,Malaysian United Democratic Alliance (MUDA),1,0,0,0
-female,Pakatan Harapan (PH),30,8,1,0
-female,Parti Bangsa Malaysia (PBM),4,0,0,0
-female,Parti Bansa Dayak Sarawak (PBDS),1,0,0,0
-female,Parti Islam Se-Malaysia (PAS),2,0,0,0
-female,Parti Kesejahteraan Demokratik Masyarakat (KDM),1,0,0,0
-female,Parti Pejuang Tanah Air (PEJUANG),16,0,0,0
-female,Parti Rakyat Malaysia (PRM),1,0,0,0
-female,Parti Sarawak Bersatu (PSB),2,1,0,0
-female,Parti Warisan (WARISAN),6,1,0,0
-female,Perikatan Nasional (PN),11,2,0,0
-male,Barisan Nasional (BN),112,34,10,0
-male,Democratic Action Party (DAP),2,5,0,0
-male,Gabungan Parti Sarawak (GPS),20,6,0,0
-male,Gabungan Rakyat Sabah (GRS),9,3,0,0
-male,Independent (BEBAS),64,16,18,0
-male,Malaysian United Democratic Alliance (MUDA),4,1,0,0
-male,Pakatan Harapan (PH),124,32,9,2
-male,Parti Bangsa Malaysia (PBM),0,1,0,0
-male,Parti Bansa Dayak Sarawak (PBDS),2,0,0,0
-male,Parti Bersatu Rakyat Sabah (PBRS),1,0,0,0
-male,Parti Bumi Kenyalang (PBK),0,1,0,0
-male,Parti Bumiputera Perkasa Malaysia (PUTRA),9,0,0,0
-male,Parti Islam Se-Malaysia (PAS),20,0,0,0
-male,Parti Kesejahteraan Demokratik Masyarakat (KDM),5,1,0,0
-male,Parti Pejuang Tanah Air (PEJUANG),100,0,0,0
-male,Parti Perpaduan Rakyat Sabah (PPRS),1,0,0,0
-male,Parti Rakyat Malaysia (PRM),5,6,3,1
-male,Parti Sarawak Bersatu (PSB),3,4,0,0
-male,Parti Sedar Rakyat Sarawak (SEDAR),1,0,0,0
-male,Parti Sosialis Malaysia (PSM),0,0,1,0
-male,Parti Utama Rakyat (PUR),0,1,0,0
-male,Parti Warisan (WARISAN),31,12,2,0
-male,Perikatan Nasional (PN),106,23,6,1
+sex,party,ethnicity,count
+female,Barisan Nasional (BN),bumiputera,14
+female,Democratic Action Party (DAP),bumiputera,0
+female,Gabungan Parti Sarawak (GPS),bumiputera,5
+female,Gabungan Rakyat Sabah (GRS),bumiputera,0
+female,Independent (BEBAS),bumiputera,6
+female,Malaysian United Democratic Alliance (MUDA),bumiputera,1
+female,Pakatan Harapan (PH),bumiputera,30
+female,Parti Bangsa Malaysia (PBM),bumiputera,4
+female,Parti Bansa Dayak Sarawak (PBDS),bumiputera,1
+female,Parti Islam Se-Malaysia (PAS),bumiputera,2
+female,Parti Kesejahteraan Demokratik Masyarakat (KDM),bumiputera,1
+female,Parti Pejuang Tanah Air (PEJUANG),bumiputera,16
+female,Parti Rakyat Malaysia (PRM),bumiputera,1
+female,Parti Sarawak Bersatu (PSB),bumiputera,2
+female,Parti Warisan (WARISAN),bumiputera,6
+female,Perikatan Nasional (PN),bumiputera,11
+male,Barisan Nasional (BN),bumiputera,112
+male,Democratic Action Party (DAP),bumiputera,2
+male,Gabungan Parti Sarawak (GPS),bumiputera,20
+male,Gabungan Rakyat Sabah (GRS),bumiputera,9
+male,Independent (BEBAS),bumiputera,64
+male,Malaysian United Democratic Alliance (MUDA),bumiputera,4
+male,Pakatan Harapan (PH),bumiputera,124
+male,Parti Bangsa Malaysia (PBM),bumiputera,0
+male,Parti Bansa Dayak Sarawak (PBDS),bumiputera,2
+male,Parti Bersatu Rakyat Sabah (PBRS),bumiputera,1
+male,Parti Bumi Kenyalang (PBK),bumiputera,0
+male,Parti Bumiputera Perkasa Malaysia (PUTRA),bumiputera,9
+male,Parti Islam Se-Malaysia (PAS),bumiputera,20
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),bumiputera,5
+male,Parti Pejuang Tanah Air (PEJUANG),bumiputera,100
+male,Parti Perpaduan Rakyat Sabah (PPRS),bumiputera,1
+male,Parti Rakyat Malaysia (PRM),bumiputera,5
+male,Parti Sarawak Bersatu (PSB),bumiputera,3
+male,Parti Sedar Rakyat Sarawak (SEDAR),bumiputera,1
+male,Parti Sosialis Malaysia (PSM),bumiputera,0
+male,Parti Utama Rakyat (PUR),bumiputera,0
+male,Parti Warisan (WARISAN),bumiputera,31
+male,Perikatan Nasional (PN),bumiputera,106
+female,Barisan Nasional (BN),chinese,7
+female,Democratic Action Party (DAP),chinese,1
+female,Gabungan Parti Sarawak (GPS),chinese,0
+female,Gabungan Rakyat Sabah (GRS),chinese,1
+female,Independent (BEBAS),chinese,3
+female,Malaysian United Democratic Alliance (MUDA),chinese,0
+female,Pakatan Harapan (PH),chinese,8
+female,Parti Bangsa Malaysia (PBM),chinese,0
+female,Parti Bansa Dayak Sarawak (PBDS),chinese,0
+female,Parti Islam Se-Malaysia (PAS),chinese,0
+female,Parti Kesejahteraan Demokratik Masyarakat (KDM),chinese,0
+female,Parti Pejuang Tanah Air (PEJUANG),chinese,0
+female,Parti Rakyat Malaysia (PRM),chinese,0
+female,Parti Sarawak Bersatu (PSB),chinese,1
+female,Parti Warisan (WARISAN),chinese,1
+female,Perikatan Nasional (PN),chinese,2
+male,Barisan Nasional (BN),chinese,34
+male,Democratic Action Party (DAP),chinese,5
+male,Gabungan Parti Sarawak (GPS),chinese,6
+male,Gabungan Rakyat Sabah (GRS),chinese,3
+male,Independent (BEBAS),chinese,16
+male,Malaysian United Democratic Alliance (MUDA),chinese,1
+male,Pakatan Harapan (PH),chinese,32
+male,Parti Bangsa Malaysia (PBM),chinese,1
+male,Parti Bansa Dayak Sarawak (PBDS),chinese,0
+male,Parti Bersatu Rakyat Sabah (PBRS),chinese,0
+male,Parti Bumi Kenyalang (PBK),chinese,1
+male,Parti Bumiputera Perkasa Malaysia (PUTRA),chinese,0
+male,Parti Islam Se-Malaysia (PAS),chinese,0
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),chinese,1
+male,Parti Pejuang Tanah Air (PEJUANG),chinese,0
+male,Parti Perpaduan Rakyat Sabah (PPRS),chinese,0
+male,Parti Rakyat Malaysia (PRM),chinese,6
+male,Parti Sarawak Bersatu (PSB),chinese,4
+male,Parti Sedar Rakyat Sarawak (SEDAR),chinese,0
+male,Parti Sosialis Malaysia (PSM),chinese,0
+male,Parti Utama Rakyat (PUR),chinese,1
+male,Parti Warisan (WARISAN),chinese,12
+male,Perikatan Nasional (PN),chinese,23
+female,Barisan Nasional (BN),indian,1
+female,Democratic Action Party (DAP),indian,0
+female,Gabungan Parti Sarawak (GPS),indian,0
+female,Gabungan Rakyat Sabah (GRS),indian,0
+female,Independent (BEBAS),indian,1
+female,Malaysian United Democratic Alliance (MUDA),indian,0
+female,Pakatan Harapan (PH),indian,1
+female,Parti Bangsa Malaysia (PBM),indian,0
+female,Parti Bansa Dayak Sarawak (PBDS),indian,0
+female,Parti Islam Se-Malaysia (PAS),indian,0
+female,Parti Kesejahteraan Demokratik Masyarakat (KDM),indian,0
+female,Parti Pejuang Tanah Air (PEJUANG),indian,0
+female,Parti Rakyat Malaysia (PRM),indian,0
+female,Parti Sarawak Bersatu (PSB),indian,0
+female,Parti Warisan (WARISAN),indian,0
+female,Perikatan Nasional (PN),indian,0
+male,Barisan Nasional (BN),indian,10
+male,Democratic Action Party (DAP),indian,0
+male,Gabungan Parti Sarawak (GPS),indian,0
+male,Gabungan Rakyat Sabah (GRS),indian,0
+male,Independent (BEBAS),indian,18
+male,Malaysian United Democratic Alliance (MUDA),indian,0
+male,Pakatan Harapan (PH),indian,9
+male,Parti Bangsa Malaysia (PBM),indian,0
+male,Parti Bansa Dayak Sarawak (PBDS),indian,0
+male,Parti Bersatu Rakyat Sabah (PBRS),indian,0
+male,Parti Bumi Kenyalang (PBK),indian,0
+male,Parti Bumiputera Perkasa Malaysia (PUTRA),indian,0
+male,Parti Islam Se-Malaysia (PAS),indian,0
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),indian,0
+male,Parti Pejuang Tanah Air (PEJUANG),indian,0
+male,Parti Perpaduan Rakyat Sabah (PPRS),indian,0
+male,Parti Rakyat Malaysia (PRM),indian,3
+male,Parti Sarawak Bersatu (PSB),indian,0
+male,Parti Sedar Rakyat Sarawak (SEDAR),indian,0
+male,Parti Sosialis Malaysia (PSM),indian,1
+male,Parti Utama Rakyat (PUR),indian,0
+male,Parti Warisan (WARISAN),indian,2
+male,Perikatan Nasional (PN),indian,6
+female,Barisan Nasional (BN),other,0
+female,Democratic Action Party (DAP),other,0
+female,Gabungan Parti Sarawak (GPS),other,0
+female,Gabungan Rakyat Sabah (GRS),other,0
+female,Independent (BEBAS),other,0
+female,Malaysian United Democratic Alliance (MUDA),other,0
+female,Pakatan Harapan (PH),other,0
+female,Parti Bangsa Malaysia (PBM),other,0
+female,Parti Bansa Dayak Sarawak (PBDS),other,0
+female,Parti Islam Se-Malaysia (PAS),other,0
+female,Parti Kesejahteraan Demokratik Masyarakat (KDM),other,0
+female,Parti Pejuang Tanah Air (PEJUANG),other,0
+female,Parti Rakyat Malaysia (PRM),other,0
+female,Parti Sarawak Bersatu (PSB),other,0
+female,Parti Warisan (WARISAN),other,0
+female,Perikatan Nasional (PN),other,0
+male,Barisan Nasional (BN),other,0
+male,Democratic Action Party (DAP),other,0
+male,Gabungan Parti Sarawak (GPS),other,0
+male,Gabungan Rakyat Sabah (GRS),other,0
+male,Independent (BEBAS),other,0
+male,Malaysian United Democratic Alliance (MUDA),other,0
+male,Pakatan Harapan (PH),other,2
+male,Parti Bangsa Malaysia (PBM),other,0
+male,Parti Bansa Dayak Sarawak (PBDS),other,0
+male,Parti Bersatu Rakyat Sabah (PBRS),other,0
+male,Parti Bumi Kenyalang (PBK),other,0
+male,Parti Bumiputera Perkasa Malaysia (PUTRA),other,0
+male,Parti Islam Se-Malaysia (PAS),other,0
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),other,0
+male,Parti Pejuang Tanah Air (PEJUANG),other,0
+male,Parti Perpaduan Rakyat Sabah (PPRS),other,0
+male,Parti Rakyat Malaysia (PRM),other,1
+male,Parti Sarawak Bersatu (PSB),other,0
+male,Parti Sedar Rakyat Sarawak (SEDAR),other,0
+male,Parti Sosialis Malaysia (PSM),other,0
+male,Parti Utama Rakyat (PUR),other,0
+male,Parti Warisan (WARISAN),other,0
+male,Perikatan Nasional (PN),other,1

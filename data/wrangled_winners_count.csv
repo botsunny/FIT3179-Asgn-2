@@ -1,20 +1,77 @@
-sex,party,bumiputera,chinese,indian,other
-female,Barisan Nasional (BN),3,0,0,0
-female,Democratic Action Party (DAP),0,1,0,0
-female,Gabungan Parti Sarawak (GPS),5,0,0,0
-female,Pakatan Harapan (PH),8,6,0,0
-female,Parti Islam Se-Malaysia (PAS),2,0,0,0
-female,Parti Warisan (WARISAN),1,0,0,0
-female,Perikatan Nasional (PN),4,0,0,0
-male,Barisan Nasional (BN),24,2,1,0
-male,Democratic Action Party (DAP),1,3,0,0
-male,Gabungan Parti Sarawak (GPS),16,2,0,0
-male,Gabungan Rakyat Sabah (GRS),5,1,0,0
-male,Independent (BEBAS),2,0,0,0
-male,Malaysian United Democratic Alliance (MUDA),1,0,0,0
-male,Pakatan Harapan (PH),26,27,7,2
-male,Parti Bangsa Malaysia (PBM),0,1,0,0
-male,Parti Islam Se-Malaysia (PAS),20,0,0,0
-male,Parti Kesejahteraan Demokratik Masyarakat (KDM),1,0,0,0
-male,Parti Warisan (WARISAN),2,0,0,0
-male,Perikatan Nasional (PN),48,0,0,0
+sex,party,ethnicity,count
+female,Barisan Nasional (BN),bumiputera,3
+female,Democratic Action Party (DAP),bumiputera,0
+female,Gabungan Parti Sarawak (GPS),bumiputera,5
+female,Pakatan Harapan (PH),bumiputera,8
+female,Parti Islam Se-Malaysia (PAS),bumiputera,2
+female,Parti Warisan (WARISAN),bumiputera,1
+female,Perikatan Nasional (PN),bumiputera,4
+male,Barisan Nasional (BN),bumiputera,24
+male,Democratic Action Party (DAP),bumiputera,1
+male,Gabungan Parti Sarawak (GPS),bumiputera,16
+male,Gabungan Rakyat Sabah (GRS),bumiputera,5
+male,Independent (BEBAS),bumiputera,2
+male,Malaysian United Democratic Alliance (MUDA),bumiputera,1
+male,Pakatan Harapan (PH),bumiputera,26
+male,Parti Bangsa Malaysia (PBM),bumiputera,0
+male,Parti Islam Se-Malaysia (PAS),bumiputera,20
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),bumiputera,1
+male,Parti Warisan (WARISAN),bumiputera,2
+male,Perikatan Nasional (PN),bumiputera,48
+female,Barisan Nasional (BN),chinese,0
+female,Democratic Action Party (DAP),chinese,1
+female,Gabungan Parti Sarawak (GPS),chinese,0
+female,Pakatan Harapan (PH),chinese,6
+female,Parti Islam Se-Malaysia (PAS),chinese,0
+female,Parti Warisan (WARISAN),chinese,0
+female,Perikatan Nasional (PN),chinese,0
+male,Barisan Nasional (BN),chinese,2
+male,Democratic Action Party (DAP),chinese,3
+male,Gabungan Parti Sarawak (GPS),chinese,2
+male,Gabungan Rakyat Sabah (GRS),chinese,1
+male,Independent (BEBAS),chinese,0
+male,Malaysian United Democratic Alliance (MUDA),chinese,0
+male,Pakatan Harapan (PH),chinese,27
+male,Parti Bangsa Malaysia (PBM),chinese,1
+male,Parti Islam Se-Malaysia (PAS),chinese,0
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),chinese,0
+male,Parti Warisan (WARISAN),chinese,0
+male,Perikatan Nasional (PN),chinese,0
+female,Barisan Nasional (BN),indian,0
+female,Democratic Action Party (DAP),indian,0
+female,Gabungan Parti Sarawak (GPS),indian,0
+female,Pakatan Harapan (PH),indian,0
+female,Parti Islam Se-Malaysia (PAS),indian,0
+female,Parti Warisan (WARISAN),indian,0
+female,Perikatan Nasional (PN),indian,0
+male,Barisan Nasional (BN),indian,1
+male,Democratic Action Party (DAP),indian,0
+male,Gabungan Parti Sarawak (GPS),indian,0
+male,Gabungan Rakyat Sabah (GRS),indian,0
+male,Independent (BEBAS),indian,0
+male,Malaysian United Democratic Alliance (MUDA),indian,0
+male,Pakatan Harapan (PH),indian,7
+male,Parti Bangsa Malaysia (PBM),indian,0
+male,Parti Islam Se-Malaysia (PAS),indian,0
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),indian,0
+male,Parti Warisan (WARISAN),indian,0
+male,Perikatan Nasional (PN),indian,0
+female,Barisan Nasional (BN),other,0
+female,Democratic Action Party (DAP),other,0
+female,Gabungan Parti Sarawak (GPS),other,0
+female,Pakatan Harapan (PH),other,0
+female,Parti Islam Se-Malaysia (PAS),other,0
+female,Parti Warisan (WARISAN),other,0
+female,Perikatan Nasional (PN),other,0
+male,Barisan Nasional (BN),other,0
+male,Democratic Action Party (DAP),other,0
+male,Gabungan Parti Sarawak (GPS),other,0
+male,Gabungan Rakyat Sabah (GRS),other,0
+male,Independent (BEBAS),other,0
+male,Malaysian United Democratic Alliance (MUDA),other,0
+male,Pakatan Harapan (PH),other,2
+male,Parti Bangsa Malaysia (PBM),other,0
+male,Parti Islam Se-Malaysia (PAS),other,0
+male,Parti Kesejahteraan Demokratik Masyarakat (KDM),other,0
+male,Parti Warisan (WARISAN),other,0
+male,Perikatan Nasional (PN),other,0
