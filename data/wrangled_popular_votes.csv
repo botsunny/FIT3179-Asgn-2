@@ -1,4 +1,4 @@
-party,parlimen,percentage_votes
+Coalition/Party,parlimen,percentage_votes
 Barisan Nasional (BN),P.001 Padang Besar,25.95
 Barisan Nasional (BN),P.002 Kangar,27.35
 Barisan Nasional (BN),P.003 Arau,17.62
@@ -557,8 +557,6 @@ Parti Bangsa Malaysia (PBM),P.209 Julau,40.64
 Parti Bansa Dayak Sarawak (PBDS),P.209 Julau,1.49
 Parti Bansa Dayak Sarawak (PBDS),P.215 Kapit,6.17
 Parti Bansa Dayak Sarawak (PBDS),P.218 Sibuti,4.01
-Parti Bersatu Rakyat Sabah (PBRS),P.179 Ranau,10.06
-Parti Bumi Kenyalang (PBK),P.192 Mas Gading,7.36
 Parti Bumiputera Perkasa Malaysia (PUTRA),P.019 Tumpat,0.57
 Parti Bumiputera Perkasa Malaysia (PUTRA),P.021 Kota Bharu,0.68
 Parti Bumiputera Perkasa Malaysia (PUTRA),P.022 Pasir Mas,0.83
@@ -713,7 +711,6 @@ Parti Pejuang Tanah Air (PEJUANG),P.185 Batu Sapi,0.65
 Parti Pejuang Tanah Air (PEJUANG),P.189 Semporna,1.2
 Parti Pejuang Tanah Air (PEJUANG),P.190 Tawau,2.11
 Parti Pejuang Tanah Air (PEJUANG),P.191 Kalabakan,3.36
-Parti Perpaduan Rakyat Sabah (PPRS),P.184 Libaran,1.21
 Parti Rakyat Malaysia (PRM),P.015 Sungai Petani,0.17
 Parti Rakyat Malaysia (PRM),P.021 Kota Bharu,0.14
 Parti Rakyat Malaysia (PRM),P.023 Rantau Panjang,0.29
@@ -740,9 +737,6 @@ Parti Sarawak Bersatu (PSB),P.211 Lanang,6.92
 Parti Sarawak Bersatu (PSB),P.212 Sibu,16.88
 Parti Sarawak Bersatu (PSB),P.219 Miri,6.67
 Parti Sarawak Bersatu (PSB),P.222 Lawas,31.22
-Parti Sedar Rakyat Sarawak (SEDAR),P.194 Petra Jaya,1.5
-Parti Sosialis Malaysia (PSM),P.131 Rembau,0.71
-Parti Utama Rakyat (PUR),P.113 Sepang,0.19
 Parti Warisan (WARISAN),P.001 Padang Besar,0.54
 Parti Warisan (WARISAN),P.002 Kangar,0.74
 Parti Warisan (WARISAN),P.008 Pokok Sena,0.71
