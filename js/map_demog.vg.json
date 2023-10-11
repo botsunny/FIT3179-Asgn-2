@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Map of population demographics in each constituency",
-    "fontSize": 18,
+    "text": "ELECTION DEMOGRAPHICS",
+    "fontSize": 22,
+    "font": "Inter",
     "align": "left",
     "anchor": "start"
   },

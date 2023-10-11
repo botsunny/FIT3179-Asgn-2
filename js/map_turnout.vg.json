@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Map of voter turnout in each constituency",
-    "fontSize": 18,
+    "text": "VOTER TURNOUT",
+    "fontSize": 22,
+    "font": "Inter",
     "align": "left",
     "anchor": "start"
   },
