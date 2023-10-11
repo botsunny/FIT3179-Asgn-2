@@ -7,7 +7,7 @@
     "align": "left",
     "anchor": "start"
   },
-  "width": 1500,
+  "width": "container",
   "height": 700,
   "projection": {
     "type": "albers",
