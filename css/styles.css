@@ -17,13 +17,13 @@ h1 {
     font-family: 'Inclusive';
     font-weight: 900;
     margin-top: 20px;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 #intro {
     font-family: 'Inter';
 	font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25em;
     text-align: left;
     margin-left: 160px;
     margin-right: 160px;
@@ -31,7 +31,7 @@ h1 {
 
 #paragraph-text {
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: left;
     line-height: 1.4;
     color: #333;
@@ -41,7 +41,7 @@ h1 {
 
 #left-column-text {
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: left;
     line-height: 1.4;
     color: #333;
@@ -51,7 +51,7 @@ h1 {
 
 #right-column-text {
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: left;
     line-height: 1.4;
     color: #333;
@@ -61,7 +61,7 @@ h1 {
 
 #top-padded-left-column-text {
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: left;
     line-height: 1.4;
     color: #333;
@@ -72,7 +72,7 @@ h1 {
 
 #top-padded-right-column-text {
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: left;
     line-height: 1.4;
     color: #333;
@@ -83,7 +83,7 @@ h1 {
 
 #inner-column-text {
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: left;
     line-height: 1.4;
     color: #333;
@@ -131,5 +131,5 @@ h1 {
 }
 
 .small-font {
-    font-size: 14px;
+    font-size: 0.875em;
 }
