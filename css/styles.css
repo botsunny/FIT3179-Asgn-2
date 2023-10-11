@@ -107,12 +107,12 @@ body {
 
 .map-container {
     font-family: 'Inter';
-    width: 100%;
+    width: 80%;
     align-items: center;
 }
 
 .vis-container {
-    width: 100%;
+    width: 80%;
     justify-content: left;
     align-items: left;
 }
