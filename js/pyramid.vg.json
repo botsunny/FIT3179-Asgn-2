@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Population pyramid of voters",
+    "text": "Population pyramid of electorate",
     "fontSize": 18,
     "align": "left",
     "anchor": "start"
@@ -13,7 +13,7 @@
   "hconcat": [
     {
       "width": 370,
-      "height": 500,
+      "height": 430,
       "transform": [
         {
           "filter": {"field": "gender", "equal": "female"}
@@ -44,7 +44,7 @@
     {
       "title": {"text": "Age group (years)"},
       "width": 20,
-      "height": 500,
+      "height": 430,
       "view": {"stroke": null},
       "mark": {
         "type": "text",
@@ -57,7 +57,7 @@
     },
     {
       "width": 370,
-      "height": 500,
+      "height": 430,
       "transform": [
         {
           "filter": {"field": "gender", "equal": "male"}

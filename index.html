@@ -24,19 +24,22 @@
   </p>
 
   <p id="paragraph-text">
-    The following map shows the final results of GE15. Note that the <b>Democratic
-    Action Party (DAP)</b> is a member of the Pakatan Harapan (PH) coalition, but
-    contests under its own name and logo in the state of <b>Sarawak</b>. Similarly,
-    <b>Parti Islam Se-Malaysia (PAS)</b> is a member of the Perikatan Nasional
-    (PN) coalition, but all PN parties contest under PAS's name and logo in the
-    states of <b>Kelantan and Terengganu</b>.
+    The following map shows the final results of GE15. Note that the
+    <span style="color: #ed1c24;"><b>Democratic Action Party (DAP)</b></span>
+    is a member of the <span style="color: #d7282f;">Pakatan Harapan (PH)</span>
+    coalition, but contests under its own name and logo in the state of <b>Sarawak</b>.
+    Similarly, <span style="color: #009000;"><b>Parti Islam Se-Malaysia (PAS)</b></span>
+    is a member of the <span style="color: #003152;">Perikatan Nasional (PN)</span>
+    coalition, but all <span style="color: #003152;">PN</span> parties
+    contest under <span style="color: #009000;">PAS</span>'s name and logo in
+    the states of <b>Kelantan and Terengganu</b>.
     <br><br>
     In any election, understanding the demographics of the electorate as well as
     the turnout during election day are keys to interpreting the results.
     <br><br>
     Use the buttons to switch between maps for demographics and turnout!
-    (<b>Note:</b> Turnout data ranges from 40% to 100%; turnout data for P.017
-    Padang Serai was not provided by the Election Commission.)
+    (<u>Note</u>: Turnout data ranges from <b>40% to 100%</b>; turnout data for
+    <b>P.017 Padang Serai</b> was not provided by the Election Commission.)
   </p>
 
   <div id="map" class="map-container"></div>
@@ -48,14 +51,15 @@
   <!-- pure grid group -->
   <div class="pure-g">
     <div class="pure-u-1-2">
-      <p id="left-column-text">
+      <p id="top-padded-left-column-text">
         In recent years, Malaysia has seen a shift from a single-coalition dominance
-        (Barisan Nasional) to a two-coalition battle, and in GE15, a three-cornered
-        fight. High-income, densely populated urban constituencies tend to prefer
-        PH whereas the opposite has strong support for PN.
+        (<span style="color: #000080;">Barisan Nasional</span>) to a two-coalition
+        battle, and in GE15, a three-cornered fight. High-income, densely populated
+        urban constituencies tend to prefer <span style="color:#d7282f;">PH</span>
+        whereas the opposite has strong support for <span style="color: #003152;">PN</span>.
         <br><br>
-        Use the radar charts to discover the social and economic factors of each
-        constituency!
+        Use the radar charts to discover the <b>social</b> and <b>economic</b>
+        factors of each constituency!
       </p>
       <div class="pure-g">
         <div class="pure-u-2-3">
@@ -83,13 +87,79 @@
       </div>
     </div>
     <div class="pure-u-1-2">
-      <p id="right-column-text">
+      <p id="top-padded-right-column-text">
         GE15 is the first election since the nation's voting age was lowered to
         18. The following pyramid chart shows the age distribution of the
         electorate based on gender. For both genders, millenials and working adults
-        aged 21-39 make up the majority of voters.
+        aged <b>21-39</b> make up the majority of voters.
+        <br><br><br>
       </p>
       <div id="pyramid" class="vis-container"></div>
+    </div>
+  </div>
+  <!-- end pure grid group -->
+
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+      <p id="left-column-text">
+        This general election saw 23 coalitions and parties contesting for the
+        222 federal seats of the Dewan Rakyat. To win a seat, a candidate only
+        needs to obtain at least a plurality (ie. largest share) of votes in the
+        corresponding constituency.
+        <br><br>
+        These boxplots show the popular vote percentages obtained by each
+        coalition/party over their contested seats. <b>Some parties have been
+        excluded</b> due to low numbers that render them invisible in the plot.
+        These are: <span style="color: #f5d801";>Parti Bersatu Rakyat Sabah</span>,
+        <span style="color: #fbc625";>Parti Bumi Kenyalang</span>,
+        <span style="color: #ffcd00";>Parti Perpaduan Rakyat Sabah</span>,
+        <span style="color: #e0d500";>Parti Sedar Rakyat Sarawak</span>,
+        <span style="color: #800000";>Parti Sosialis Malaysia</span> and
+        <span style="color: #ffa500";>Parti Utama Rakyat</span>.
+        <br><br>
+      </p>
+      <div id="boxplot" class="vis-container"></div>
+    </div>
+    <div class="pure-u-1-2">
+      <p id="right-column-text">
+        GE15 centers around a three-way fight between the <span style="color: #000080">BN</span>,
+        <span style="color: #d7282f">PH</span> and
+        <span style="color: #003152">PN</span> coalitions. Comparing their
+        changes in seats from the previous election illustrates how public
+        sentiment towards each has shifted over the previous four years of
+        political turmoil.
+        <br><br>
+        Note that <span style="color: #003152">PN</span> did not exist in GE14;
+        its two major component parties, <span style="color: #009000">PAS</span>
+        and <span style="color: #e62020">Parti Pribumi Bersatu Malaysia (BERSATU)</span>,
+        contested on its own and under <span style="color: #d7282f">PH</span>
+        respectively. In this comet chart, <span style="color: #d7282f">PH</span>'s
+        GE14 numbers include <span style="color: #e62020">BERSATU</span>'s
+        seats, and <span style="color: #003152">PN</span>'s GE14 numbers are
+        represented by <span style="color: #009000">PAS</span>'s seats.
+        <br><br>
+        Filter the chart by coalition and state to observe the degrees of gains
+        and losses of the coalitions.
+      </p>
+      <div id="comet" class="vis-container"></div>
+    </div>
+  </div>
+  <!-- end pure grid group -->
+
+   <!-- pure grid group -->
+   <div class="pure-g">
+    <div class="pure-u-1-2">
+      <p id="left-column-text">
+        Dummy text
+      </p>
+      <div id="donut-candidates" class="vis-container"></div>
+    </div>
+    <div class="pure-u-1-2">
+      <p id="right-column-text">
+        Dummy text
+      </p>
+      <div id="donut-winners" class="vis-container"></div>
     </div>
   </div>
   <!-- end pure grid group -->
@@ -101,6 +171,10 @@
   var spec4 = "js/radar1.vg.json";
   var spec5 = "js/radar2.vg.json";
   var spec6 = "js/pyramid.vg.json";
+  var spec7 = "js/boxplot.vg.json";
+  var spec8 = "js/comet.vg.json";
+  var spec9 = "js/donut_candidates.vg.json";
+  var spec10 = "js/donut_winners.vg.json";
 
   let currentMap = null; // To keep track of the current map
 
@@ -153,6 +227,22 @@
   });
 
   vegaEmbed('#pyramid', spec6, { "actions": false }).then(function (result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#boxplot', spec7, { "actions": false }).then(function (result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#comet', spec8, { "actions": false }).then(function (result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#donut-candidates', spec9, { "actions": false }).then(function (result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#donut-winners', spec10, { "actions": false }).then(function (result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 

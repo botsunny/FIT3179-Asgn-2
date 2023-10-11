@@ -18,74 +18,88 @@
     "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/parlimen.json",
     "format": {"type": "topojson", "feature": "parlimen"}
   },
-  "transform": [
+  "layer": [
     {
-      "lookup": "properties.parlimen",
-      "from": {
-        "data": {
-          "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
-        },
-        "key": "parlimen",
-        "fields": ["state", "population_total", "ethnicity_proportion_bumi",
-                   "ethnicity_proportion_chinese", "ethnicity_proportion_indian",
-                   "ethnicity_proportion_other", "area_km2"]
-      }
-    },
-    {"calculate": "datum.population_total / datum.area_km2", "as": "population_density"},
-    {
-      "fold": ["ethnicity_proportion_bumi", "ethnicity_proportion_chinese", "ethnicity_proportion_indian", "ethnicity_proportion_other"],
-      "as": ["ethnicity_proportion", "value"]
-    }
-  ],
-  "params": [
-    {
-      "name": "highlight",
-      "select": {"type": "point", "on": "mouseover"}
-    },
-    {"name": "select", "select": "point"}
-  ],
-  "mark": {"type": "geoshape", "stroke": "darkgray"},
-  "encoding": {
-    "color": { 
-      "field": "population_density",
-      "type": "quantitative",
-      "legend": {"title": ["Population density", "(people/km²)"]},
-      "scale": {
-        "type": "threshold",
-        "domain": [50, 100, 150, 200, 250, 300, 350, 400],
-        "range": ["#ffffcd", "#ffeea1", "#ffda76", "#ffb34c", "#fe8e3c", "#fd4e2a", "#e41a1c", "#be0026", "#800026"]
-      }
-    },
-    "tooltip": [
-      {"field": "properties.parlimen", "type": "nominal", "title": "Constituency"},
-      {"field": "state", "type": "nominal", "title": "State"},
-      {"field": "population_density", "type": "quantitative", "title": "Population density", "format": ",.2f"},
-      {"field": "population_total", "type": "quantitative", "title": "Total population", "format": ",.0f"},
-      {"field": "ethnicity_proportion_bumi", "type": "quantitative", "title": "Proportion of Bumiputera (%)", "format": ".2f"},
-      {"field": "ethnicity_proportion_chinese", "type": "quantitative", "title": "Proportion of Chinese (%)", "format": ".2f"},
-      {"field": "ethnicity_proportion_indian", "type": "quantitative", "title": "Proportion of Indians (%)", "format": ".2f"},
-      {"field": "ethnicity_proportion_other", "type": "quantitative", "title": "Proportion of others (%)", "format": ".2f"}
-    ],
-    "fillOpacity": {
-      "condition": {"param": "select", "value": 1},
-      "value": 0.3
-    },
-    "strokeWidth": {
-      "condition": [
+      "transform": [
         {
-          "param": "select",
-          "empty": false,
-          "value": 1.5
+          "lookup": "properties.parlimen",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
+            },
+            "key": "parlimen",
+            "fields": ["state", "population_total", "ethnicity_proportion_bumi",
+                      "ethnicity_proportion_chinese", "ethnicity_proportion_indian",
+                      "ethnicity_proportion_other", "area_km2"]
+          }
         },
+        {"calculate": "datum.population_total / datum.area_km2", "as": "population_density"},
         {
-          "param": "highlight",
-          "empty": false,
-          "value": 1.5
+          "fold": ["ethnicity_proportion_bumi", "ethnicity_proportion_chinese", "ethnicity_proportion_indian", "ethnicity_proportion_other"],
+          "as": ["ethnicity_proportion", "value"]
         }
       ],
-      "value": 0.5
+      "params": [
+        {
+          "name": "highlight",
+          "select": {"type": "point", "on": "mouseover"}
+        },
+        {"name": "select", "select": "point"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "darkgray"},
+      "encoding": {
+        "color": { 
+          "field": "population_density",
+          "type": "quantitative",
+          "legend": {"title": ["Population density", "(people/km²)"]},
+          "scale": {
+            "type": "threshold",
+            "domain": [50, 100, 150, 200, 250, 300, 350, 400],
+            "range": ["#ffffcd", "#ffeea1", "#ffda76", "#ffb34c", "#fe8e3c", "#fd4e2a", "#e41a1c", "#be0026", "#800026"]
+          }
+        },
+        "tooltip": [
+          {"field": "properties.parlimen", "type": "nominal", "title": "Constituency"},
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "population_density", "type": "quantitative", "title": "Population density (people/km²)", "format": ",.2f"},
+          {"field": "population_total", "type": "quantitative", "title": "Total population", "format": ",.0f"},
+          {"field": "ethnicity_proportion_bumi", "type": "quantitative", "title": "Proportion of Bumiputera (%)", "format": ".2f"},
+          {"field": "ethnicity_proportion_chinese", "type": "quantitative", "title": "Proportion of Chinese (%)", "format": ".2f"},
+          {"field": "ethnicity_proportion_indian", "type": "quantitative", "title": "Proportion of Indians (%)", "format": ".2f"},
+          {"field": "ethnicity_proportion_other", "type": "quantitative", "title": "Proportion of others (%)", "format": ".2f"}
+        ],
+        "fillOpacity": {
+          "condition": {"param": "select", "value": 1},
+          "value": 0.1
+        },
+        "strokeWidth": {
+          "condition": [
+            {
+              "param": "select",
+              "empty": false,
+              "value": 1.5
+            }
+          ],
+          "value": 0.5
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -800,
+        "dy": 140,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["Most densely populated constituencies", "are urban areas situated in the Klang Valley"]},
+        "color": {"value": "#4a4a4a"}
+      }
     }
-  },
+  ],
   "config": {
     "text": {
       "fontSize": 14

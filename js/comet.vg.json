@@ -1,8 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_ge14_15.csv"},
-  "width": 90,
-  "title": "Change in seats by state among major coalitions from GE14 to GE15",
+  "title": {
+    "text": "Changes in seats by state among major coalitions from GE14 to GE15",
+    "fontSize": 18,
+    "align": "left",
+    "anchor": "start",
+    "offset": 20
+  },
+  "width": 150,
+  "height": 400,
   "transform": [
     {"pivot": "election", "value": "newSeats", "groupby": ["state", "party"]},
     {"fold": ["14", "15"], "as": ["election", "newSeats"]},
@@ -23,7 +30,7 @@
           "Perikatan Nasional (PN)"
         ],
         "labels":[
-          "Show All",
+          "Show all",
           "Barisan Nasional (BN)",
           "Pakatan Harapan (PH)",
           "Perikatan Nasional (PN)"
@@ -53,7 +60,7 @@
           "Wilayah Persekutuan"
         ],
         "labels":[
-          "Show All",
+          "Show all",
           "Johor",
           "Kedah",
           "Kelantan",
@@ -75,27 +82,33 @@
   ],
   "mark": "trail",
   "encoding": {
-    "x": {"field": "election", "title": null},
-    "y": {"field": "state", "title": "state"},
+    "x": {"field": "election", "title": "Election", "axis": {"titleFontSize": 14, "labelFontSize": 12}},
+    "y": {"field": "state", "title": "State", "axis": {"titleFontSize": 14, "labelFontSize": 12}},
     "size": {
       "field": "newSeats",
       "type": "quantitative",
+      "title": "Seats won",
       "scale": {"range": [0, 20]},
-      "legend": {"values": [5, 10, 15]},
-      "title": "Seats won"
+      "legend": {"values": [5, 10, 15], "titleFontSize": 14, "labelFontSize": 12}
     },
     "tooltip": [
-      {"field": "election", "type": "quantitative"},
+      {"field": "party", "type": "nominal", "title": "Coalition"},
+      {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "election", "type": "quantitative", "title": "Election"},
       {"field": "newSeats", "title": "Seats won", "format": ".0f"}
     ],
     "color": {
       "field": "delta",
       "type": "quantitative",
+      "title": "Change in seats",
       "scale": {"domainMid": 0},
-      "title": "Change in seats"
+      "legend": {"titleFontSize": 14, "labelFontSize": 12}
     },
     "column": {"field": "party", "title": "Coalition"}
   },
   "view": {"stroke": null},
-  "config": {"legend": {"orient": "bottom", "direction": "horizontal"}}
+  "config": {
+    "legend": {"orient": "right", "direction": "horizontal"},
+    "text": {"fontSize": 14}
+  }
 }

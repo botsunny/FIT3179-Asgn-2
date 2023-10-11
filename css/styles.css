@@ -47,10 +47,30 @@ h1 {
     color: #333;
     margin-left: 160px;
     margin-right: 50px;
-    padding-top: 50px;
 }
 
 #right-column-text {
+    font-family: 'Inter';
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 50px;
+    margin-right: 160px;
+}
+
+#top-padded-left-column-text {
+    font-family: 'Inter';
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 160px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+#top-padded-right-column-text {
     font-family: 'Inter';
     font-size: 14px;
     text-align: left;
@@ -93,9 +113,8 @@ body {
 
 .vis-container {
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
+    justify-content: left;
+    align-items: left;
 }
 
 .description h2,

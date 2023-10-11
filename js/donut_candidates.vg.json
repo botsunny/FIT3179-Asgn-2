@@ -2,37 +2,116 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Donut chart of candidate ethnicities",
-    "fontSize": 22,
+    "fontSize": 18,
     "align": "left",
-    "anchor": "start"
+    "anchor": "start",
+    "offset": 40
   },
+  "width": 300,
+  "height": 300,
   "description": "A simple donut chart with embedded data.",
   "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/candidates_ge15.csv"
   },
-  "selection": {
-    "ethnicity_highlight": {
-      "type": "multi",
-      "fields": ["ethnicity"],
-      "bind": "legend"
-    }
-  },
-  "mark": {"type": "arc", "innerRadius": 50},
-  "transform": [
+  "layer": [
     {
-      "aggregate": [{"op": "count", "as": "ethnicity_count"}],
-      "groupby": ["ethnicity"]
+      "selection": {
+        "ethnicity_highlight": {
+        "type": "multi",
+        "fields": ["ethnicity"],
+        "bind": "legend"
+        }
+      },
+      "mark": {"type": "arc", "innerRadius": 50},
+      "transform": [
+        {
+          "aggregate": [{"op": "count", "as": "ethnicity_count"}],
+          "groupby": ["ethnicity"]
+        },
+        {"calculate": "datum.ethnicity_count / 946 * 100", "as": "percentage"}
+      ],
+      "encoding": {
+        "theta": {"field": "ethnicity_count", "type": "quantitative"},
+        "color": {
+          "field": "ethnicity",
+          "type": "nominal",
+          "title": "Ethnicity",
+          "scale": {"range": ["#54a24b", "#e45756", "#f58518", "#eeca3b"]}
+        },
+        "opacity": {
+          "condition": {"selection": "ethnicity_highlight", "value": 1},
+          "value": 0.4
+        },
+        "tooltip": [
+          {"field": "ethnicity", "type": "nominal", "title": "Ethnicity"},
+          {"field": "ethnicity_count", "type": "quantitative", "title": "Number of candidates"},
+          {"field": "percentage", "type": "quantitative", "title": "Proportion (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 60,
+        "dy": 60,
+        "fontSize": 14,
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "76%"},
+        "color": {"value": "white"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -105,
+        "dy": -60,
+        "fontSize": 14,
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "17.97%"},
+        "color": {"value": "white"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -35,
+        "dy": -100,
+        "fontSize": 14,
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "5.5%"},
+        "color": {"value": "white"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -10,
+        "dy": -35,
+        "fontSize": 14,
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": "0.42%"},
+        "color": {"value": "black"}
+      }
     }
   ],
-  "encoding": {
-    "theta": {"field": "ethnicity_count", "type": "quantitative"},
-    "color": {"field": "ethnicity", "type": "nominal", "title": "Ethnicity"},
-    "opacity": {
-      "condition": {"selection": "ethnicity_highlight", "value": 1},
-      "value": 0.8
+  "config": {
+    "text": {
+      "fontSize": 14
     },
-    "tooltip": [
-      {"field": "ethnicity", "type": "nominal", "title": "Ethnicity"},
-      {"field": "ethnicity_count", "type": "quantitative", "title": "Number of candidates"}
-    ]
+    "legend": {
+      "titleFontSize": 14,
+      "labelFontSize": 12
+    }
   }
 }

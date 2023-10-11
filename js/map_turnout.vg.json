@@ -18,67 +18,96 @@
     "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/parlimen.json",
     "format": {"type": "topojson", "feature": "parlimen"}
   },
-  "transform": [
+  "layer": [
     {
-      "lookup": "properties.parlimen",
-      "from": {
-        "data": {
-          "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
-        },
-        "key": "parlimen",
-        "fields": ["state", "undi_keluar_peti", "pengundi_jumlah", "peratus_keluar"]
-      }
-    }
-  ],
-  "params": [
-    {
-      "name": "highlight",
-      "select": {"type": "point", "on": "mouseover"}
-    },
-    {"name": "select", "select": "point"}
-  ],
-  "mark": {"type": "geoshape", "stroke": "darkgray"},
-  "encoding": {
-    "color": { 
-      "field": "peratus_keluar",
-      "type": "quantitative",
-      "legend": {"title": "Voter turnout (%)"},
-      "condition": {
-        "test": "isNaN(datum.undi_keluar_peti)",
-        "value": "gray"
-      },
-      "scale": {
-        "scheme": {"name": "viridis"},
-        "reverse": true
-      }
-    },
-    "tooltip": [
-      {"field": "properties.parlimen", "type": "nominal", "title": "Constituency"},
-      {"field": "state", "type": "nominal", "title": "State"},
-      {"field": "undi_keluar_peti", "type": "quantitative", "title": "Total votes", "format": ",.0f"},
-      {"field": "pengundi_jumlah", "type": "quantitative", "title": "Total registered voters", "format": ",.0f"},
-      {"field": "peratus_keluar", "type": "quantitative", "title": "Voter turnout (%)", "format": ".2f"}
-    ],
-    "fillOpacity": {
-      "condition": {"param": "select", "value": 1},
-      "value": 0.3
-    },
-    "strokeWidth": {
-      "condition": [
+      "transform": [
         {
-          "param": "select",
-          "empty": false,
-          "value": 1.5
-        },
-        {
-          "param": "highlight",
-          "empty": false,
-          "value": 1.5
+          "lookup": "properties.parlimen",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_ge15.csv"
+            },
+            "key": "parlimen",
+            "fields": ["state", "undi_keluar_peti", "pengundi_jumlah", "peratus_keluar"]
+          }
         }
       ],
-      "value": 0.5
+      "params": [
+        {
+          "name": "highlight",
+          "select": {"type": "point", "on": "mouseover"}
+        },
+        {"name": "select", "select": "point"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "darkgray"},
+      "encoding": {
+        "color": { 
+          "field": "peratus_keluar",
+          "type": "quantitative",
+          "legend": {"title": "Voter turnout (%)"},
+          "condition": {
+            "test": "isNaN(datum.undi_keluar_peti)",
+            "value": "gray"
+          },
+          "scale": {
+            "scheme": {"name": "viridis"},
+            "reverse": true
+          }
+        },
+        "tooltip": [
+          {"field": "properties.parlimen", "type": "nominal", "title": "Constituency"},
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "undi_keluar_peti", "type": "quantitative", "title": "Total votes", "format": ",.0f"},
+          {"field": "pengundi_jumlah", "type": "quantitative", "title": "Total registered voters", "format": ",.0f"},
+          {"field": "peratus_keluar", "type": "quantitative", "title": "Voter turnout (%)", "format": ".2f"}
+        ],
+        "fillOpacity": {
+          "condition": {"param": "select", "value": 1},
+          "value": 0.3
+        },
+        "strokeWidth": {
+          "condition": [
+            {
+              "param": "select",
+              "empty": false,
+              "value": 1.5
+            }
+          ],
+          "value": 0.5
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -700,
+        "dy": 140,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["West Malaysia has a", "higher voter", "turnout overall"]},
+        "color": {"value": "#4a4a4a"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 490,
+        "dy": 30,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["Floods affected Limbang and Baram", "on election day, resulting", "in lower turnouts (Bernama, 2022)"]},
+        "color": {"value": "#4a4a4a"}
+      }
     }
-  },
+  ],
   "config": {
     "text": {
       "fontSize": 14

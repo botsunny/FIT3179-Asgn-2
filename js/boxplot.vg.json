@@ -1,0 +1,119 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Popular vote percentages of coalitions/parties",
+      "fontSize": 18,
+      "align": "left",
+      "anchor": "start",
+      "dx": 90,
+      "offset": 30
+    },
+    "width": 600,
+    "height": 600,
+    "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_popular_votes.csv"},
+    "transform": [
+      {"calculate": "datum.percentage_votes * 1", "as": "parsed_votes"},
+      {"calculate": "datum.party", "as": "Coalition/Party"}
+    ],
+    "layer": [
+      {
+        "mark": "boxplot",
+        "encoding": {
+          "y": {
+            "field": "Coalition/Party",
+            "type": "nominal",
+            "axis": {"labelLimit": 400, "labelAngle": -20, "labelFontSize": 9}
+          },
+          "x": {
+            "field": "parsed_votes",
+            "type": "quantitative",
+            "title": "Popular vote percentage (%)",
+            "scale": {"zero": true}
+          },
+          "color": {
+            "field": "Coalition/Party",
+            "type": "nominal",
+            "legend": null,
+            "scale": {
+              "domain": [
+                "Barisan Nasional (BN)",
+                "Pakatan Harapan (PH)",
+                "Democratic Action Party (DAP)",
+                "Malaysian United Democratic Alliance (MUDA)",
+                "Perikatan Nasional (PN)",
+                "Parti Islam Se-Malaysia (PAS)",
+                "Gabungan Parti Sarawak (GPS)",
+                "Gabungan Rakyat Sabah (GRS)",
+                "Parti Warisan (WARISAN)",
+                "Parti Kesejahteraan Demokratik Masyarakat (KDM)",
+                "Parti Bangsa Malaysia (PBM)",
+                "Independent (BEBAS)",
+                "Parti Bansa Dayak Sarawak (PBDS)",
+                "Parti Bumiputera Perkasa Malaysia (PUTRA)",
+                "Parti Pejuang Tanah Air (PEJUANG)",
+                "Parti Rakyat Malaysia (PRM)",
+                "Parti Sarawak Bersatu (PSB)"
+              ],
+              "range": [
+                "#000080",
+                "#d7282f",
+                "#ed1c24",
+                "#000000",
+                "#003152",
+                "#009000",
+                "#ff6060",
+                "#4682b4",
+                "#a4e5fc",
+                "#f6787f",
+                "#6129aa",
+                "#d0d0d0",
+                "#e0f810",
+                "#ffea00",
+                "#006a8e",
+                "#d00000",
+                "#ff9900"
+              ]
+            }
+          },
+          "tooltip": {"field": "parsed_votes", "type": "quantitative"}
+        }
+      },
+      {
+        "mark": {"type": "rule", "color": "red"},
+        "encoding": {
+          "x": {"value": 300.5},
+          "size": {"value": 1}
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": 5,
+          "dy": 150,
+          "fontSize": 12,
+          "fontStyle": "italic",
+          "fontWeight": "lighter"
+        },
+        "encoding": {
+          "text": {"value": ["Simple", "majority"]},
+          "color": {"value": "red"}
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": 20,
+          "dy": 20,
+          "fontSize": 11,
+          "fontStyle":"italic",
+          "fontWeight":"lighter"
+        },
+        "encoding": {
+          "text": {"value": ["PAS/PN candidates won every Kelantan", "and Terengganu seat with a majority", "except for P.032 Gua Musang"]},
+          "color": {"value": "#4a4a4a"}
+        }
+      }
+    ]
+  }

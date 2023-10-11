@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_candidates_count.csv"
+    },
+    "width": 800,
+    "mark": "bar",
+    "encoding": {
+      "y": {"field": "party", "type": "nominal"},
+      "x": {"field": "count", "type": "quantitative"},
+      "yOffset": {"field": "sex"},
+      "color": {
+        "field": "ethnicity",
+        "type": "nominal",
+        "scale": {
+          "domain": ["bumiputera", "chinese", "indian", "other"],
+          "range": ["#54a24b", "#e45756", "#f58518", "#eeca3b"]
+        }
+      }
+    }
+  }
