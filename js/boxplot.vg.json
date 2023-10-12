@@ -1,8 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "Popular vote percentages of coalitions/parties",
+      "text": "POPULAR VOTE PERCENTAGES OF COALITIONS/PARTIES",
       "fontSize": 18,
+      "font": "Inter",
       "align": "left",
       "anchor": "start",
       "dx": 90,
@@ -22,13 +23,14 @@
           "y": {
             "field": "Coalition/Party",
             "type": "nominal",
-            "axis": {"labelLimit": 400, "labelAngle": -20, "labelFontSize": 9}
+            "axis": {"labelLimit": 400, "labelAngle": -20, "labelFontSize": 9, "titleFontSize": 14}
           },
           "x": {
             "field": "parsed_votes",
             "type": "quantitative",
             "title": "Popular vote percentage (%)",
-            "scale": {"zero": true}
+            "scale": {"zero": true},
+            "axis": {"titleFontSize": 14}
           },
           "color": {
             "field": "Coalition/Party",
@@ -93,7 +95,7 @@
           "dy": 150,
           "fontSize": 12,
           "fontStyle": "italic",
-          "fontWeight": "lighter"
+          "fontWeight": 300
         },
         "encoding": {
           "text": {"value": ["Simple", "majority"]},

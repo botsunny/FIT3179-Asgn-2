@@ -6,8 +6,9 @@
   "padding": 50,
   "autosize": {"type": "none", "contains": "padding"},
   "title": {
-    "text": "Radar chart of economic factors",
+    "text": "ECONOMIC FACTORS",
     "fontSize": 18,
+    "font": "Inter",
     "align": "left",
     "anchor": "start",
     "offset": 20,

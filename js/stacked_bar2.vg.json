@@ -1,21 +1,85 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_count.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+      "text": "ETHNIC AND GENDER DISTRIBUTION OF ELECTED MPs",
+      "fontSize": 18,
+      "font": "Inter",
+      "align": "left",
+      "anchor": "start",
+      "offset": 30,
+      "dx": 40
+  },
+  "width": 1500,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_winners_count.csv"
+  },
+  "transform": [
+    {
+      "calculate": "upper(slice(datum.ethnicity, 0, 1)) + lower(slice(datum.ethnicity, 1))",
+      "as": "Ethnicity"
     },
-    "width": 800,
-    "mark": "bar",
-    "encoding": {
-      "y": {"field": "party", "type": "nominal"},
-      "x": {"field": "count", "type": "quantitative"},
-      "yOffset": {"field": "sex"},
-      "color": {
-        "field": "ethnicity",
-        "type": "nominal",
-        "scale": {
-          "domain": ["bumiputera", "chinese", "indian", "other"],
-          "range": ["#54a24b", "#e45756", "#f58518", "#eeca3b"]
+    {
+      "calculate": "upper(slice(datum.sex, 0, 1)) + lower(slice(datum.sex, 1))",
+      "as": "Sex"
+    },
+    {
+      "calculate": "datum.Ethnicity + ' ' + datum.sex",
+      "as": "Category"
+    }
+  ],
+  "layer": [
+    { 
+      "selection": {
+        "ethnicity_highlight": {
+        "type": "multi",
+        "fields": ["Category"],
+        "bind": "legend"
+        }
+      },
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "party",
+          "type": "nominal",
+          "axis": {"labelLimit": 400, "labelAngle": -20, "labelFontSize": 11, "titleFontSize": 14},
+          "title": "Party/Coalition"
+        },
+        "y": {
+          "field": "count",
+          "type": "quantitative",
+          "title": "Number of winners",
+          "axis": {"labelFontSize": 12, "titleFontSize": 14}
+        },
+        "xOffset": {"field": "sex"},
+        "color": {
+          "field": "Category",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Bumiputera male", "Chinese male", "Indian male", "Other male", "Bumiputera female", "Chinese female", "Indian female", "Other female"],
+            "range": ["#3a6f33", "#933737", "#934e0e", "#ba9c2e", "#54a24b", "#e45756", "#f58518", "#eeca3b"]
+          },
+          "legend": {"labelFontSize": 12, "titleFontSize": 14}
+        },
+        "tooltip": [
+          {"field": "Ethnicity", "type": "nominal"},
+          {"field": "Sex", "type": "nominal", "title": "Gender"},
+          {"field": "count", "type": "quantitative", "title": "Number of winners"}
+        ],
+        "opacity": {
+          "condition": {"selection": "ethnicity_highlight", "value": 1},
+          "value": 0.4
         }
       }
     }
+  ],
+  "config": {
+    "text": {
+      "fontSize": 14
+    },
+    "legend": {
+      "titleFontSize": 14,
+      "labelFontSize": 12
+    }
   }
+}

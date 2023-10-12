@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "ELECTION DEMOGRAPHICS",
-    "fontSize": 22,
+    "fontSize": 18,
     "font": "Inter",
     "align": "left",
     "anchor": "start"
@@ -88,20 +88,22 @@
     {
       "mark": {
         "type": "text",
-        "align": "left",
-        "dx": -800,
-        "dy": 140,
+        "align": "right",
+        "dx": -630,
+        "dy": 130,
         "fontSize": 12,
-        "fontStyle":"italic",
-        "fontWeight":"lighter"
+        "fontWeight": "bold"
       },
       "encoding": {
-        "text": {"value": ["Most densely populated constituencies", "are urban areas situated in the Klang Valley"]},
+        "text": {"value": ["Klang Valley", "metropolitan area"]},
         "color": {"value": "#4a4a4a"}
       }
     }
   ],
   "config": {
+    "view":{
+      "stroke": "transparent"
+    },
     "text": {
       "fontSize": 14
     },

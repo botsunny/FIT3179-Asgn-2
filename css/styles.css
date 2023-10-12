@@ -17,6 +17,11 @@ html{
     src: url(Inter-VariableFont_slnt,wght.ttf);
 }
 
+@font-face {
+    font-family: Open-Sans;
+    src: url(OpenSans-VariableFont_wdth,wght.ttf);
+}
+
 h1 {
     font-family: 'Inclusive';
     font-weight: 900;
@@ -41,6 +46,16 @@ h1 {
     color: #333;
     margin-left: 160px;
     margin-right: 160px;
+}
+
+#pure-paragraph-text {
+    font-family: 'Inter';
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #left-column-text {
@@ -95,7 +110,7 @@ h1 {
 }
 
 body {
-    background-color: white;
+    -font-smooth: always;
     text-align: center;
 }
 
@@ -132,8 +147,4 @@ h1 {
 
 .pure-g {
     margin-bottom: 40px;
-}
-
-.small-font {
-    font-size: 14px;
 }

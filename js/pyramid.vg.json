@@ -1,14 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Population pyramid of electorate",
+    "text": "POPULATION PYRAMID OF ELECTORATE",
     "fontSize": 18,
+    "font": "Inter",
     "align": "left",
     "anchor": "start"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_voters_age_ge15.csv"
   },
+  "transform": [
+    {
+      "calculate": "upper(slice(datum.gender, 0, 1)) + lower(slice(datum.gender, 1))",
+      "as": "Gender"
+    }
+  ],
   "spacing": 0,
   "hconcat": [
     {
@@ -36,7 +43,7 @@
         },
         "tooltip": [
           {"field": "age_group", "type": "ordinal", "title": "Age group"},
-          {"field": "gender", "type": "nominal", "title": "Gender"},
+          {"field": "Gender", "type": "nominal"},
           {"field": "population", "type": "quantitative", "title": "Number of voters", "format": ",.0f"}
         ]
       }
@@ -80,7 +87,7 @@
         },
         "tooltip": [
           {"field": "age_group", "type": "ordinal", "title": "Age group"},
-          {"field": "gender", "type": "nominal", "title": "Gender"},
+          {"field": "Gender", "type": "nominal"},
           {"field": "population", "type": "quantitative", "title": "Number of voters", "format": ",.0f"}
         ]
       }

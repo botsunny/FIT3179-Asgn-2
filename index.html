@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <h1>15th Malaysian General Election</h1>
+  <h1>15th MALAYSIAN GENERAL ELECTION</h1>
   <p id="intro">
     The 15th Malaysian General Election (GE15) was held on 19 November 2022.
     It was a rather unique one; a snap election held to resolve political
@@ -147,19 +147,19 @@
   </div>
   <!-- end pure grid group -->
 
-   <!-- pure grid group -->
-   <div class="pure-g">
-    <div class="pure-u-1-2">
-      <p id="left-column-text">
+  <!-- pure grid group -->
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <p id="pure-paragraph-text">
         Dummy text
       </p>
-      <div id="donut-candidates" class="vis-container"></div>
+      <div id="bar1" class="vis-container"></div>
     </div>
-    <div class="pure-u-1-2">
-      <p id="right-column-text">
+    <div class="pure-u-1-1">
+      <p id="pure-paragraph-text">
         Dummy text
       </p>
-      <div id="donut-winners" class="vis-container"></div>
+      <div id="bar2" class="vis-container"></div>
     </div>
   </div>
   <!-- end pure grid group -->
@@ -173,8 +173,8 @@
   var spec6 = "js/pyramid.vg.json";
   var spec7 = "js/boxplot.vg.json";
   var spec8 = "js/comet.vg.json";
-  var spec9 = "js/donut_candidates.vg.json";
-  var spec10 = "js/donut_winners.vg.json";
+  var spec9 = "js/stacked_bar1.vg.json";
+  var spec10 = "js/stacked_bar2.vg.json";
 
   let currentMap = null; // To keep track of the current map
 
@@ -238,17 +238,14 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#donut-candidates', spec9, { "actions": false }).then(function (result) {
+  vegaEmbed('#bar1', spec9, { "actions": false }).then(function (result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#donut-winners', spec10, { "actions": false }).then(function (result) {
+  vegaEmbed('#bar2', spec10, { "actions": false }).then(function (result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  // vegaEmbed('#map', spec1, { "actions": false }).then(function (result) {
-  //   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  // }).catch(console.error);
 </script>
 </body>
 

@@ -2,8 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/botsunny/FIT3179-Viz-2/main/data/wrangled_ge14_15.csv"},
   "title": {
-    "text": "Changes in seats by state among major coalitions from GE14 to GE15",
+    "text": "CHANGES IN SEATS BY STATE AMONG MAJOR COALITIONS FROM GE14 TO GE15",
     "fontSize": 18,
+    "font": "Inter",
     "align": "left",
     "anchor": "start",
     "offset": 20
