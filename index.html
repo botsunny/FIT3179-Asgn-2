@@ -58,21 +58,17 @@
         urban constituencies tend to prefer <span style="color:#d7282f;">PH</span>
         whereas the opposite has strong support for <span style="color: #003152;">PN</span>.
         <br><br>
-        Use the radar charts to discover the <b>social</b> and <b>economic</b>
+        Use the radar charts to discover the <b>economic</b> and <b>social</b>
         factors of each constituency!
       </p>
       <div class="pure-g">
         <div class="pure-u-2-3">
           <div id="radar" class="vis-container"></div>
-          <button id="change-social-radar">Social factors</button>
           <button id="change-econ-radar">Economic factors</button>
+          <button id="change-social-radar">Social factors</button>
         </div>
         <div class="pure-u-1-3">
           <p id="inner-column-text">
-            Population density: <b>Normalised population density</b>
-            <br><br>
-            Average household size: <b>Normalised average of household sizes</b>
-            <br><br>
             Unemployment rate: <b>Estimated based on 2020 Labour Force Survey data</b>
             <br><br>
             Poverty incidence: <b>Poverty is defined as household income below the 2019 Poverty Line</b>
@@ -82,6 +78,10 @@
             Average expenditure: <b>Normalised average household expenditure</b>
             <br><br>
             Gini coefficient: <b>Measures income inequality (0% is perfect equality, 100% is perfect inequality)</b>
+            <br><br>
+            Population density: <b>Normalised population density</b>
+            <br><br>
+            Average household size: <b>Normalised average of household sizes</b>
           </p>
         </div>
       </div>
@@ -151,18 +151,47 @@
   <div class="pure-g">
     <div class="pure-u-1-1">
       <p id="pure-paragraph-text">
-        Dummy text
+        Malaysia is a multi-ethnic country, with <span style="color: #54a24b">Bumiputera</span>,
+        <span style="color: #e45756">Chinese</span> and <span style="color: #f58518">Indians</span>
+        making up around 70, 23 and 7% of the population respectively. Additionally,
+        politics in the nation has always been dominated by men, although female
+        representation in the Dewan Rakyat has been increasing steadily with every
+        election prior to GE15.
+        <br><br>
+        Now let us take a look at how the nominated candidates in this election
+        reflect the ethnic and gender composition of the country, and see how
+        each party/coalition contributes to diversity.
       </p>
       <div id="bar1" class="vis-container"></div>
     </div>
     <div class="pure-u-1-1">
       <p id="pure-paragraph-text">
-        Dummy text
-      </p>
+        Ethnic proportions among candidates fielded by major coalitions seem to
+        reflect the nation's demographics well, but what about the actual politicians
+        ending up in the Dewan Rakyat?
+        <br><br>
+        Despite GE15 resulting in a unity government led by <span style="color: #d7282f">PH</span>,
+        which fielded the most female candidates, female MPs were actually reduced
+        to 30 from 32 in GE14.
+        <br><br>
+        Here is how the final representation of ethnicities and genders in the
+        Dewan Rakyat looks like after GE15; we can also observe which parties/coalitions
+        are popular preferences among the different ethnic communities.
       <div id="bar2" class="vis-container"></div>
     </div>
   </div>
   <!-- end pure grid group -->
+
+  <!-- Footer section -->
+  <footer>
+    <p id="footer">
+      &copy; 2023 Visualisation by Yu-Shan Lim 
+      <br>
+      Data collected from the Election Commission of Malaysia (SPR)
+      <br>
+      by <a href="https://github.com/Thevesh/analysis-election-msia">Thevesh Theva</a> (2022)
+    </p>
+  </footer> 
 
 <script type="text/javascript">
   var spec1 = "js/map_win.vg.json";
@@ -214,7 +243,7 @@
     }
   }
 
-  embedRadar(spec4)
+  embedRadar(spec5)
 
   const button4 = document.getElementById("change-social-radar");
   const button5 = document.getElementById("change-econ-radar");

@@ -56,8 +56,8 @@
           "field": "Category",
           "type": "nominal",
           "scale": {
-            "domain": ["Bumiputera male", "Chinese male", "Indian male", "Other male", "Bumiputera female", "Chinese female", "Indian female", "Other female"],
-            "range": ["#3a6f33", "#933737", "#934e0e", "#ba9c2e", "#54a24b", "#e45756", "#f58518", "#eeca3b"]
+            "domain": ["Bumiputera female", "Chinese female", "Indian female", "Other female", "Bumiputera male", "Chinese male", "Indian male", "Other male"],
+            "range": ["#54a24b", "#e45756", "#f58518", "#eeca3b", "#3a6f33", "#933737", "#934e0e", "#ba9c2e"]
           },
           "legend": {"titleFontSize": 14, "labelFontSize": 12}
         },

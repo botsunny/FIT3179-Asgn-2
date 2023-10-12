@@ -31,12 +31,12 @@
           "Perikatan Nasional (PN)"
         ],
         "labels":[
-          "Show all",
+          "All",
           "Barisan Nasional (BN)",
           "Pakatan Harapan (PH)",
           "Perikatan Nasional (PN)"
         ],
-        "name": "Coalition selection: "
+        "name": "Select coalition: "
       }
     },
     {
@@ -61,7 +61,7 @@
           "Wilayah Persekutuan"
         ],
         "labels":[
-          "Show all",
+          "All",
           "Johor",
           "Kedah",
           "Kelantan",
@@ -77,7 +77,7 @@
           "Terengganu",
           "Wilayah Persekutuan"
         ],
-        "name": "State selection: "
+        "name": "Select state: "
       }
     }
   ],
