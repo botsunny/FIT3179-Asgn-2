@@ -24,22 +24,30 @@
   </p>
 
   <p id="paragraph-text">
-    The following map shows the final results of GE15. Note that the
-    <span style="color: #ed1c24;"><b>Democratic Action Party (DAP)</b></span>
-    is a member of the <span style="color: #d7282f;">Pakatan Harapan (PH)</span>
-    coalition, but contests under its own name and logo in the state of <b>Sarawak</b>.
-    Similarly, <span style="color: #009000;"><b>Parti Islam Se-Malaysia (PAS)</b></span>
-    is a member of the <span style="color: #003152;">Perikatan Nasional (PN)</span>
-    coalition, but all <span style="color: #003152;">PN</span> parties
-    contest under <span style="color: #009000;">PAS</span>'s name and logo in
-    the states of <b>Kelantan and Terengganu</b>.
+    While no party or coalition obtained a simple majority to form the federal
+    government, the <span style="color: #d7282f;">Pakatan Harapan (PH)</span>
+    coalition obtained the largest share of votes, and later allied with
+    <span style="color: #000080;">Barisan Nasional (BN)</span> and other smaller
+    coalitions to form a unity government. 
     <br><br>
-    In any election, understanding the demographics of the electorate as well as
-    the turnout during election day are keys to interpreting the results.
+    How did <b>demographics</b> influence each constituency's voting preference? Does 
+    <b>voter turnout</b> benefit any particular party or coalition? 
+    Check out the each party's wins and strongholds in the <b>final results</b> map below,
+    and use the buttons to explore the demographics and turnout of each constituency!
     <br><br>
-    Use the buttons to switch between maps for demographics and turnout!
-    (<u>Note</u>: Turnout data ranges from <b>40% to 100%</b>; turnout data for
-    <b>P.017 Padang Serai</b> was not provided by the Election Commission.)
+    <u>Notes</u>:
+    <ul id="paragraph-text">
+      <li>The <span style="color: #ed1c24;"><b>Democratic Action Party (DAP)</b></span>
+        is a member of the <span style="color: #d7282f;">PH</span>
+        coalition, but contests under its own name and logo in the state of <b>Sarawak</b>.</li>
+      <li><span style="color: #009000;"><b>Parti Islam Se-Malaysia (PAS)</b></span>
+        is a member of the <span style="color: #003152;">Perikatan Nasional (PN)</span>
+        coalition, but all <span style="color: #003152;">PN</span> parties
+        contest under <span style="color: #009000;">PAS</span>'s name and logo in
+        the states of <b>Kelantan and Terengganu</b></li>
+      <li>Turnout data ranges from <b>40% to 100%</b></li>
+      <li>Turnout data for <b>P.017 Padang Serai</b> was not provided by the Election Commission</li>
+    </ul>
   </p>
 
   <div id="map" class="map-container"></div>
@@ -53,35 +61,36 @@
     <div class="pure-u-1-2">
       <p id="top-padded-left-column-text">
         In recent years, Malaysia has seen a shift from a single-coalition dominance
-        (<span style="color: #000080;">Barisan Nasional</span>) to a two-coalition
+        (<span style="color: #000080;">BN</span>) to a two-coalition
         battle, and in GE15, a three-cornered fight. High-income, densely populated
-        urban constituencies tend to prefer <span style="color:#d7282f;">PH</span>
-        whereas the opposite has strong support for <span style="color: #003152;">PN</span>.
+        <b>urban constituencies tend to prefer <span style="color:#d7282f;">PH</span></b>
+        whereas <b>the opposite has strong support for <span style="color: #003152;">PN</span></b>.
         <br><br>
-        Use the radar charts to discover the <b>economic</b> and <b>social</b>
-        factors of each constituency!
+        Constituencies in each category share common <b>economic</b> and <b>social</b>
+        factors; use these radar charts to explore them!
       </p>
       <div class="pure-g">
         <div class="pure-u-2-3">
           <div id="radar" class="vis-container"></div>
+          <br><br><br>
           <button id="change-econ-radar">Economic factors</button>
           <button id="change-social-radar">Social factors</button>
         </div>
         <div class="pure-u-1-3">
           <p id="inner-column-text">
-            Unemployment rate: <b>Estimated based on 2020 Labour Force Survey data</b>
+            <b>Unemployment rate:</b> Estimated based on 2020 Labour Force Survey data
             <br><br>
-            Poverty incidence: <b>Poverty is defined as household income below the 2019 Poverty Line</b>
+            <b>Poverty incidence:</b> Poverty is defined as household income below the 2019 Poverty Line
             <br><br>
-            Median income: <b>Normalised median household income, estimated based on the 2020 Household Income, Expenditure and Basic Amenities (HIES/BA) Survey</b>
+            <b>Median income:</b> Normalised median household income, estimated based on the 2020 Household Income, Expenditure and Basic Amenities (HIES/BA) Survey
             <br><br>
-            Average expenditure: <b>Normalised average household expenditure</b>
+            <b>Average expenditure:</b> Normalised average household expenditure
             <br><br>
-            Gini coefficient: <b>Measures income inequality (0% is perfect equality, 100% is perfect inequality)</b>
+            <b>Gini coefficient:</b> Measures income inequality (0% is perfect equality, 100% is perfect inequality)
             <br><br>
-            Population density: <b>Normalised population density</b>
+            <b>Population density:</b> Normalised population density
             <br><br>
-            Average household size: <b>Normalised average of household sizes</b>
+            <b>Average household size:</b> Normalised average of household sizes
           </p>
         </div>
       </div>
@@ -89,10 +98,12 @@
     <div class="pure-u-1-2">
       <p id="top-padded-right-column-text">
         GE15 is the first election since the nation's voting age was lowered to
-        18. The following pyramid chart shows the age distribution of the
-        electorate based on gender. For both genders, millenials and working adults
-        aged <b>21-39</b> make up the majority of voters.
+        18, sparking debate and discussion on which party the "youth wave" would
+        benefit. Here is the <b>age distribution of the electorate based on gender</b>.
         <br><br><br>
+        We can infer that for both genders, millenials and working adults aged
+        <b>21-39</b> make up the majority of voters.
+        <br><br>
       </p>
       <div id="pyramid" class="vis-container"></div>
     </div>
@@ -103,13 +114,16 @@
   <div class="pure-g">
     <div class="pure-u-1-2">
       <p id="left-column-text">
-        This general election saw 23 coalitions and parties contesting for the
-        222 federal seats of the Dewan Rakyat. To win a seat, a candidate only
-        needs to obtain at least a plurality (ie. largest share) of votes in the
-        corresponding constituency.
+        That is all for the electorate. Now let us explore the candidates!
+        GE15 saw 23 coalitions and parties contesting for the 222 federal seats
+        of the Dewan Rakyat. To win a seat, a candidate only needs to obtain at
+        least a plurality (ie. largest share) of votes in the corresponding constituency.
         <br><br>
-        These boxplots show the popular vote percentages obtained by each
-        coalition/party over their contested seats. <b>Some parties have been
+        <b>How well and consistent has each coalition/party performed?</b>
+        These boxplots show the <b>popular vote percentages</b> obtained by each
+        coalition/party over their contested seats.
+        <br><br>
+        <b>Some parties have been
         excluded</b> due to low numbers that render them invisible in the plot.
         These are: <span style="color: #f5d801";>Parti Bersatu Rakyat Sabah</span>,
         <span style="color: #fbc625";>Parti Bumi Kenyalang</span>,
@@ -117,7 +131,7 @@
         <span style="color: #e0d500";>Parti Sedar Rakyat Sarawak</span>,
         <span style="color: #800000";>Parti Sosialis Malaysia</span> and
         <span style="color: #ffa500";>Parti Utama Rakyat</span>.
-        <br><br>
+        <br>
       </p>
       <div id="boxplot" class="vis-container"></div>
     </div>
@@ -126,7 +140,7 @@
         GE15 centers around a three-way fight between the <span style="color: #000080">BN</span>,
         <span style="color: #d7282f">PH</span> and
         <span style="color: #003152">PN</span> coalitions. Comparing their
-        changes in seats from the previous election illustrates how public
+        <b>changes in seats from the previous election</b> illustrates how public
         sentiment towards each has shifted over the previous four years of
         political turmoil.
         <br><br>
@@ -139,8 +153,9 @@
         seats, and <span style="color: #003152">PN</span>'s GE14 numbers are
         represented by <span style="color: #009000">PAS</span>'s seats.
         <br><br>
-        Filter the chart by coalition and state to observe the degrees of gains
-        and losses of the coalitions.
+        Filter this comet chart by coalition and state to observe the degrees of
+        gains and losses of the coalitions!
+        <br><br>
       </p>
       <div id="comet" class="vis-container"></div>
     </div>
@@ -153,13 +168,15 @@
       <p id="pure-paragraph-text">
         Malaysia is a multi-ethnic country, with <span style="color: #54a24b">Bumiputera</span>,
         <span style="color: #e45756">Chinese</span> and <span style="color: #f58518">Indians</span>
-        making up around 70, 23 and 7% of the population respectively. Additionally,
+        making up around <span style="color: #54a24b">70%</span>,
+        <span style="color: #e45756">23%</span> and <span style="color: #f58518">7%</span>
+        of the population respectively. Additionally,
         politics in the nation has always been dominated by men, although female
         representation in the Dewan Rakyat has been increasing steadily with every
         election prior to GE15.
         <br><br>
-        Now let us take a look at how the nominated candidates in this election
-        reflect the ethnic and gender composition of the country, and see how
+        Now we investigate <b>how the nominated candidates in this election
+        reflect the ethnic and gender composition of the country</b>, and observe how
         each party/coalition contributes to diversity.
       </p>
       <div id="bar1" class="vis-container"></div>
@@ -171,11 +188,11 @@
         ending up in the Dewan Rakyat?
         <br><br>
         Despite GE15 resulting in a unity government led by <span style="color: #d7282f">PH</span>,
-        which fielded the most female candidates, female MPs were actually reduced
-        to 30 from 32 in GE14.
+        which fielded the most female candidates, <b>female MPs were actually reduced
+        to 30 from 32 in GE14</b>.
         <br><br>
-        Here is how the final representation of ethnicities and genders in the
-        Dewan Rakyat looks like after GE15; we can also observe which parties/coalitions
+        Here is how the <b>final representation of ethnicities and genders in the
+        Dewan Rakyat</b> looks like after GE15; we can also observe which parties/coalitions
         are popular preferences among the different ethnic communities.
       <div id="bar2" class="vis-container"></div>
     </div>
@@ -190,9 +207,11 @@
       Data collected from the Election Commission of Malaysia (SPR)
       <br>
       by <a href="https://github.com/Thevesh/analysis-election-msia">Thevesh Theva</a> (2022)
+      <br>
+      Reference: <a href="https://github.com/Thevesh/analysis-election-msia">Bernama (2022)</a>
     </p>
   </footer> 
-
+  
 <script type="text/javascript">
   var spec1 = "js/map_win.vg.json";
   var spec2 = "js/map_demog.vg.json";

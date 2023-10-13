@@ -57,7 +57,7 @@
           "type": "nominal",
           "scale": {
             "domain": ["Bumiputera female", "Chinese female", "Indian female", "Other female", "Bumiputera male", "Chinese male", "Indian male", "Other male"],
-            "range": ["#54a24b", "#e45756", "#f58518", "#eeca3b", "#3a6f33", "#933737", "#934e0e", "#ba9c2e"]
+            "range": ["#54a24b", "#e45756", "#f58518", "#eeca3b", "#3a6f33", "#af4242", "#ce6e14", "#ba9c2e"]
           },
           "legend": {"labelFontSize": 12, "titleFontSize": 14}
         },
@@ -70,6 +70,36 @@
           "condition": {"selection": "ethnicity_highlight", "value": 1},
           "value": 0.4
         }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -690,
+        "dy": 5,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["Only 3 of BN's non-Bumiputera", "candidates won seats"]},
+        "color": {"value": "#4a4a4a"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 125,
+        "dy": 0,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["PH is the ultimate", "contributor of diversity"]},
+        "color": {"value": "#4a4a4a"}
       }
     }
   ],

@@ -3,7 +3,7 @@
   "description": "A radar chart example, showing multiple dimensions in a radial layout.",
   "width": 400,
   "height": 400,
-  "padding": 50,
+  "padding": {"left": 60, "right": 0, "top": 60},
   "autosize": {"type": "none", "contains": "padding"},
   "title": {
     "text": "SOCIAL FACTORS",

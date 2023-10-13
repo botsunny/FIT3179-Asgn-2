@@ -102,7 +102,7 @@
       "field": "delta",
       "type": "quantitative",
       "title": "Change in seats",
-      "scale": {"domainMid": 0},
+      "scale": {"scheme": "redblue", "domainMid": 0},
       "legend": {"titleFontSize": 14, "labelFontSize": 12}
     },
     "column": {"field": "party", "title": "Coalition"}

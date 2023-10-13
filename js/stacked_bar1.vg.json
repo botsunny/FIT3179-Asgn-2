@@ -57,7 +57,7 @@
           "type": "nominal",
           "scale": {
             "domain": ["Bumiputera female", "Chinese female", "Indian female", "Other female", "Bumiputera male", "Chinese male", "Indian male", "Other male"],
-            "range": ["#54a24b", "#e45756", "#f58518", "#eeca3b", "#3a6f33", "#933737", "#934e0e", "#ba9c2e"]
+            "range": ["#54a24b", "#e45756", "#f58518", "#eeca3b", "#3a6f33", "#af4242", "#ce6e14", "#ba9c2e"]
           },
           "legend": {"titleFontSize": 14, "labelFontSize": 12}
         },
@@ -70,6 +70,36 @@
           "condition": {"selection": "ethnicity_highlight", "value": 1},
           "value": 0.4
         }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -675,
+        "dy": 110,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["BN fielded the most", "non-Bumiputera candidates"]},
+        "color": {"value": "#4a4a4a"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": -280,
+        "dy": 150,
+        "fontSize": 12,
+        "fontStyle":"italic",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {"value": ["PBM is the only party", "that fielded more female", "candidates than male"]},
+        "color": {"value": "#4a4a4a"}
       }
     }
   ],

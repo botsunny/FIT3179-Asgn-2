@@ -54,9 +54,8 @@
           "type": "quantitative",
           "legend": {"title": ["Population density", "(people/km²)"]},
           "scale": {
-            "type": "threshold",
-            "domain": [50, 100, 150, 200, 250, 300, 350, 400],
-            "range": ["#ffffcd", "#ffeea1", "#ffda76", "#ffb34c", "#fe8e3c", "#fd4e2a", "#e41a1c", "#be0026", "#800026"]
+            "scheme": {"name": "magma"},
+            "reverse": true
           }
         },
         "tooltip": [
@@ -91,8 +90,7 @@
         "align": "right",
         "dx": -630,
         "dy": 130,
-        "fontSize": 12,
-        "fontWeight": "bold"
+        "fontSize": 12
       },
       "encoding": {
         "text": {"value": ["Klang Valley", "metropolitan area"]},
