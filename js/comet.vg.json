@@ -105,7 +105,7 @@
       "scale": {"scheme": "redblue", "domainMid": 0},
       "legend": {"titleFontSize": 14, "labelFontSize": 12}
     },
-    "column": {"field": "party", "title": "Coalition"}
+    "column": {"field": "party", "title": "Coalition", "header": {"titleFontSize": 14, "labelFontSize": 12}}
   },
   "view": {"stroke": null},
   "config": {
