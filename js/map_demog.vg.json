@@ -7,7 +7,7 @@
     "align": "left",
     "anchor": "start"
   },
-  "width": 1500,
+  "width": 1570,
   "height": 700,
   "projection": {
     "type": "albers",
@@ -52,10 +52,11 @@
         "color": { 
           "field": "population_density",
           "type": "quantitative",
-          "legend": {"title": ["Population density", "(people/km²)"]},
+          "legend": {"title": ["Population density (people/km²)"], "labelOverlap": "greedy"},
           "scale": {
-            "scheme": {"name": "magma"},
-            "reverse": true
+            "type": "threshold",
+            "domain": [50, 130, 275, 505, 870, 1320, 2610, 5800, 13475],
+            "range": ["#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"]
           }
         },
         "tooltip": [
@@ -88,7 +89,7 @@
       "mark": {
         "type": "text",
         "align": "right",
-        "dx": -630,
+        "dx": -660,
         "dy": 130,
         "fontSize": 12
       },
@@ -113,8 +114,9 @@
       "labelFontSize": 12,
       "orient": "top-right",
       "direction": "horizontal",
+      "titleLimit": 500,
       "labelLimit": 500,
-      "gradientLength": 400
+      "gradientLength": 800
     }
   }
 }

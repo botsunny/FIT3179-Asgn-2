@@ -44,14 +44,16 @@
         is a member of the <span style="color: #003152;">Perikatan Nasional (PN)</span>
         coalition, but all <span style="color: #003152;">PN</span> parties
         contest under <span style="color: #009000;">PAS</span>'s name and logo in
-        the states of <b>Kelantan and Terengganu</b></li>
-      <li>Turnout data ranges from <b>40% to 100%</b></li>
-      <li>Turnout data for <b>P.017 Padang Serai</b> was not provided by the Election Commission</li>
+        the states of <b>Kelantan and Terengganu</b>.</li>
+      <li>The colour scale for the demographics map was determined using
+        <b>Jenks natural breaks optimisation</b>; the thresholds are
+        <code>50, 130, 275, 505, 870, 1320, 2610, 5800, 13475</code>.</li>
+      <li>Turnout data ranges from <b>40% to 100%</b>.</li>
+      <li>Turnout data for <b>P.017 Padang Serai</b> was not provided by the Election Commission.</li>
     </ul>
   </p>
 
   <div id="map" class="map-container"></div>
-  <br>
   <button id="change-win-map">Results</button>
   <button id="change-demog-map">Demographics</button>
   <button id="change-turnout-map">Turnout</button>
@@ -229,7 +231,7 @@
   // Function to embed the selected map
   function embedMap(spec) {
     if (currentMap !== spec) {
-        vegaEmbed("#map", spec).then(() => {
+        vegaEmbed("#map", spec, { "actions": false }).then(() => {
           currentMap = spec;
         }).catch(console.error);
     }
@@ -256,7 +258,7 @@
   // Function to embed the selected radar chart
   function embedRadar(spec) {
     if (currentRadar !== spec) {
-      vegaEmbed("#radar", spec).then(() => {
+      vegaEmbed("#radar", spec, { "actions": false }).then(() => {
         currentRadar = spec;
       }).catch(console.error);
     }

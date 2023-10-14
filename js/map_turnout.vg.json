@@ -7,7 +7,7 @@
     "align": "left",
     "anchor": "start"
   },
-  "width": 1500,
+  "width": 1570,
   "height": 700,
   "projection": {
     "type": "albers",
@@ -82,14 +82,14 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": -700,
-        "dy": 140,
+        "dx": -760,
+        "dy": 90,
         "fontSize": 12,
         "fontStyle":"italic",
         "fontWeight":"lighter"
       },
       "encoding": {
-        "text": {"value": ["West Malaysia has a", "higher voter", "turnout overall"]},
+        "text": {"value": ["West Malaysia has", "a higher voter", "turnout overall"]},
         "color": {"value": "#4a4a4a"}
       }
     },
@@ -97,14 +97,14 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": 490,
+        "dx": 510,
         "dy": 30,
         "fontSize": 12,
         "fontStyle":"italic",
         "fontWeight":"lighter"
       },
       "encoding": {
-        "text": {"value": ["Floods affected Limbang and Baram", "on election day, resulting", "in lower turnouts (Bernama, 2022)"]},
+        "text": {"value": ["Floods affected Limbang and Baram", "on election day, resulting in", "lower turnouts (Bernama, 2022)"]},
         "color": {"value": "#4a4a4a"}
       }
     }

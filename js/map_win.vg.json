@@ -7,7 +7,7 @@
     "align": "left",
     "anchor": "start"
   },
-  "width": 1500,
+  "width": 1570,
   "height": 700,
   "projection": {
     "type": "albers",
@@ -118,7 +118,7 @@
         "type": "text",
         "align": "left",
         "dx": -800,
-        "dy": 140,
+        "dy": 130,
         "fontSize": 12,
         "fontStyle":"italic",
         "fontWeight":"lighter"
@@ -132,7 +132,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": -440,
+        "dx": -480,
         "dy": -100,
         "fontSize": 12,
         "fontStyle":"italic",
